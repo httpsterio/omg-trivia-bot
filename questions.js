@@ -15,6 +15,11 @@ function loadQuestions() {
       const content = fs.readFileSync(`./questions/${file}`, 'utf8');
       const data = toml.parse(content);
 
+      // Skip hidden question banks
+      if (data.hidden === true) {
+        return;
+      }
+
       // Add metadata to each question
       if (data.questions) {
         data.questions.forEach(q => {
