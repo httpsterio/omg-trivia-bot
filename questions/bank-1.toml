@@ -1,6 +1,7 @@
 name = "bank-1"
 difficulty = "easy"
 topic = "general"
+hidden = false
 
 [[questions]]
 question = "yes?"
