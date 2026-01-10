@@ -1,5 +1,6 @@
 const irc = require('irc-framework');
 const { loadQuestions } = require('./questions');
+const { bold } = require('./format');
 const trivia = require('./trivia');
 
 const bot = new irc.Client();
@@ -50,7 +51,10 @@ bot.on('message', (event) => {
 
     const result = trivia.start();
     if (result.success) {
-      event.reply(`Trivia started! ${result.meta} ${result.question}`);
+      event.reply(`Starting trivia!`);
+      event.reply(`----------------`);
+      event.reply(bold(`Question: ${result.question}`));
+      event.reply(`----------------`);
     } else {
       event.reply(result.message);
     }
@@ -89,19 +93,40 @@ bot.on('message', (event) => {
     return;
   }
 
+  if (event.message == '!help') {
+    event.reply(`!start to start the trivia`);
+    event.reply(`!stop to stop the trivia`);
+    event.reply(`!skip to skip a question`);
+    event.reply(`!reload to reload questions`);
+    event.reply(`!stats to print high scores`);
+    event.reply(`!status to print the current status`);
+    return;
+  }
+
+
   // Check if message is an answer attempt
+  // Ignore commands (messages starting with !)
+  if (event.message.startsWith('!')) {
+    return;
+  }
+
   const answerResult = trivia.checkAnswer(event.nick, event.message);
 
   if (answerResult) {
     if (answerResult.correct) {
-      event.reply(`✓ Correct, ${event.nick}! The answer was: ${answerResult.answer}`);
-      event.reply(`Next question: ${answerResult.nextMeta} ${answerResult.nextQuestion}`);
+      event.reply(`Correct, ${event.nick}! The answer was: ${answerResult.answer}`);
+      event.reply(`----------------`);
+      event.reply(bold(`Question: ${answerResult.nextQuestion}`));
+      event.reply(`----------------`);
     } else if (answerResult.skipped) {
-      event.reply(`✗ Too many wrong attempts (${answerResult.attempts})! The answer was: ${answerResult.correctAnswer}`);
-      event.reply(`Next question: ${answerResult.nextMeta} ${answerResult.nextQuestion}`);
+      event.reply(`Too many wrong attempts (${answerResult.attempts})! The answer was: ${answerResult.correctAnswer}`);
+      event.reply(`----------------`);
+      event.reply(bold(`Question: ${answerResult.nextQuestion}`));
+      event.reply(`----------------`);
     } else {
       // Wrong answer but not skipped yet
-      console.log(`  ✗ Wrong answer (${answerResult.attempts}/${answerResult.attempts + answerResult.remaining})`);
+      event.reply(`Wrong! The answer isn't ${event.message}. (${answerResult.attempts}/${answerResult.attempts + answerResult.remaining})`);
+      console.log(`Wrong answer (${answerResult.attempts}/${answerResult.attempts + answerResult.remaining})`);
     }
   }
 });
