@@ -1,0 +1,16 @@
+[irc]
+host = "irc.server.tld"
+port = 6697
+tls = true
+nick = "your-bot-nick"
+username = "your-username"
+account = "your-account"
+password = "your-password"
+gecos = "Trivia Bot"
+
+[admins]
+nicks = ["admin1", "admin2"]
+
+[trivia]
+max_wrong_attempts = 10
+channel = "#your-channel"
