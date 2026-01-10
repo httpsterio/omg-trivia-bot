@@ -1,0 +1,6 @@
+[admins]
+nicks = ["sami", "adam"]
+
+[trivia]
+max_wrong_attempts = 10
+channel = "#triviatest"

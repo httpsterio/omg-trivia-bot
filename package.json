@@ -1,9 +1,14 @@
 {
+  "name": "omg-trivia-bot",
+  "version": "1.0.0",
+  "description": "Trivia bot",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "irc-framework": "^4.14.0"
+    "irc-framework": "^4.13.1",
+    "dotenv": "^16.3.1",
+    "@iarna/toml": "^2.2.5"
   }
 }

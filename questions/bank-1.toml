@@ -1,0 +1,11 @@
+name = "bank-1"
+difficulty = "easy"
+topic = "general"
+
+[[questions]]
+question = "yes?"
+answer = ["yes", "yep"]
+
+[[questions]]
+question = "no."
+answer = ["no", "nope"]
