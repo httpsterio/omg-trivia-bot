@@ -1,20 +1,23 @@
-require('dotenv').config();
 const irc = require('irc-framework');
 const { loadQuestions } = require('./questions');
 const trivia = require('./trivia');
 
 const bot = new irc.Client();
 
+// Load config first
+trivia.loadConfig();
+const config = trivia.getConfig();
+
 bot.connect({
-  host: process.env.IRC_HOST,
-  port: parseInt(process.env.IRC_PORT) || 6697,
-  tls: process.env.IRC_TLS === 'true',
-  nick: process.env.IRC_NICK,
-  username: process.env.IRC_USERNAME || process.env.IRC_NICK,
-  gecos: process.env.IRC_GECOS || 'Trivia Bot',
+  host: config.irc.host,
+  port: config.irc.port,
+  tls: config.irc.tls,
+  nick: config.irc.nick,
+  username: config.irc.username,
+  gecos: config.irc.gecos,
   account: {
-    account: process.env.IRC_ACCOUNT || process.env.IRC_NICK,
-    password: process.env.IRC_PASSWORD
+    account: config.irc.account,
+    password: config.irc.password
   }
 });
 
@@ -22,8 +25,7 @@ bot.on('registered', () => {
   console.log('✓ Connected and registered!');
   console.log('✓ SASL authentication successful');
 
-  // Load config and questions (but don't start trivia yet)
-  trivia.loadConfig();
+  // Load questions (config already loaded)
   loadQuestions();
 
   console.log('✓ Bot is now running and listening for messages...');
@@ -31,7 +33,6 @@ bot.on('registered', () => {
   console.log('  Press Ctrl+C to stop');
 
   // Join trivia channel from config
-  const config = trivia.getConfig();
   if (config.trivia?.channel) {
     bot.join(config.trivia.channel);
   }
@@ -49,8 +50,7 @@ bot.on('message', (event) => {
 
     const result = trivia.start();
     if (result.success) {
-      event.reply(`Trivia started!`);
-      event.reply(`Question: ${result.question}`)
+      event.reply(`Trivia started! ${result.meta} ${result.question}`);
     } else {
       event.reply(result.message);
     }
@@ -95,13 +95,12 @@ bot.on('message', (event) => {
   if (answerResult) {
     if (answerResult.correct) {
       event.reply(`✓ Correct, ${event.nick}! The answer was: ${answerResult.answer}`);
-      event.reply(`Question: ${answerResult.nextQuestion}`);
+      event.reply(`Next question: ${answerResult.nextMeta} ${answerResult.nextQuestion}`);
     } else if (answerResult.skipped) {
       event.reply(`✗ Too many wrong attempts (${answerResult.attempts})! The answer was: ${answerResult.correctAnswer}`);
-      event.reply(`Question: ${answerResult.nextQuestion}`);
+      event.reply(`Next question: ${answerResult.nextMeta} ${answerResult.nextQuestion}`);
     } else {
       // Wrong answer but not skipped yet
-      event.reply(`✗ Wrong, ${event.nick}! The answer isn't ${event.message}. (${answerResult.attempts}/${answerResult.attempts + answerResult.remaining})`);
       console.log(`  ✗ Wrong answer (${answerResult.attempts}/${answerResult.attempts + answerResult.remaining})`);
     }
   }

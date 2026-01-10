@@ -1,14 +1,13 @@
 {
-  "name": "omg-trivia-bot",
+  "name": "irc-sasl-bot",
   "version": "1.0.0",
-  "description": "Trivia bot",
-  "main": "index.js",
+  "description": "IRC bot with SASL authentication",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "irc-framework": "^4.13.1",
-    "dotenv": "^16.3.1",
     "@iarna/toml": "^2.2.5"
   }
 }
