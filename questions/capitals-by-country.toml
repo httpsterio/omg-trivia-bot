@@ -1,0 +1,945 @@
+id = "2"
+name = "Capitals by country"
+difficulty = "medium"
+topic = "geography"
+hidden = false
+
+[[questions]]
+question = "What is the capital of Afghanistan?"
+answer = ["Kabul"]
+
+[[questions]]
+question = "What is the capital of Albania?"
+answer = ["Tirana"]
+
+[[questions]]
+question = "What is the capital of Algeria?"
+answer = ["Algiers"]
+
+[[questions]]
+question = "What is the capital of American Samoa?"
+answer = ["Pago Pago"]
+
+[[questions]]
+question = "What is the capital of Andorra?"
+answer = ["Andorra La Vella"]
+
+[[questions]]
+question = "What is the capital of Angola?"
+answer = ["Luanda"]
+
+[[questions]]
+question = "What is the capital of Anguilla?"
+answer = ["The Valley"]
+
+[[questions]]
+question = "What is the capital of Antigua and Barbuda?"
+answer = ["Saint Johns", "Saint John's"]
+
+[[questions]]
+question = "What is the capital of Argentina?"
+answer = ["Buenos Aires"]
+
+[[questions]]
+question = "What is the capital of Armenia?"
+answer = ["Yerevan"]
+
+[[questions]]
+question = "What is the capital of Aruba?"
+answer = ["Oranjestad"]
+
+[[questions]]
+question = "What is the capital of Australia?"
+answer = ["Canberra"]
+
+[[questions]]
+question = "What is the capital of Austria?"
+answer = ["Vienna"]
+
+[[questions]]
+question = "What is the capital of Azerbaijan?"
+answer = ["Baku"]
+
+[[questions]]
+question = "What is the capital of Bahamas?"
+answer = ["Nassau"]
+
+[[questions]]
+question = "What is the capital of Bahrain?"
+answer = ["Manama"]
+
+[[questions]]
+question = "What is the capital of Bangladesh?"
+answer = ["Dhaka"]
+
+[[questions]]
+question = "What is the capital of Barbados?"
+answer = ["Bridgetown"]
+
+[[questions]]
+question = "What is the capital of Belarus?"
+answer = ["Minsk"]
+
+[[questions]]
+question = "What is the capital of Belgium?"
+answer = ["Brussels"]
+
+[[questions]]
+question = "What is the capital of Belize?"
+answer = ["Belmopan"]
+
+[[questions]]
+question = "What is the capital of Benin?"
+answer = ["Porto-Novo"]
+
+[[questions]]
+question = "What is the capital of Bermuda?"
+answer = ["Hamilton"]
+
+[[questions]]
+question = "What is the capital of Bhutan?"
+answer = ["Thimphu"]
+
+[[questions]]
+question = "What is the capital of Bolivia?"
+answer = ["Sucre", "La Paz"]
+
+[[questions]]
+question = "What is the capital of Bosnia and Herzegovina?"
+answer = ["Sarajevo"]
+
+[[questions]]
+question = "What is the capital of Botswana?"
+answer = ["Gaborone"]
+
+[[questions]]
+question = "What is the capital of Brazil?"
+answer = ["Brasília", "Brasilia"]
+
+[[questions]]
+question = "What is the capital of British Virgin Islands?"
+answer = ["Road Town"]
+
+[[questions]]
+question = "What is the capital of Brunei?"
+answer = ["Bandar Seri Begawan"]
+
+[[questions]]
+question = "What is the capital of Bulgaria?"
+answer = ["Sofia"]
+
+[[questions]]
+question = "What is the capital of Burkina Faso?"
+answer = ["Ouagadougou"]
+
+[[questions]]
+question = "What is the capital of Burundi?"
+answer = ["Gitega"]
+
+[[questions]]
+question = "What is the capital of Cambodia?"
+answer = ["Phnom Penh"]
+
+[[questions]]
+question = "What is the capital of Cameroon?"
+answer = ["Yaoundé", "Yaounde"]
+
+[[questions]]
+question = "What is the capital of Canada?"
+answer = ["Ottawa"]
+
+[[questions]]
+question = "What is the capital of Cape Verde?"
+answer = ["Praia"]
+
+[[questions]]
+question = "What is the capital of Cayman Islands?"
+answer = ["George Town"]
+
+[[questions]]
+question = "What is the capital of Central African Republic?"
+answer = ["Bangui"]
+
+[[questions]]
+question = "What is the capital of Chad?"
+answer = ["N'Djamena"]
+
+[[questions]]
+question = "What is the capital of Chile?"
+answer = ["Santiago"]
+
+[[questions]]
+question = "What is the capital of China?"
+answer = ["Beijing", "Peking"]
+
+[[questions]]
+question = "What is the capital of Christmas Island?"
+answer = ["Flying Fish Cove"]
+
+[[questions]]
+question = "What is the capital of Cocos (Keeling) Islands?"
+answer = ["West Island"]
+
+[[questions]]
+question = "What is the capital of Colombia?"
+answer = ["Bogotá", "Bogota"]
+
+[[questions]]
+question = "What is the capital of Comoros?"
+answer = ["Moroni"]
+
+[[questions]]
+question = "What is the capital of Cook Islands?"
+answer = ["Avarua"]
+
+[[questions]]
+question = "What is the capital of Costa Rica?"
+answer = ["San José", "San Jose"]
+
+[[questions]]
+question = "What is the capital of Croatia?"
+answer = ["Zagreb"]
+
+[[questions]]
+question = "What is the capital of Cuba?"
+answer = ["Havana"]
+
+[[questions]]
+question = "What is the capital of Curaçao?"
+answer = ["Willemstad"]
+
+[[questions]]
+question = "What is the capital of Cyprus?"
+answer = ["Nicosia"]
+
+[[questions]]
+question = "What is the capital of Czech Republic?"
+answer = ["Prague"]
+
+[[questions]]
+question = "What is the capital of Democratic Republic of the Congo?"
+answer = ["Kinshasa"]
+
+[[questions]]
+question = "What is the capital of Denmark?"
+answer = ["Copenhagen"]
+
+[[questions]]
+question = "What is the capital of Djibouti?"
+answer = ["Djibouti City", "Djibouti", "Jibuti"]
+
+[[questions]]
+question = "What is the capital of Dominica?"
+answer = ["Roseau"]
+
+[[questions]]
+question = "What is the capital of Dominican Republic?"
+answer = ["Santo Domingo"]
+
+[[questions]]
+question = "What is the capital of Timor-Leste?"
+answer = ["Dili"]
+
+[[questions]]
+question = "What is the capital of Ecuador?"
+answer = ["Quito"]
+
+[[questions]]
+question = "What is the capital of Egypt?"
+answer = ["Cairo"]
+
+[[questions]]
+question = "What is the capital of El Salvador?"
+answer = ["San Salvador"]
+
+[[questions]]
+question = "What is the capital of Equatorial Guinea?"
+answer = ["Malabo"]
+
+[[questions]]
+question = "What is the capital of Eritrea?"
+answer = ["Asmara"]
+
+[[questions]]
+question = "What is the capital of Estonia?"
+answer = ["Tallinn"]
+
+[[questions]]
+question = "What is the capital of Eswatini?"
+answer = ["Mbabane", "Lobamba"]
+
+[[questions]]
+question = "What is the capital of Ethiopia?"
+answer = ["Addis Ababa"]
+
+[[questions]]
+question = "What is the capital of Falkland Islands?"
+answer = ["Stanley"]
+
+[[questions]]
+question = "What is the capital of Faroe Islands?"
+answer = ["Tórshavn", "Torshavn"]
+
+[[questions]]
+question = "What is the capital of Fiji?"
+answer = ["Suva"]
+
+[[questions]]
+question = "What is the capital of Finland?"
+answer = ["Helsinki"]
+
+[[questions]]
+question = "What is the capital of France?"
+answer = ["Paris"]
+
+[[questions]]
+question = "What is the capital of French Guiana?"
+answer = ["Cayenne"]
+
+[[questions]]
+question = "What is the capital of French Polynesia?"
+answer = ["Papeete"]
+
+[[questions]]
+question = "What is the capital of Gabon?"
+answer = ["Libreville"]
+
+[[questions]]
+question = "What is the capital of Gambia?"
+answer = ["Banjul"]
+
+[[questions]]
+question = "What is the capital of Georgia?"
+answer = ["Tbilisi"]
+
+[[questions]]
+question = "What is the capital of Germany?"
+answer = ["Berlin"]
+
+[[questions]]
+question = "What is the capital of Ghana?"
+answer = ["Accra"]
+
+[[questions]]
+question = "What is the capital of Gibraltar?"
+answer = ["Gibraltar"]
+
+[[questions]]
+question = "What is the capital of Greece?"
+answer = ["Athens"]
+
+[[questions]]
+question = "What is the capital of Greenland?"
+answer = ["Nuuk"]
+
+[[questions]]
+question = "What is the capital of Grenada?"
+answer = ["St. George's", "St Georges"]
+
+[[questions]]
+question = "What is the capital of Guam?"
+answer = ["Hagatna"]
+
+[[questions]]
+question = "What is the capital of Guatemala?"
+answer = ["Guatemala City"]
+
+[[questions]]
+question = "What is the capital of Guernsey?"
+answer = ["Saint Peter Port"]
+
+[[questions]]
+question = "What is the capital of Guinea?"
+answer = ["Conakry"]
+
+[[questions]]
+question = "What is the capital of Guinea-Bissau?"
+answer = ["Bissau"]
+
+[[questions]]
+question = "What is the capital of Guyana?"
+answer = ["Georgetown"]
+
+[[questions]]
+question = "What is the capital of Haiti?"
+answer = ["Port-au-Prince"]
+
+[[questions]]
+question = "What is the capital of Honduras?"
+answer = ["Tegucigalpa"]
+
+[[questions]]
+question = "What is the capital of Hong Kong?"
+answer = ["Hong Kong City", "Hong Kong"]
+
+[[questions]]
+question = "What is the capital of Hungary?"
+answer = ["Budapest"]
+
+[[questions]]
+question = "What is the capital of Iceland?"
+answer = ["Reykjavík", "Reykjavik"]
+
+[[questions]]
+question = "What is the capital of India?"
+answer = ["New Delhi"]
+
+[[questions]]
+question = "What is the capital of Indonesia?"
+answer = ["Jakarta"]
+
+[[questions]]
+question = "What is the capital of Iran?"
+answer = ["Tehran"]
+
+[[questions]]
+question = "What is the capital of Iraq?"
+answer = ["Baghdad"]
+
+[[questions]]
+question = "What is the capital of Ireland?"
+answer = ["Dublin"]
+
+[[questions]]
+question = "What is the capital of Isle of Man?"
+answer = ["Douglas"]
+
+[[questions]]
+question = "What is the capital of Israel?"
+answer = ["Jerusalem"]
+
+[[questions]]
+question = "What is the capital of Italy?"
+answer = ["Rome"]
+
+[[questions]]
+question = "What is the capital of Ivory Coast?"
+answer = ["Yamoussoukro"]
+
+[[questions]]
+question = "What is the capital of Jamaica?"
+answer = ["Kingston"]
+
+[[questions]]
+question = "What is the capital of Japan?"
+answer = ["Tokyo"]
+
+[[questions]]
+question = "What is the capital of Jersey?"
+answer = ["Saint Helier"]
+
+[[questions]]
+question = "What is the capital of Jordan?"
+answer = ["Amman"]
+
+[[questions]]
+question = "What is the capital of Kazakhstan?"
+answer = ["Astana"]
+
+[[questions]]
+question = "What is the capital of Kenya?"
+answer = ["Nairobi"]
+
+[[questions]]
+question = "What is the capital of Kiribati?"
+answer = ["Tarawa"]
+
+[[questions]]
+question = "What is the capital of Kosovo?"
+answer = ["Pristina"]
+
+[[questions]]
+question = "What is the capital of Kuwait?"
+answer = ["Kuwait City"]
+
+[[questions]]
+question = "What is the capital of Kyrgyzstan?"
+answer = ["Bishkek"]
+
+[[questions]]
+question = "What is the capital of Laos?"
+answer = ["Vientiane"]
+
+[[questions]]
+question = "What is the capital of Latvia?"
+answer = ["Riga"]
+
+[[questions]]
+question = "What is the capital of Lebanon?"
+answer = ["Beirut"]
+
+[[questions]]
+question = "What is the capital of Lesotho?"
+answer = ["Maseru"]
+
+[[questions]]
+question = "What is the capital of Liberia?"
+answer = ["Monrovia"]
+
+[[questions]]
+question = "What is the capital of Libya?"
+answer = ["Tripoli"]
+
+[[questions]]
+question = "What is the capital of Liechtenstein?"
+answer = ["Vaduz"]
+
+[[questions]]
+question = "What is the capital of Lithuania?"
+answer = ["Vilnius"]
+
+[[questions]]
+question = "What is the capital of Luxembourg?"
+answer = ["Luxembourg"]
+
+[[questions]]
+question = "What is the capital of Madagascar?"
+answer = ["Antananarivo"]
+
+[[questions]]
+question = "What is the capital of Malawi?"
+answer = ["Lilongwe"]
+
+[[questions]]
+question = "What is the capital of Malaysia?"
+answer = ["Kuala Lumpur"]
+
+[[questions]]
+question = "What is the capital of Maldives?"
+answer = ["Malé", "Male"]
+
+[[questions]]
+question = "What is the capital of Mali?"
+answer = ["Bamako"]
+
+[[questions]]
+question = "What is the capital of Malta?"
+answer = ["Valletta"]
+
+[[questions]]
+question = "What is the capital of Marshall Islands?"
+answer = ["Majuro"]
+
+[[questions]]
+question = "What is the capital of Mauritania?"
+answer = ["Nouakchott"]
+
+[[questions]]
+question = "What is the capital of Mauritius?"
+answer = ["Port Louis"]
+
+[[questions]]
+question = "What is the capital of Mexico?"
+answer = ["Mexico City"]
+
+[[questions]]
+question = "What is the capital of Micronesia?"
+answer = ["Palikir"]
+
+[[questions]]
+question = "What is the capital of Moldova?"
+answer = ["Chisinau"]
+
+[[questions]]
+question = "What is the capital of Monaco?"
+answer = ["Monaco"]
+
+[[questions]]
+question = "What is the capital of Mongolia?"
+answer = ["Ulan Bator", "Ulaanbaatar"]
+
+[[questions]]
+question = "What is the capital of Montenegro?"
+answer = ["Podgorica"]
+
+[[questions]]
+question = "What is the capital of Montserrat?"
+answer = ["Brades", "Plymouth"]
+
+[[questions]]
+question = "What is the capital of Morocco?"
+answer = ["Rabat"]
+
+[[questions]]
+question = "What is the capital of Mozambique?"
+answer = ["Maputo"]
+
+[[questions]]
+question = "What is the capital of Myanmar?"
+answer = ["Naypyidaw"]
+
+[[questions]]
+question = "What is the capital of Namibia?"
+answer = ["Windhoek"]
+
+[[questions]]
+question = "What is the capital of Nauru?"
+answer = ["Yaren"]
+
+[[questions]]
+question = "What is the capital of Nepal?"
+answer = ["Kathmandu"]
+
+[[questions]]
+question = "What is the capital of Netherlands?"
+answer = ["Amsterdam"]
+
+[[questions]]
+question = "What is the capital of New Caledonia?"
+answer = ["Nouméa", "Noumea"]
+
+[[questions]]
+question = "What is the capital of New Zealand?"
+answer = ["Wellington"]
+
+[[questions]]
+question = "What is the capital of Nicaragua?"
+answer = ["Managua"]
+
+[[questions]]
+question = "What is the capital of Niger?"
+answer = ["Niamey"]
+
+[[questions]]
+question = "What is the capital of Nigeria?"
+answer = ["Abuja"]
+
+[[questions]]
+question = "What is the capital of Niue?"
+answer = ["Alofi"]
+
+[[questions]]
+question = "What is the capital of Norfolk Island?"
+answer = ["Kingston"]
+
+[[questions]]
+question = "What is the capital of North Korea?"
+answer = ["Pyongyang"]
+
+[[questions]]
+question = "What is the capital of North Macedonia?"
+answer = ["Skopje"]
+
+[[questions]]
+question = "What is the capital of Northern Mariana Islands?"
+answer = ["Saipan"]
+
+[[questions]]
+question = "What is the capital of Norway?"
+answer = ["Oslo"]
+
+[[questions]]
+question = "What is the capital of Oman?"
+answer = ["Muscat"]
+
+[[questions]]
+question = "What is the capital of Pakistan?"
+answer = ["Islamabad"]
+
+[[questions]]
+question = "What is the capital of Palau?"
+answer = ["Ngerulmud"]
+
+[[questions]]
+question = "What is the capital of Palestine?"
+answer = ["Ramallah", "Gaza"]
+
+[[questions]]
+question = "What is the capital of Panama?"
+answer = ["Panama City"]
+
+[[questions]]
+question = "What is the capital of Papua New Guinea?"
+answer = ["Port Moresby"]
+
+[[questions]]
+question = "What is the capital of Paraguay?"
+answer = ["Asunción", "Asuncion"]
+
+[[questions]]
+question = "What is the capital of Peru?"
+answer = ["Lima"]
+
+[[questions]]
+question = "What is the capital of Philippines?"
+answer = ["Manila"]
+
+[[questions]]
+question = "What is the capital of Pitcairn Islands?"
+answer = ["Adamstown"]
+
+[[questions]]
+question = "What is the capital of Poland?"
+answer = ["Warsaw"]
+
+[[questions]]
+question = "What is the capital of Portugal?"
+answer = ["Lisbon"]
+
+[[questions]]
+question = "What is the capital of Puerto Rico?"
+answer = ["San Juan"]
+
+[[questions]]
+question = "What is the capital of Qatar?"
+answer = ["Doha"]
+
+[[questions]]
+question = "What is the capital of Republic of the Congo?"
+answer = ["Brazzaville"]
+
+[[questions]]
+question = "What is the capital of Romania?"
+answer = ["Bucharest"]
+
+[[questions]]
+question = "What is the capital of Russia?"
+answer = ["Moscow"]
+
+[[questions]]
+question = "What is the capital of Rwanda?"
+answer = ["Kigali"]
+
+[[questions]]
+question = "What is the capital of Saint Barthelemy?"
+answer = ["Gustavia"]
+
+[[questions]]
+question = "What is the capital of Saint Helena, Ascension, and Tristan da Cunha?"
+answer = ["Jamestown"]
+
+[[questions]]
+question = "What is the capital of Saint Kitts and Nevis?"
+answer = ["Basseterre"]
+
+[[questions]]
+question = "What is the capital of Saint Lucia?"
+answer = ["Castries"]
+
+[[questions]]
+question = "What is the capital of Saint Martin?"
+answer = ["Philipsburg"]
+
+[[questions]]
+question = "What is the capital of Saint Pierre and Miquelon?"
+answer = ["Saint-Pierre"]
+
+[[questions]]
+question = "What is the capital of Saint Vincent and the Grenadines?"
+answer = ["Kingstown"]
+
+[[questions]]
+question = "What is the capital of Samoa?"
+answer = ["Apia"]
+
+[[questions]]
+question = "What is the capital of San Marino?"
+answer = ["San Marino"]
+
+[[questions]]
+question = "What is the capital of São Tomé and Príncipe?"
+answer = ["São Tomé", "Sao Tome"]
+
+[[questions]]
+question = "What is the capital of Saudi Arabia?"
+answer = ["Riyadh"]
+
+[[questions]]
+question = "What is the capital of Senegal?"
+answer = ["Dakar"]
+
+[[questions]]
+question = "What is the capital of Serbia?"
+answer = ["Belgrade"]
+
+[[questions]]
+question = "What is the capital of Seychelles?"
+answer = ["Victoria"]
+
+[[questions]]
+question = "What is the capital of Sierra Leone?"
+answer = ["Freetown"]
+
+[[questions]]
+question = "What is the capital of Singapore?"
+answer = ["Singapore"]
+
+[[questions]]
+question = "What is the capital of Sint Maarten?"
+answer = ["Philipsburg"]
+
+[[questions]]
+question = "What is the capital of Slovakia?"
+answer = ["Bratislava"]
+
+[[questions]]
+question = "What is the capital of Slovenia?"
+answer = ["Ljubljana"]
+
+[[questions]]
+question = "What is the capital of Solomon Islands?"
+answer = ["Honiara"]
+
+[[questions]]
+question = "What is the capital of Somalia?"
+answer = ["Mogadishu"]
+
+[[questions]]
+question = "What is the capital of South Africa?"
+answer = ["Cape Town", "Pretoria", "Bloemfontein"]
+
+[[questions]]
+question = "What is the capital of South Korea?"
+answer = ["Seoul"]
+
+[[questions]]
+question = "What is the capital of South Sudan?"
+answer = ["Juba"]
+
+[[questions]]
+question = "What is the capital of Spain?"
+answer = ["Madrid"]
+
+[[questions]]
+question = "What is the capital of Sri Lanka?"
+answer = ["Sri Jayawardenapura Kotte", "Colombo"]
+
+[[questions]]
+question = "What is the capital of Sudan?"
+answer = ["Khartoum"]
+
+[[questions]]
+question = "What is the capital of Suriname?"
+answer = ["Paramaribo"]
+
+[[questions]]
+question = "What is the capital of Sweden?"
+answer = ["Stockholm"]
+
+[[questions]]
+question = "What is the capital of Switzerland?"
+answer = ["Bern"]
+
+[[questions]]
+question = "What is the capital of Syria?"
+answer = ["Damascus"]
+
+[[questions]]
+question = "What is the capital of Taiwan?"
+answer = ["Taipei"]
+
+[[questions]]
+question = "What is the capital of Tajikistan?"
+answer = ["Dushanbe"]
+
+[[questions]]
+question = "What is the capital of Tanzania?"
+answer = ["Dodoma"]
+
+[[questions]]
+question = "What is the capital of Thailand?"
+answer = ["Bangkok"]
+
+[[questions]]
+question = "What is the capital of Togo?"
+answer = ["Lomé", "Lome"]
+
+[[questions]]
+question = "What is the capital of Tokelau?"
+answer = ["Nukunonu", "Atafu"]
+
+[[questions]]
+question = "What is the capital of Tonga?"
+answer = ["Nuku'alofa", "Nukualofa"]
+
+[[questions]]
+question = "What is the capital of Trinidad and Tobago?"
+answer = ["Port of Spain"]
+
+[[questions]]
+question = "What is the capital of Tunisia?"
+answer = ["Tunis"]
+
+[[questions]]
+question = "What is the capital of Turkey?"
+answer = ["Ankara"]
+
+[[questions]]
+question = "What is the capital of Turkmenistan?"
+answer = ["Ashgabat"]
+
+[[questions]]
+question = "What is the capital of Turks and Caicos Islands?"
+answer = ["Cockburn Town"]
+
+[[questions]]
+question = "What is the capital of Tuvalu?"
+answer = ["Funafuti"]
+
+[[questions]]
+question = "What is the capital of Uganda?"
+answer = ["Kampala"]
+
+[[questions]]
+question = "What is the capital of Ukraine?"
+answer = ["Kyiv", "Kiev"]
+
+[[questions]]
+question = "What is the capital of United Arab Emirates?"
+answer = ["Abu Dhabi"]
+
+[[questions]]
+question = "What is the capital of United Kingdom?"
+answer = ["London"]
+
+[[questions]]
+question = "What is the capital of United States?"
+answer = ["Washington D.C.", "Washington DC"]
+
+[[questions]]
+question = "What is the capital of United States Virgin Islands?"
+answer = ["Charlotte Amalie"]
+
+[[questions]]
+question = "What is the capital of Uruguay?"
+answer = ["Montevideo"]
+
+[[questions]]
+question = "What is the capital of Uzbekistan?"
+answer = ["Tashkent"]
+
+[[questions]]
+question = "What is the capital of Vanuatu?"
+answer = ["Port Vila"]
+
+[[questions]]
+question = "What is the capital of Vatican City?"
+answer = ["Vatican City"]
+
+[[questions]]
+question = "What is the capital of Venezuela?"
+answer = ["Caracas"]
+
+[[questions]]
+question = "What is the capital of Vietnam?"
+answer = ["Hanoi"]
+
+[[questions]]
+question = "What is the capital of Wallis and Futuna?"
+answer = ["Mata-Utu"]
+
+[[questions]]
+question = "What is the capital of Western Sahara?"
+answer = ["El Aaiun"]
+
+[[questions]]
+question = "What is the capital of Yemen?"
+answer = ["Sana'a", "Sanaa"]
+
+[[questions]]
+question = "What is the capital of Zambia?"
+answer = ["Lusaka"]
+
+[[questions]]
+question = "What is the capital of Zimbabwe?"
+answer = ["Harare"]
