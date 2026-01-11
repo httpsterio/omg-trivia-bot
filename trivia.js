@@ -1,4 +1,5 @@
 const { loadQuestions, getNextQuestion, getQuestionCount } = require('./questions');
+const { bold } = require('./format');
 const fs = require('fs');
 const toml = require('@iarna/toml');
 
@@ -23,128 +24,140 @@ function isAdmin(nick) {
   return config.admins?.nicks?.includes(nick) || false;
 }
 
-function start() {
+function getConfig() {
+  return config;
+}
+
+function handleStart(event) {
+  if (!isAdmin(event.nick)) {
+    event.reply('Sorry, only admins can start trivia.');
+    return;
+  }
+
   if (isRunning) {
-    return { success: false, message: 'Trivia is already running!' };
+    event.reply('Trivia is already running!');
+    return;
   }
 
   if (getQuestionCount() === 0) {
-    return { success: false, message: 'No questions loaded! Add question files first.' };
+    event.reply('No questions loaded! Add question files first.');
+    return;
   }
 
   isRunning = true;
   wrongAttempts = 0;
+  currentQuestion = getNextQuestion();
 
-  return askNextQuestion();
+  if (!currentQuestion) {
+    event.reply('No questions available!');
+    isRunning = false;
+    return;
+  }
+
+  event.reply('Starting trivia!');
+  event.reply("⠀");
+  event.reply(bold("Question: ") + currentQuestion.question);
 }
 
-function stop() {
+function handleStop(event) {
+  if (!isAdmin(event.nick)) {
+    event.reply('Sorry, only admins can stop trivia.');
+    return;
+  }
+
   if (!isRunning) {
-    return { success: false, message: 'Trivia is not running.' };
+    event.reply('Trivia is not running.');
+    return;
   }
 
   isRunning = false;
   currentQuestion = null;
   wrongAttempts = 0;
-
-  return { success: true, message: 'Trivia stopped!' };
+  event.reply('Trivia stopped!');
 }
 
-function askNextQuestion() {
-  currentQuestion = getNextQuestion();
-  wrongAttempts = 0;
-
-  if (!currentQuestion) {
-    return { success: false, message: 'No questions available!' };
+function handleReload(event) {
+  if (!isAdmin(event.nick)) {
+    event.reply('Sorry, only admins can reload questions.');
+    return;
   }
 
-  return {
-    success: true,
-    question: currentQuestion.question,
-    meta: `[${currentQuestion.topic}/${currentQuestion.difficulty}]`
-  };
+  const success = loadQuestions();
+  if (success) {
+    event.reply(`Reloaded ${getQuestionCount()} questions`);
+  } else {
+    event.reply('Failed to reload questions');
+  }
 }
 
-function checkAnswer(nick, message) {
+function handleStatus(event) {
+  if (isRunning) {
+    event.reply(`Trivia is running. Wrong attempts: ${wrongAttempts}/${config.trivia?.max_wrong_attempts || 10}. Total questions: ${getQuestionCount()}`);
+  } else {
+    event.reply(`Trivia is not running. Total questions loaded: ${getQuestionCount()}`);
+  }
+}
+
+function handleHelp(event) {
+  event.reply('!start to start the trivia');
+  event.reply('!stop to stop the trivia');
+  event.reply('!skip to skip a question');
+  event.reply('!reload to reload questions');
+  event.reply('!stats to print high scores');
+  event.reply('!status to print the current status');
+  event.reply("⠀");
+}
+
+function handleAnswer(event) {
   if (!isRunning || !currentQuestion) {
-    return null;
+    return;
   }
 
-  const userAnswer = message.toLowerCase().trim();
+  const userAnswer = event.message.toLowerCase().trim();
   const correctAnswers = currentQuestion.answer.map(a => a.toLowerCase().trim());
 
   if (correctAnswers.includes(userAnswer)) {
     // Correct answer!
-    const result = {
-      correct: true,
-      nick: nick,
-      answer: currentQuestion.answer[0] // Show the primary answer
-    };
+    event.reply(bold("Correct") + ", " + event.nick + "! The answer was: " + bold(currentQuestion.answer[0]));
+    console.log(`✓ ${event.nick} answered correctly: ${currentQuestion.answer[0]}`);
 
-    // Ask next question
-    const nextQ = askNextQuestion();
-    result.nextQuestion = nextQ.question;
-    result.nextMeta = nextQ.meta;
+    // Get next question
+    currentQuestion = getNextQuestion();
+    wrongAttempts = 0;
 
-    return result;
+    event.reply("⠀");
+    event.reply(bold("Question: ") + currentQuestion.question);
   } else {
     // Wrong answer
     wrongAttempts++;
 
     if (wrongAttempts >= config.trivia?.max_wrong_attempts) {
       // Too many wrong attempts - skip
-      const result = {
-        correct: false,
-        skipped: true,
-        correctAnswer: currentQuestion.answer[0],
-        attempts: wrongAttempts
-      };
+      event.reply(bold("Too many wrong attempts!") + " The answer was: " + currentQuestion.answer[0]);
+      console.log(`✗ Question skipped after ${wrongAttempts} wrong attempts`);
 
-      // Ask next question
-      const nextQ = askNextQuestion();
-      result.nextQuestion = nextQ.question;
-      result.nextMeta = nextQ.meta;
+      // Get next question
+      currentQuestion = getNextQuestion();
+      wrongAttempts = 0;
 
-      return result;
+      event.reply("⠀");
+      event.reply(bold("Question: ") + currentQuestion.question);
+    } else {
+      // Wrong but not skipped yet
+      const remaining = config.trivia.max_wrong_attempts - wrongAttempts;
+      event.reply(bold("Wrong!") + " The answer isn't " + bold(event.message) + ". " + remaining + " attempts remaining.");
+      console.log(`✗ Wrong answer (${wrongAttempts}/${config.trivia.max_wrong_attempts})`);
     }
-
-    return {
-      correct: false,
-      skipped: false,
-      attempts: wrongAttempts,
-      remaining: config.trivia.max_wrong_attempts - wrongAttempts
-    };
   }
-}
-
-function reload() {
-  const success = loadQuestions();
-  return {
-    success,
-    message: success ? `Reloaded ${getQuestionCount()} questions` : 'Failed to reload questions'
-  };
-}
-
-function getStatus() {
-  return {
-    isRunning,
-    currentQuestion: currentQuestion ? currentQuestion.question : null,
-    wrongAttempts,
-    totalQuestions: getQuestionCount()
-  };
-}
-
-function getConfig() {
-  return config;
 }
 
 module.exports = {
   loadConfig,
-  isAdmin,
-  start,
-  stop,
-  checkAnswer,
-  reload,
-  getStatus,
-  getConfig
+  getConfig,
+  handleStart,
+  handleStop,
+  handleReload,
+  handleStatus,
+  handleHelp,
+  handleAnswer
 };

@@ -1,7 +1,7 @@
 const irc = require('irc-framework');
 const { loadQuestions } = require('./questions');
-const { bold } = require('./format');
 const trivia = require('./trivia');
+
 const bot = new irc.Client();
 
 // Load config first
@@ -26,7 +26,7 @@ bot.on('registered', () => {
   console.log('SASL authentication successful');
   console.log(' ');
 
-  // Load questions (config already loaded)
+  // Load questions
   loadQuestions();
 
   console.log('Bot is now running and listening for messages...');
@@ -43,92 +43,39 @@ bot.on('registered', () => {
 bot.on('message', (event) => {
   console.log(`[${event.target}] <${event.nick}> ${event.message}`);
 
-  // Admin commands
+  // Route commands to trivia handlers
   if (event.message === '!start') {
-    if (!trivia.isAdmin(event.nick)) {
-      event.reply('Sorry, only admins can start trivia.');
-      return;
-    }
-
-    const result = trivia.start();
-    if (result.success) {
-      event.reply(`Starting trivia!`);
-      event.reply("⠀");
-      event.reply(bold("Question: ") + result.question);
-    } else {
-      event.reply(result.message);
-    }
+    trivia.handleStart(event);
     return;
   }
 
   if (event.message === '!stop') {
-    if (!trivia.isAdmin(event.nick)) {
-      event.reply("Sorry, only admins can stop trivia.");
-      return;
-    }
-
-    const result = trivia.stop();
-    event.reply(result.message);
+    trivia.handleStop(event);
     return;
   }
 
   if (event.message === '!reload') {
-    if (!trivia.isAdmin(event.nick)) {
-      event.reply("Sorry, only admins can reload questions.");
-      return;
-    }
-
-    const result = trivia.reload();
-    event.reply(result.message);
+    trivia.handleReload(event);
     return;
   }
 
   if (event.message === '!status') {
-    const status = trivia.getStatus();
-    if (status.isRunning) {
-      event.reply(`Trivia is running. Wrong attempts: ${status.wrongAttempts}/10. Total questions: ${status.totalQuestions}`);
-    } else {
-      event.reply(`Trivia is not running. Total questions loaded: ${status.totalQuestions}`);
-    }
+    trivia.handleStatus(event);
     return;
   }
 
-  // replying to !help with possible command options 
-  if (event.message == '!help') {
-    event.reply(`!start to start the trivia`);
-    event.reply(`!stop to stop the trivia`);
-    event.reply(`!skip to skip a question`);
-    event.reply(`!reload to reload questions`);
-    event.reply(`!stats to print high scores`);
-    event.reply(`!status to print the current status`);
-    event.reply("⠀");
+  if (event.message === '!help') {
+    trivia.handleHelp(event);
     return;
   }
 
-
-  // Check if message is an answer attempt
-  // Ignore commands (messages starting with !)
+  // Ignore other commands
   if (event.message.startsWith('!')) {
     return;
   }
 
-  const answerResult = trivia.checkAnswer(event.nick, event.message);
-
-  if (answerResult) {
-    if (answerResult.correct) {
-      event.reply(bold("Correct") + ", " + event.nick + "! The answer was: " + bold(answerResult.answer));
-      event.reply("⠀");
-      event.reply(bold("Question: ") + answerResult.nextQuestion);
-    } else if (answerResult.skipped) {
-      event.reply(bold("Too many wrong attempts!") + " The answer was: " + answerResult.correctAnswer);
-      event.reply("⠀");
-      event.reply(bold("Question: ") + answerResult.nextQuestion);
-    } else {
-      // Wrong answer but not skipped yet
-      event.reply(bold("Wrong!") + " The answer isn't " + bold(event.message) + ". " + answerResult.remaining + " attempts remaining.");
-      console.log(`Wrong answer (${answerResult.attempts}/${answerResult.attempts + answerResult.remaining})`);
-    }
-  }
+  // Handle potential answers
+  trivia.handleAnswer(event);
 });
 
 bot.on('join', (event) => {
