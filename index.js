@@ -2,7 +2,6 @@ const irc = require('irc-framework');
 const { loadQuestions } = require('./questions');
 const { bold } = require('./format');
 const trivia = require('./trivia');
-
 const bot = new irc.Client();
 
 // Load config first
@@ -23,15 +22,17 @@ bot.connect({
 });
 
 bot.on('registered', () => {
-  console.log('✓ Connected and registered!');
-  console.log('✓ SASL authentication successful');
+  console.log('Connected and registered!');
+  console.log('SASL authentication successful');
+  console.log(' ');
 
   // Load questions (config already loaded)
   loadQuestions();
 
-  console.log('✓ Bot is now running and listening for messages...');
-  console.log('  Admin commands: !start, !stop, !reload, !status');
-  console.log('  Press Ctrl+C to stop');
+  console.log('Bot is now running and listening for messages...');
+  console.log('Admin commands: !start, !stop, !reload, !status');
+  console.log('Press Ctrl+C to stop');
+  console.log(' ');
 
   // Join trivia channel from config
   if (config.trivia?.channel) {
@@ -52,9 +53,8 @@ bot.on('message', (event) => {
     const result = trivia.start();
     if (result.success) {
       event.reply(`Starting trivia!`);
-      event.reply(`----------------`);
-      event.reply(bold(`Question: ${result.question}`));
-      event.reply(`----------------`);
+      event.reply("⠀");
+      event.reply(bold("Question: ") + result.question);
     } else {
       event.reply(result.message);
     }
@@ -63,7 +63,7 @@ bot.on('message', (event) => {
 
   if (event.message === '!stop') {
     if (!trivia.isAdmin(event.nick)) {
-      event.reply('Sorry, only admins can stop trivia.');
+      event.reply("Sorry, only admins can stop trivia.");
       return;
     }
 
@@ -74,7 +74,7 @@ bot.on('message', (event) => {
 
   if (event.message === '!reload') {
     if (!trivia.isAdmin(event.nick)) {
-      event.reply('Sorry, only admins can reload questions.');
+      event.reply("Sorry, only admins can reload questions.");
       return;
     }
 
@@ -93,6 +93,7 @@ bot.on('message', (event) => {
     return;
   }
 
+  // replying to !help with possible command options 
   if (event.message == '!help') {
     event.reply(`!start to start the trivia`);
     event.reply(`!stop to stop the trivia`);
@@ -100,6 +101,7 @@ bot.on('message', (event) => {
     event.reply(`!reload to reload questions`);
     event.reply(`!stats to print high scores`);
     event.reply(`!status to print the current status`);
+    event.reply("⠀");
     return;
   }
 
@@ -114,18 +116,16 @@ bot.on('message', (event) => {
 
   if (answerResult) {
     if (answerResult.correct) {
-      event.reply(`Correct, ${event.nick}! The answer was: ${answerResult.answer}`);
-      event.reply(`----------------`);
-      event.reply(bold(`Question: ${answerResult.nextQuestion}`));
-      event.reply(`----------------`);
+      event.reply(bold("Correct") + ", " + event.nick + "! The answer was: " + bold(answerResult.answer));
+      event.reply("⠀");
+      event.reply(bold("Question: ") + answerResult.nextQuestion);
     } else if (answerResult.skipped) {
-      event.reply(`Too many wrong attempts (${answerResult.attempts})! The answer was: ${answerResult.correctAnswer}`);
-      event.reply(`----------------`);
-      event.reply(bold(`Question: ${answerResult.nextQuestion}`));
-      event.reply(`----------------`);
+      event.reply(bold("Too many wrong attempts!") + " The answer was: " + answerResult.correctAnswer);
+      event.reply("⠀");
+      event.reply(bold("Question: ") + answerResult.nextQuestion);
     } else {
       // Wrong answer but not skipped yet
-      event.reply(`Wrong! The answer isn't ${event.message}. (${answerResult.attempts}/${answerResult.attempts + answerResult.remaining})`);
+      event.reply(bold("Wrong!") + " The answer isn't " + bold(event.message) + ". " + answerResult.remaining + " attempts remaining.");
       console.log(`Wrong answer (${answerResult.attempts}/${answerResult.attempts + answerResult.remaining})`);
     }
   }
@@ -133,7 +133,7 @@ bot.on('message', (event) => {
 
 bot.on('join', (event) => {
   if (event.nick === bot.user.nick) {
-    console.log(`✓ Joined channel: ${event.channel}`);
+    console.log(`Joined channel: ${event.channel}`);
   }
 });
 
