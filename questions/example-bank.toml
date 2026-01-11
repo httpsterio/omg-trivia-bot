@@ -1,0 +1,20 @@
+# Question bank configuration
+# every string needs to be wrapped with double quotes ("")
+# id is a running number. leave blank if unsure which is the last number
+id = "1"
+name = "bank name"
+difficulty = "easy"
+topic = "general"
+hidden = false
+
+# each question has the [[questions]] header
+# answer should always be an array of strings. It can have one answer 
+# or multiple alternative spellings or answers if it's either 
+# ambiguous or if the spelling is unusual
+[[questions]]
+question = "this is a question?"
+answer = ["yes", "true"]
+
+[[questions]]
+question = "no."
+answer = ["no", "false"]
