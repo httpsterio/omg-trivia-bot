@@ -1,0 +1,377 @@
+id = "4"
+name = "Technological abbreviations"
+difficulty = "medium"
+topic = "tech"
+hidden = false
+
+[[questions]]
+question = "What does HTTP stand for?"
+answer = ["HyperText Transfer Protocol"]
+
+[[questions]]
+question = "What does HTTPS stand for?"
+answer = ["HyperText Transfer Protocol Secure"]
+
+[[questions]]
+question = "What does FTP stand for?"
+answer = ["File Transfer Protocol"]
+
+[[questions]]
+question = "What does SSH stand for?"
+answer = ["Secure Shell"]
+
+[[questions]]
+question = "What does TCP stand for?"
+answer = ["Transmission Control Protocol"]
+
+[[questions]]
+question = "What does IP stand for?"
+answer = ["Internet Protocol"]
+
+[[questions]]
+question = "What does DNS stand for?"
+answer = ["Domain Name System"]
+
+[[questions]]
+question = "What does URL stand for?"
+answer = ["Uniform Resource Locator"]
+
+[[questions]]
+question = "What does ISP stand for?"
+answer = ["Internet Service Provider"]
+
+[[questions]]
+question = "What does LAN stand for?"
+answer = ["Local Area Network"]
+
+[[questions]]
+question = "What does WAN stand for?"
+answer = ["Wide Area Network"]
+
+[[questions]]
+question = "What does VPN stand for?"
+answer = ["Virtual Private Network"]
+
+[[questions]]
+question = "What does CDN stand for?"
+answer = ["Content Delivery Network"]
+
+[[questions]]
+question = "What does CPU stand for?"
+answer = ["Central Processing Unit"]
+
+[[questions]]
+question = "What does GPU stand for?"
+answer = ["Graphics Processing Unit"]
+
+[[questions]]
+question = "What does RAM stand for?"
+answer = ["Random Access Memory"]
+
+[[questions]]
+question = "What does BIOS stand for?"
+answer = ["Basic Input/Output System"]
+
+[[questions]]
+question = "What does API stand for?"
+answer = ["Application Programming Interface"]
+
+[[questions]]
+question = "What does GUI stand for?"
+answer = ["Graphical User Interface"]
+
+[[questions]]
+question = "What does CLI stand for?"
+answer = ["Command Line Interface"]
+
+[[questions]]
+question = "What does SFTP stand for?"
+answer = ["Secure File Transfer Protocol"]
+
+[[questions]]
+question = "What does UDP stand for?"
+answer = ["User Datagram Protocol"]
+
+[[questions]]
+question = "What does DHCP stand for?"
+answer = ["Dynamic Host Configuration Protocol"]
+
+[[questions]]
+question = "What does NAT stand for?"
+answer = ["Network Address Translation"]
+
+[[questions]]
+question = "What does ICMP stand for?"
+answer = ["Internet Control Message Protocol"]
+
+[[questions]]
+question = "What does SSL stand for?"
+answer = ["Secure Sockets Layer"]
+
+[[questions]]
+question = "What does TLS stand for?"
+answer = ["Transport Layer Security"]
+
+[[questions]]
+question = "What does MIME stand for?"
+answer = ["Multipurpose Internet Mail Extensions"]
+
+[[questions]]
+question = "What does SMTP stand for?"
+answer = ["Simple Mail Transfer Protocol"]
+
+[[questions]]
+question = "What does POP3 stand for?"
+answer = ["Post Office Protocol 3"]
+
+[[questions]]
+question = "What does IMAP stand for?"
+answer = ["Internet Message Access Protocol"]
+
+[[questions]]
+question = "What does OS stand for?"
+answer = ["Operating System"]
+
+[[questions]]
+question = "What does UID stand for?"
+answer = ["User Identifier"]
+
+[[questions]]
+question = "What does UUID stand for?"
+answer = ["Universally Unique Identifier"]
+
+[[questions]]
+question = "What does ASCII stand for?"
+answer = ["American Standard Code for Information Interchange"]
+
+[[questions]]
+question = "What does JSON stand for?"
+answer = ["JavaScript Object Notation"]
+
+[[questions]]
+question = "What does HTML stand for?"
+answer = ["HyperText Markup Language"]
+
+[[questions]]
+question = "What does PHP stand for?"
+answer = ["PHP Hypertext Preprocessor", "Personal Homepage", "Personal Home Page", "Personal Homepage Tools", "Personal Home Page Tools"]
+
+[[questions]]
+question = "What does CSS stand for?"
+answer = ["Cascading Style Sheets"]
+
+[[questions]]
+question = "What does XML stand for?"
+answer = ["Extensible Markup Language"]
+
+[[questions]]
+question = "What does SQL stand for?"
+answer = ["Structured Query Language"]
+
+[[questions]]
+question = "What does RAID stand for?"
+answer = ["Redundant Array of Independent Disks"]
+
+[[questions]]
+question = "What does SSD stand for?"
+answer = ["Solid State Drive"]
+
+[[questions]]
+question = "What does HDD stand for?"
+answer = ["Hard Disk Drive"]
+
+[[questions]]
+question = "What does USB stand for?"
+answer = ["Universal Serial Bus"]
+
+[[questions]]
+question = "What does HDMI stand for?"
+answer = ["High-Definition Multimedia Interface", "High Definition Multimedia Interface"]
+
+[[questions]]
+question = "What does NFC stand for?"
+answer = ["Near Field Communication"]
+
+[[questions]]
+question = "What does RFID stand for?"
+answer = ["Radio Frequency Identification"]
+
+[[questions]]
+question = "What does CIDR stand for?"
+answer = ["Classless Inter-Domain Routing", "Classless Inter Domain Routing", "Classless Interdomain Routing"]
+
+[[questions]]
+question = "What does MAC stand for in networking?"
+answer = ["Media Access Control"]
+
+[[questions]]
+question = "What does ARP stand for?"
+answer = ["Address Resolution Protocol"]
+
+[[questions]]
+question = "What does VLAN stand for?"
+answer = ["Virtual Local Area Network"]
+
+[[questions]]
+question = "What does QoS stand for?"
+answer = ["Quality of Service"]
+
+[[questions]]
+question = "What does REST stand for?"
+answer = ["Representational State Transfer"]
+
+[[questions]]
+question = "What does SOAP stand for?"
+answer = ["Simple Object Access Protocol"]
+
+[[questions]]
+question = "What does CRUD stand for?"
+answer = ["Create Read Update Delete"]
+
+[[questions]]
+question = "What does ORM stand for?"
+answer = ["Object Relational Mapping"]
+
+[[questions]]
+question = "What does JWT stand for?"
+answer = ["JSON Web Token"]
+
+[[questions]]
+question = "What does OAuth stand for?"
+answer = ["Open Authorization", "Open Authorisation"]
+
+[[questions]]
+question = "What does SAML stand for?"
+answer = ["Security Assertion Markup Language"]
+
+[[questions]]
+question = "What does CORS stand for?"
+answer = ["Cross-Origin Resource Sharing", "Cross Origin Resource Sharing"]
+
+[[questions]]
+question = "What does XSS stand for?"
+answer = ["Cross-Site Scripting", "Cross Site Scripting"]
+
+[[questions]]
+question = "What does CSRF stand for?"
+answer = ["Cross-Site Request Forgery", "Cross Site Request Forgery"]
+
+[[questions]]
+question = "What does DDoS stand for?"
+answer = ["Distributed Denial of Service"]
+
+[[questions]]
+question = "What does IDS stand for?"
+answer = ["Intrusion Detection System"]
+
+[[questions]]
+question = "What does IPS stand for?"
+answer = ["Intrusion Prevention System"]
+
+[[questions]]
+question = "What does PKI stand for?"
+answer = ["Public Key Infrastructure"]
+
+[[questions]]
+question = "What does LDAP stand for?"
+answer = ["Lightweight Directory Access Protocol"]
+
+[[questions]]
+question = "What does NTP stand for?"
+answer = ["Network Time Protocol"]
+
+[[questions]]
+question = "What does SNMP stand for?"
+answer = ["Simple Network Management Protocol"]
+
+[[questions]]
+question = "What does YAML stand for?"
+answer = ["YAML Ain't Markup Language", "YAML Aint Markup Language"]
+
+[[questions]]
+question = "What does LAMP stand for?"
+answer = ["Linux Apache MySQL PHP"]
+
+[[questions]]
+question = "What does MEAN stand for?"
+answer = ["MongoDB Express Angular Node"]
+
+[[questions]]
+question = "What does CDN stand for?"
+answer = ["Content Delivery Network"]
+
+[[questions]]
+question = "What does P2P stand for?"
+answer = ["Peer to Peer"]
+
+[[questions]]
+question = "What does IoT stand for?"
+answer = ["Internet of Things"]
+
+[[questions]]
+question = "What does CAPTCHA stand for?"
+answer = ["Completely Automated Public Turing test to tell Computers and Humans Apart"]
+
+[[questions]]
+question = "What does WYSIWYG stand for?"
+answer = ["What You See Is What You Get"]
+
+[[questions]]
+question = "What does SaaS stand for?"
+answer = ["Software as a Service"]
+
+[[questions]]
+question = "What does PaaS stand for?"
+answer = ["Platform as a Service"]
+
+[[questions]]
+question = "What does IaaS stand for?"
+answer = ["Infrastructure as a Service"]
+
+[[questions]]
+question = "What does CI/CD stand for?"
+answer = ["Continuous Integration Continuous Deployment"]
+
+[[questions]]
+question = "What does SDK stand for?"
+answer = ["Software Development Kit"]
+
+[[questions]]
+question = "What does IDE stand for?"
+answer = ["Integrated Development Environment"]
+
+[[questions]]
+question = "What does REPL stand for?"
+answer = ["Read Eval Print Loop"]
+
+[[questions]]
+question = "What does TTL stand for?"
+answer = ["Time To Live"]
+
+[[questions]]
+question = "What does EOF stand for?"
+answer = ["End of File"]
+
+[[questions]]
+question = "What does RTT stand for?"
+answer = ["Round Trip Time"]
+
+[[questions]]
+question = "What does BLOB stand for?"
+answer = ["Binary Large Object"]
+
+[[questions]]
+question = "What does POSIX stand for?"
+answer = ["Portable Operating System Interface"]
+
+[[questions]]
+question = "What does FIFO stand for?"
+answer = ["First In First Out"]
+
+[[questions]]
+question = "What does LIFO stand for?"
+answer = ["Last In First Out"]
+
+[[questions]]
+question = "What does IRC stand for?"
+answer = ["Internet Relay Chat"]

@@ -1,0 +1,125 @@
+id = "5"
+name = "Tech terminology"
+difficulty = "easy"
+topic = "tech"
+hidden = false
+
+[[questions]]
+question = "What computing term came from an actual moth found in Harvard's Mark II computer in 1947?"
+answer = ["Bug"]
+
+[[questions]]
+question = "What term for website data comes from the treat left out for Santa?"
+answer = ["Cookie"]
+
+[[questions]]
+question = "What network security barrier shares its name with a building feature that stops fires?"
+answer = ["Firewall"]
+
+[[questions]]
+question = "What storage technology is named after a meteorological phenomenon?"
+answer = ["Cloud"]
+
+[[questions]]
+question = "What data structure shares its name with the organized list at the back of a book?"
+answer = ["Index"]
+
+[[questions]]
+question = "What file organization term comes from physical office storage?"
+answer = ["Folder", "Directory"]
+
+[[questions]]
+question = "What OS interface is named after your physical workspace?"
+answer = ["Desktop"]
+
+[[questions]]
+question = "What email feature borrows its name from the tray where mail arrives?"
+answer = ["Inbox"]
+
+[[questions]]
+question = "What's the World Wide called, inspired by connected strands?"
+answer = ["Web"]
+
+[[questions]]
+question = "What digital feature stores your connections like a little black book?"
+answer = ["Contacts", "Address Book"]
+
+[[questions]]
+question = "What organized data collection is named after physical filing systems?"
+answer = ["Database"]
+
+[[questions]]
+question = "What navigation aid is named after Hansel and Gretel's forest trick?"
+answer = ["Breadcrumbs"]
+
+[[questions]]
+question = "What unit of network data shares its name with a sealed postal item?"
+answer = ["Packet"]
+
+[[questions]]
+question = "What central storage system is named after the person who brings your food?"
+answer = ["Server"]
+
+[[questions]]
+question = "What network component shares its name with a controlled entrance or exit point?"
+answer = ["Gateway"]
+
+[[questions]]
+question = "What programming language was named after a British comedy troupe?"
+answer = ["Python"]
+
+[[questions]]
+question = "What programming language was named after a type of coffee?"
+answer = ["Java"]
+
+[[questions]]
+question = "What programming language was named after a gemstone, as a wordplay on Perl?"
+answer = ["Ruby"]
+
+[[questions]]
+question = "What programming language was named after the world's first computer programmer?"
+answer = ["Ada"]
+
+[[questions]]
+question = "What programming language was named after a 17th century French mathematician?"
+answer = ["Pascal"]
+
+[[questions]]
+question = "What programming language's name comes from 'C Plus Plus Plus Plus' written vertically?"
+answer = ["C#", "C Sharp"]
+
+[[questions]]
+question = "What scripting language's name means 'moon' in Portuguese?"
+answer = ["Lua"]
+
+[[questions]]
+question = "What programming language was named after an island near St. Petersburg, Russia?"
+answer = ["Kotlin"]
+
+[[questions]]
+question = "What functional programming language was named after a logician who worked on lambda calculus?"
+answer = ["Haskell"]
+
+[[questions]]
+question = "What programming language's name is short for 'Formula Translation'?"
+answer = ["Fortran"]
+
+[[questions]]
+question = "What language's name is short for 'Common Business-Oriented Language'?"
+answer = ["COBOL"]
+
+[[questions]]
+question = "What language was named after a Danish mathematician who pioneered traffic engineering?"
+answer = ["Erlang"]
+
+[[questions]]
+question = "What language was designed to be the successor to C?"
+answer = ["D"]
+
+[[questions]]
+question = "What language was named after the Monty Python comedy group?"
+answer = ["Python"]
+
+[[questions]]
+question = "What programming language shares its name with an Indonesian island famous for coffee?"
+answer = ["Java"]
