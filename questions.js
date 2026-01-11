@@ -37,7 +37,7 @@ function loadQuestions() {
     questionPool = shuffleArray([...allQuestions]);
     currentIndex = 0;
 
-    console.log(`✓ Loaded ${allQuestions.length} questions from ${files.length} files`);
+    console.log(`Loaded ${allQuestions.length} questions from ${files.length} files`);
     return true;
   } catch (error) {
     console.error('Error loading questions:', error);

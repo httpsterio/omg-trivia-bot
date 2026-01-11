@@ -12,7 +12,7 @@ function loadConfig() {
   try {
     const content = fs.readFileSync('./config.toml', 'utf8');
     config = toml.parse(content);
-    console.log('✓ Config loaded');
+    console.log('Config loaded');
     return true;
   } catch (error) {
     console.error('Error loading config:', error);
@@ -74,6 +74,15 @@ function handleStop(event) {
   currentQuestion = null;
   wrongAttempts = 0;
   event.reply('Trivia stopped!');
+}
+
+function handleSkip(event) {
+  event.reply(bold("Skipped! ") + "The answer was: " + bold(currentQuestion.answer[0]));
+  currentQuestion = getNextQuestion();
+  wrongAttempts = 0;
+
+  event.reply("⠀");
+  event.reply(bold("Question: ") + currentQuestion.question);
 }
 
 function handleReload(event) {
@@ -156,6 +165,7 @@ module.exports = {
   getConfig,
   handleStart,
   handleStop,
+  handleSkip,
   handleReload,
   handleStatus,
   handleHelp,

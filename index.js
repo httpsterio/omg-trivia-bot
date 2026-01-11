@@ -1,7 +1,7 @@
+const startTime = Date.now();
 const irc = require('irc-framework');
 const { loadQuestions } = require('./questions');
 const trivia = require('./trivia');
-
 const bot = new irc.Client();
 
 // Load config first
@@ -28,8 +28,10 @@ bot.on('registered', () => {
 
   // Load questions
   loadQuestions();
-
-  console.log('Bot is now running and listening for messages...');
+  
+  console.log();
+  const startupTime = ((Date.now() - startTime) / 1000).toFixed(2);
+  console.log(`Startup completed in ${startupTime}s`);
   console.log('Admin commands: !start, !stop, !reload, !status');
   console.log('Press Ctrl+C to stop');
   console.log(' ');
@@ -51,6 +53,11 @@ bot.on('message', (event) => {
 
   if (event.message === '!stop') {
     trivia.handleStop(event);
+    return;
+  }
+
+  if (event.message === '!skip') {
+    trivia.handleSkip(event);
     return;
   }
 
