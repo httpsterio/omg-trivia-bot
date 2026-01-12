@@ -1,0 +1,133 @@
+id = "7"
+name = "Final Fantasy"
+difficulty = "medium"
+topic = "games"
+hidden = false
+
+[[questions]]
+question = "Who is the main protagonist in Final Fantasy VII?"
+answer = ["Cloud Strife", "Cloud"]
+
+[[questions]]
+question = "Who is the main antagonist in Final Fantasy VII?"
+answer = ["Sephiroth", "Jenova"]
+
+[[questions]]
+question = "Who is the main protagonist in Final Fantasy VIII?"
+answer = ["Squall Leonhart", "Squall"]
+
+[[questions]]
+question = "Who is the main antagonist in Final Fantasy VIII?"
+answer = ["Ultimecia"]
+
+[[questions]]
+question = "Who is the main protagonist in Final Fantasy IX?"
+answer = ["Zidane Tribal", "Zidane"]
+
+[[questions]]
+question = "Who is the main antagonist in Final Fantasy IX?"
+answer = ["Kuja"]
+
+[[questions]]
+question = "Who is the main protagonist in Final Fantasy X?"
+answer = ["Tidus"]
+
+[[questions]]
+question = "Who is the main antagonist in Final Fantasy X?"
+answer = ["Yu Yevon", "Sin"]
+
+[[questions]]
+question = "Who is the main protagonist in Final Fantasy XII?"
+answer = ["Vaan"]
+
+[[questions]]
+question = "Who is the main antagonist in Final Fantasy XII?"
+answer = ["Vayne Carudas Solidor", "Vayne Solidor", "Vayne"]
+
+[[questions]]
+question = "Who is the main protagonist in Final Fantasy XIII?"
+answer = ["Lightning"]
+
+[[questions]]
+question = "Who is the main antagonist in Final Fantasy XIII?"
+answer = ["Barthandelus", "Orphan", "Galenth Dysley", "Dysley"]
+
+[[questions]]
+question = "Who is the main protagonist in Final Fantasy XV?"
+answer = ["Noctis"]
+
+[[questions]]
+question = "Who is the main antagonist in Final Fantasy XV?"
+answer = ["Ardyn Izunia", "Ardyn"]
+
+[[questions]]
+question = "Who is the main protagonist in Final Fantasy XVI?"
+answer = ["Clive Rosfield", "Clive"]
+
+[[questions]]
+question = "Who is the main antagonist in Final Fantasy XVI?"
+answer = ["Ultima"]
+
+[[questions]]
+question = "What is the fictional sport in Final Fantasy X called?"
+answer = ["Blitzball"]
+
+[[questions]]
+question = "What is the city where Final Fantasy VII begins?"
+answer = ["Midgar"]
+
+[[questions]]
+question = "What is Cloud Strife's iconic sword called?"
+answer = ["Buster Sword"]
+
+[[questions]]
+question = "What creature is used as a mount across the Final Fantasy game series?"
+answer = ["Chocobo", "Chocobos"]
+
+[[questions]]
+question = "What bird is commonly ridden in Final Fantasy?"
+answer = ["Chocobo"]
+
+[[questions]]
+question = "What color is the standard Chocobo in Final Fantasy?"
+answer = ["Yellow"]
+
+[[questions]]
+question = "What card game is featured in Final Fantasy VIII?"
+answer = ["Triple Triad"]
+
+[[questions]]
+question = "What is the card game in Final Fantasy IX called?"
+answer = ["Tetra Master"]
+
+[[questions]]
+question = "What item revives fallen characters in the Final Fantasy series?"
+answer = ["Phoenix Down"]
+
+[[questions]]
+question = "What is the name of the planet in Final Fantasy VII?"
+answer = ["Gaia"]
+
+[[questions]]
+question = "What energy source does Shinra use in Final Fantasy VII?"
+answer = ["Mako"]
+
+[[questions]]
+question = "What is Squall's weapon type in Final Fantasy VIII?"
+answer = ["Gunblade"]
+
+[[questions]]
+question = "What academy do SeeD members attend in Final Fantasy VIII?"
+answer = ["Balamb Garden", "Balamb"]
+
+[[questions]]
+question = "What is the name of Zidane's home theater troupe in Final Fantasy IX?"
+answer = ["Tantalus"]
+
+[[questions]]
+question = "What world does Final Fantasy IX take place on?"
+answer = ["Gaia"]
+
+[[questions]]
+question = "What religion is central to Final Fantasy X?"
+answer = ["Yevon"]

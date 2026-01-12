@@ -37,20 +37,12 @@ question = "What email feature borrows its name from the tray where mail arrives
 answer = ["Inbox"]
 
 [[questions]]
-question = "What's the World Wide called, inspired by connected strands?"
-answer = ["Web"]
-
-[[questions]]
 question = "What digital feature stores your connections like a little black book?"
 answer = ["Contacts", "Address Book"]
 
 [[questions]]
 question = "What organized data collection is named after physical filing systems?"
 answer = ["Database"]
-
-[[questions]]
-question = "What navigation aid is named after Hansel and Gretel's forest trick?"
-answer = ["Breadcrumbs"]
 
 [[questions]]
 question = "What unit of network data shares its name with a sealed postal item?"
@@ -86,7 +78,7 @@ answer = ["Pascal"]
 
 [[questions]]
 question = "What programming language's name comes from 'C Plus Plus Plus Plus' written vertically?"
-answer = ["C#", "C Sharp"]
+answer = ["C#", "C Sharp", "CSharp"]
 
 [[questions]]
 question = "What scripting language's name means 'moon' in Portuguese?"
@@ -114,7 +106,7 @@ answer = ["Erlang"]
 
 [[questions]]
 question = "What language was designed to be the successor to C?"
-answer = ["D"]
+answer = ["D", "C++", "CPP", "C Sharp", "C#"]
 
 [[questions]]
 question = "What language was named after the Monty Python comedy group?"

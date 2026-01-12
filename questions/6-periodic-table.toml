@@ -1,0 +1,949 @@
+id = "6"
+name = "Periodic Table"
+difficulty = "hard"
+topic = "chemistry"
+hidden = false
+
+[[questions]]
+question = "What is the chemical symbol for Hydrogen?"
+answer = ["H"]
+
+[[questions]]
+question = "What is the chemical symbol for Helium?"
+answer = ["He"]
+
+[[questions]]
+question = "What is the chemical symbol for Lithium?"
+answer = ["Li"]
+
+[[questions]]
+question = "What is the chemical symbol for Beryllium?"
+answer = ["Be"]
+
+[[questions]]
+question = "What is the chemical symbol for Boron?"
+answer = ["B"]
+
+[[questions]]
+question = "What is the chemical symbol for Carbon?"
+answer = ["C"]
+
+[[questions]]
+question = "What is the chemical symbol for Nitrogen?"
+answer = ["N"]
+
+[[questions]]
+question = "What is the chemical symbol for Oxygen?"
+answer = ["O"]
+
+[[questions]]
+question = "What is the chemical symbol for Fluorine?"
+answer = ["F"]
+
+[[questions]]
+question = "What is the chemical symbol for Neon?"
+answer = ["Ne"]
+
+[[questions]]
+question = "What is the chemical symbol for Sodium?"
+answer = ["Na"]
+
+[[questions]]
+question = "What is the chemical symbol for Magnesium?"
+answer = ["Mg"]
+
+[[questions]]
+question = "What is the chemical symbol for Aluminum?"
+answer = ["Al"]
+
+[[questions]]
+question = "What is the chemical symbol for Silicon?"
+answer = ["Si"]
+
+[[questions]]
+question = "What is the chemical symbol for Phosphorus?"
+answer = ["P"]
+
+[[questions]]
+question = "What is the chemical symbol for Sulfur?"
+answer = ["S"]
+
+[[questions]]
+question = "What is the chemical symbol for Chlorine?"
+answer = ["Cl"]
+
+[[questions]]
+question = "What is the chemical symbol for Argon?"
+answer = ["Ar"]
+
+[[questions]]
+question = "What is the chemical symbol for Potassium?"
+answer = ["K"]
+
+[[questions]]
+question = "What is the chemical symbol for Calcium?"
+answer = ["Ca"]
+
+[[questions]]
+question = "What is the chemical symbol for Scandium?"
+answer = ["Sc"]
+
+[[questions]]
+question = "What is the chemical symbol for Titanium?"
+answer = ["Ti"]
+
+[[questions]]
+question = "What is the chemical symbol for Vanadium?"
+answer = ["V"]
+
+[[questions]]
+question = "What is the chemical symbol for Chromium?"
+answer = ["Cr"]
+
+[[questions]]
+question = "What is the chemical symbol for Manganese?"
+answer = ["Mn"]
+
+[[questions]]
+question = "What is the chemical symbol for Iron?"
+answer = ["Fe"]
+
+[[questions]]
+question = "What is the chemical symbol for Cobalt?"
+answer = ["Co"]
+
+[[questions]]
+question = "What is the chemical symbol for Nickel?"
+answer = ["Ni"]
+
+[[questions]]
+question = "What is the chemical symbol for Copper?"
+answer = ["Cu"]
+
+[[questions]]
+question = "What is the chemical symbol for Zinc?"
+answer = ["Zn"]
+
+[[questions]]
+question = "What is the chemical symbol for Gallium?"
+answer = ["Ga"]
+
+[[questions]]
+question = "What is the chemical symbol for Germanium?"
+answer = ["Ge"]
+
+[[questions]]
+question = "What is the chemical symbol for Arsenic?"
+answer = ["As"]
+
+[[questions]]
+question = "What is the chemical symbol for Selenium?"
+answer = ["Se"]
+
+[[questions]]
+question = "What is the chemical symbol for Bromine?"
+answer = ["Br"]
+
+[[questions]]
+question = "What is the chemical symbol for Krypton?"
+answer = ["Kr"]
+
+[[questions]]
+question = "What is the chemical symbol for Rubidium?"
+answer = ["Rb"]
+
+[[questions]]
+question = "What is the chemical symbol for Strontium?"
+answer = ["Sr"]
+
+[[questions]]
+question = "What is the chemical symbol for Yttrium?"
+answer = ["Y"]
+
+[[questions]]
+question = "What is the chemical symbol for Zirconium?"
+answer = ["Zr"]
+
+[[questions]]
+question = "What is the chemical symbol for Niobium?"
+answer = ["Nb"]
+
+[[questions]]
+question = "What is the chemical symbol for Molybdenum?"
+answer = ["Mo"]
+
+[[questions]]
+question = "What is the chemical symbol for Technetium?"
+answer = ["Tc"]
+
+[[questions]]
+question = "What is the chemical symbol for Ruthenium?"
+answer = ["Ru"]
+
+[[questions]]
+question = "What is the chemical symbol for Rhodium?"
+answer = ["Rh"]
+
+[[questions]]
+question = "What is the chemical symbol for Palladium?"
+answer = ["Pd"]
+
+[[questions]]
+question = "What is the chemical symbol for Silver?"
+answer = ["Ag"]
+
+[[questions]]
+question = "What is the chemical symbol for Cadmium?"
+answer = ["Cd"]
+
+[[questions]]
+question = "What is the chemical symbol for Indium?"
+answer = ["In"]
+
+[[questions]]
+question = "What is the chemical symbol for Tin?"
+answer = ["Sn"]
+
+[[questions]]
+question = "What is the chemical symbol for Antimony?"
+answer = ["Sb"]
+
+[[questions]]
+question = "What is the chemical symbol for Tellurium?"
+answer = ["Te"]
+
+[[questions]]
+question = "What is the chemical symbol for Iodine?"
+answer = ["I"]
+
+[[questions]]
+question = "What is the chemical symbol for Xenon?"
+answer = ["Xe"]
+
+[[questions]]
+question = "What is the chemical symbol for Cesium?"
+answer = ["Cs"]
+
+[[questions]]
+question = "What is the chemical symbol for Barium?"
+answer = ["Ba"]
+
+[[questions]]
+question = "What is the chemical symbol for Lanthanum?"
+answer = ["La"]
+
+[[questions]]
+question = "What is the chemical symbol for Cerium?"
+answer = ["Ce"]
+
+[[questions]]
+question = "What is the chemical symbol for Praseodymium?"
+answer = ["Pr"]
+
+[[questions]]
+question = "What is the chemical symbol for Neodymium?"
+answer = ["Nd"]
+
+[[questions]]
+question = "What is the chemical symbol for Promethium?"
+answer = ["Pm"]
+
+[[questions]]
+question = "What is the chemical symbol for Samarium?"
+answer = ["Sm"]
+
+[[questions]]
+question = "What is the chemical symbol for Europium?"
+answer = ["Eu"]
+
+[[questions]]
+question = "What is the chemical symbol for Gadolinium?"
+answer = ["Gd"]
+
+[[questions]]
+question = "What is the chemical symbol for Terbium?"
+answer = ["Tb"]
+
+[[questions]]
+question = "What is the chemical symbol for Dysprosium?"
+answer = ["Dy"]
+
+[[questions]]
+question = "What is the chemical symbol for Holmium?"
+answer = ["Ho"]
+
+[[questions]]
+question = "What is the chemical symbol for Erbium?"
+answer = ["Er"]
+
+[[questions]]
+question = "What is the chemical symbol for Thulium?"
+answer = ["Tm"]
+
+[[questions]]
+question = "What is the chemical symbol for Ytterbium?"
+answer = ["Yb"]
+
+[[questions]]
+question = "What is the chemical symbol for Lutetium?"
+answer = ["Lu"]
+
+[[questions]]
+question = "What is the chemical symbol for Hafnium?"
+answer = ["Hf"]
+
+[[questions]]
+question = "What is the chemical symbol for Tantalum?"
+answer = ["Ta"]
+
+[[questions]]
+question = "What is the chemical symbol for Tungsten?"
+answer = ["W"]
+
+[[questions]]
+question = "What is the chemical symbol for Rhenium?"
+answer = ["Re"]
+
+[[questions]]
+question = "What is the chemical symbol for Osmium?"
+answer = ["Os"]
+
+[[questions]]
+question = "What is the chemical symbol for Iridium?"
+answer = ["Ir"]
+
+[[questions]]
+question = "What is the chemical symbol for Platinum?"
+answer = ["Pt"]
+
+[[questions]]
+question = "What is the chemical symbol for Gold?"
+answer = ["Au"]
+
+[[questions]]
+question = "What is the chemical symbol for Mercury?"
+answer = ["Hg"]
+
+[[questions]]
+question = "What is the chemical symbol for Thallium?"
+answer = ["Tl"]
+
+[[questions]]
+question = "What is the chemical symbol for Lead?"
+answer = ["Pb"]
+
+[[questions]]
+question = "What is the chemical symbol for Bismuth?"
+answer = ["Bi"]
+
+[[questions]]
+question = "What is the chemical symbol for Polonium?"
+answer = ["Po"]
+
+[[questions]]
+question = "What is the chemical symbol for Astatine?"
+answer = ["At"]
+
+[[questions]]
+question = "What is the chemical symbol for Radon?"
+answer = ["Rn"]
+
+[[questions]]
+question = "What is the chemical symbol for Francium?"
+answer = ["Fr"]
+
+[[questions]]
+question = "What is the chemical symbol for Radium?"
+answer = ["Ra"]
+
+[[questions]]
+question = "What is the chemical symbol for Actinium?"
+answer = ["Ac"]
+
+[[questions]]
+question = "What is the chemical symbol for Thorium?"
+answer = ["Th"]
+
+[[questions]]
+question = "What is the chemical symbol for Protactinium?"
+answer = ["Pa"]
+
+[[questions]]
+question = "What is the chemical symbol for Uranium?"
+answer = ["U"]
+
+[[questions]]
+question = "What is the chemical symbol for Neptunium?"
+answer = ["Np"]
+
+[[questions]]
+question = "What is the chemical symbol for Plutonium?"
+answer = ["Pu"]
+
+[[questions]]
+question = "What is the chemical symbol for Americium?"
+answer = ["Am"]
+
+[[questions]]
+question = "What is the chemical symbol for Curium?"
+answer = ["Cm"]
+
+[[questions]]
+question = "What is the chemical symbol for Berkelium?"
+answer = ["Bk"]
+
+[[questions]]
+question = "What is the chemical symbol for Californium?"
+answer = ["Cf"]
+
+[[questions]]
+question = "What is the chemical symbol for Einsteinium?"
+answer = ["Es"]
+
+[[questions]]
+question = "What is the chemical symbol for Fermium?"
+answer = ["Fm"]
+
+[[questions]]
+question = "What is the chemical symbol for Mendelevium?"
+answer = ["Md"]
+
+[[questions]]
+question = "What is the chemical symbol for Nobelium?"
+answer = ["No"]
+
+[[questions]]
+question = "What is the chemical symbol for Lawrencium?"
+answer = ["Lr"]
+
+[[questions]]
+question = "What is the chemical symbol for Rutherfordium?"
+answer = ["Rf"]
+
+[[questions]]
+question = "What is the chemical symbol for Dubnium?"
+answer = ["Db"]
+
+[[questions]]
+question = "What is the chemical symbol for Seaborgium?"
+answer = ["Sg"]
+
+[[questions]]
+question = "What is the chemical symbol for Bohrium?"
+answer = ["Bh"]
+
+[[questions]]
+question = "What is the chemical symbol for Hassium?"
+answer = ["Hs"]
+
+[[questions]]
+question = "What is the chemical symbol for Meitnerium?"
+answer = ["Mt"]
+
+[[questions]]
+question = "What is the chemical symbol for Darmstadtium?"
+answer = ["Ds"]
+
+[[questions]]
+question = "What is the chemical symbol for Roentgenium?"
+answer = ["Rg"]
+
+[[questions]]
+question = "What is the chemical symbol for Copernicium?"
+answer = ["Cn"]
+
+[[questions]]
+question = "What is the chemical symbol for Nihonium?"
+answer = ["Nh"]
+
+[[questions]]
+question = "What is the chemical symbol for Flerovium?"
+answer = ["Fl"]
+
+[[questions]]
+question = "What is the chemical symbol for Moscovium?"
+answer = ["Mc"]
+
+[[questions]]
+question = "What is the chemical symbol for Livermorium?"
+answer = ["Lv"]
+
+[[questions]]
+question = "What is the chemical symbol for Tennessine?"
+answer = ["Ts"]
+
+[[questions]]
+question = "What is the chemical symbol for Oganesson?"
+answer = ["Og"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol H?"
+answer = ["Hydrogen"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol He?"
+answer = ["Helium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Li?"
+answer = ["Lithium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Be?"
+answer = ["Beryllium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol B?"
+answer = ["Boron"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol C?"
+answer = ["Carbon"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol N?"
+answer = ["Nitrogen"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol O?"
+answer = ["Oxygen"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol F?"
+answer = ["Fluorine"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ne?"
+answer = ["Neon"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Na?"
+answer = ["Sodium", "Natrium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Mg?"
+answer = ["Magnesium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Al?"
+answer = ["Aluminum", "Aluminium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Si?"
+answer = ["Silicon"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol P?"
+answer = ["Phosphorus"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol S?"
+answer = ["Sulfur", "Sulphur"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Cl?"
+answer = ["Chlorine"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ar?"
+answer = ["Argon"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol K?"
+answer = ["Potassium", "Kalium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ca?"
+answer = ["Calcium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Sc?"
+answer = ["Scandium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ti?"
+answer = ["Titanium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol V?"
+answer = ["Vanadium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Cr?"
+answer = ["Chromium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Mn?"
+answer = ["Manganese"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Fe?"
+answer = ["Iron", "Ferrum"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Co?"
+answer = ["Cobalt"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ni?"
+answer = ["Nickel"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Cu?"
+answer = ["Copper", "Cuprum"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Zn?"
+answer = ["Zinc"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ga?"
+answer = ["Gallium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ge?"
+answer = ["Germanium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol As?"
+answer = ["Arsenic"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Se?"
+answer = ["Selenium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Br?"
+answer = ["Bromine"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Kr?"
+answer = ["Krypton"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Rb?"
+answer = ["Rubidium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Sr?"
+answer = ["Strontium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Y?"
+answer = ["Yttrium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Zr?"
+answer = ["Zirconium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Nb?"
+answer = ["Niobium", "Columbium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Mo?"
+answer = ["Molybdenum"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Tc?"
+answer = ["Technetium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ru?"
+answer = ["Ruthenium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Rh?"
+answer = ["Rhodium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Pd?"
+answer = ["Palladium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ag?"
+answer = ["Silver", "Argentum"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Cd?"
+answer = ["Cadmium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol In?"
+answer = ["Indium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Sn?"
+answer = ["Tin", "Stannum"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Sb?"
+answer = ["Antimony", "Stibium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Te?"
+answer = ["Tellurium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol I?"
+answer = ["Iodine"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Xe?"
+answer = ["Xenon"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Cs?"
+answer = ["Cesium", "Caesium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ba?"
+answer = ["Barium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol La?"
+answer = ["Lanthanum"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ce?"
+answer = ["Cerium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Pr?"
+answer = ["Praseodymium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Nd?"
+answer = ["Neodymium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Pm?"
+answer = ["Promethium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Sm?"
+answer = ["Samarium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Eu?"
+answer = ["Europium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Gd?"
+answer = ["Gadolinium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Tb?"
+answer = ["Terbium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Dy?"
+answer = ["Dysprosium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ho?"
+answer = ["Holmium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Er?"
+answer = ["Erbium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Tm?"
+answer = ["Thulium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Yb?"
+answer = ["Ytterbium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Lu?"
+answer = ["Lutetium", "Lutecium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Hf?"
+answer = ["Hafnium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ta?"
+answer = ["Tantalum"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol W?"
+answer = ["Tungsten", "Wolfram"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Re?"
+answer = ["Rhenium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Os?"
+answer = ["Osmium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ir?"
+answer = ["Iridium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Pt?"
+answer = ["Platinum"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Au?"
+answer = ["Gold", "Aurum"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Hg?"
+answer = ["Mercury", "Quicksilver", "Hydrargyrum"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Tl?"
+answer = ["Thallium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Pb?"
+answer = ["Lead", "Plumbum"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Bi?"
+answer = ["Bismuth"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Po?"
+answer = ["Polonium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol At?"
+answer = ["Astatine"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Rn?"
+answer = ["Radon"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Fr?"
+answer = ["Francium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ra?"
+answer = ["Radium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ac?"
+answer = ["Actinium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Th?"
+answer = ["Thorium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Pa?"
+answer = ["Protactinium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol U?"
+answer = ["Uranium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Np?"
+answer = ["Neptunium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Pu?"
+answer = ["Plutonium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Am?"
+answer = ["Americium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Cm?"
+answer = ["Curium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Bk?"
+answer = ["Berkelium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Cf?"
+answer = ["Californium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Es?"
+answer = ["Einsteinium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Fm?"
+answer = ["Fermium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Md?"
+answer = ["Mendelevium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol No?"
+answer = ["Nobelium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Lr?"
+answer = ["Lawrencium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Rf?"
+answer = ["Rutherfordium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Db?"
+answer = ["Dubnium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Sg?"
+answer = ["Seaborgium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Bh?"
+answer = ["Bohrium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Hs?"
+answer = ["Hassium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Mt?"
+answer = ["Meitnerium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ds?"
+answer = ["Darmstadtium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Rg?"
+answer = ["Roentgenium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Cn?"
+answer = ["Copernicium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Nh?"
+answer = ["Nihonium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Fl?"
+answer = ["Flerovium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Mc?"
+answer = ["Moscovium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Lv?"
+answer = ["Livermorium"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Ts?"
+answer = ["Tennessine"]
+
+[[questions]]
+question = "Which element on the periodic table has the symbol Og?"
+answer = ["Oganesson"]

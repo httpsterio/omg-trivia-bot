@@ -70,7 +70,7 @@ answer = ["Random Access Memory"]
 
 [[questions]]
 question = "What does BIOS stand for?"
-answer = ["Basic Input/Output System"]
+answer = ["Basic Input/Output System", "Basic Input Output System"]
 
 [[questions]]
 question = "What does API stand for?"
@@ -114,7 +114,7 @@ answer = ["Transport Layer Security"]
 
 [[questions]]
 question = "What does MIME stand for?"
-answer = ["Multipurpose Internet Mail Extensions"]
+answer = ["Multipurpose Internet Mail Extensions", "Multipurpose Internet Mail Extension"]
 
 [[questions]]
 question = "What does SMTP stand for?"
