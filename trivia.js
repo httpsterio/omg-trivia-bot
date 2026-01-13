@@ -11,6 +11,7 @@ let config = {};
 let isRunning = false;
 let currentQuestion = null;
 let wrongAttempts = 0;
+// let karmamodeEnabled = true;
 
 function loadConfig() {
   try {
@@ -31,6 +32,16 @@ function isAdmin(nick) {
 function getConfig() {
   return config;
 }
+
+// function handleKarmamode(event) {
+//   if (karmamodeEnabled == true) {
+//     karmamodeEnabled = false;
+//     event.reply("Disabling karma mode");
+//   } else {
+//     karmamodeEnabled = true;
+//     event.reply("Enabling karma mode");
+//   }
+// }
 
 function handleStart(event) {
   if (!isAdmin(event.nick)) {
@@ -124,6 +135,7 @@ function handleHelp(event) {
   event.reply("!reload to reload questions");
   event.reply("!stats to print high scores");
   event.reply("!status to print the current status");
+  event.reply("!karma to enable karma mode");
   event.reply("⠀");
 }
 
@@ -146,6 +158,11 @@ function handleAnswer(event) {
         "! The answer was: " +
         bold(currentQuestion.answer[0]),
     );
+
+    // if karmamode is enabled, award karma
+    if (karmamodeEnabled == true) {
+      event.reply(event.nick + " ++");
+    }
     console.log(
       `${event.nick} answered correctly: ${currentQuestion.answer[0]}`,
     );
@@ -196,6 +213,7 @@ function handleAnswer(event) {
 module.exports = {
   loadConfig,
   getConfig,
+  handleKarmamode,
   handleStart,
   handleStop,
   handleSkip,

@@ -49,6 +49,11 @@ bot.on("message", (event) => {
   console.log(`[${event.target}] <${event.nick}> ${event.message}`);
 
   // Route commands to trivia handlers
+  // if (event.message === "!karma") {
+  //   trivia.handleKarmamode(event);
+  //   return;
+  // }
+
   if (event.message === "!start") {
     trivia.handleStart(event);
     return;
