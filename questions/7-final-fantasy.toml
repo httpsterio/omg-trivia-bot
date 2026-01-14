@@ -125,9 +125,81 @@ question = "What is the name of Zidane's home theater troupe in Final Fantasy IX
 answer = ["Tantalus"]
 
 [[questions]]
-question = "What world does Final Fantasy IX take place on?"
+question = "What world does Final Fantasy IX take place in?"
 answer = ["Gaia"]
 
 [[questions]]
 question = "What religion is central to Final Fantasy X?"
 answer = ["Yevon"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy I"
+answer = ["Nobuo Uematsu", "Uematsu"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy II"
+answer = ["Nobuo Uematsu", "Uematsu"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy III"
+answer = ["Nobuo Uematsu", "Uematsu"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy IV"
+answer = ["Nobuo Uematsu", "Uematsu"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy V"
+answer = ["Nobuo Uematsu", "Uematsu"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy VI"
+answer = ["Nobuo Uematsu", "Uematsu"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy VII"
+answer = ["Nobuo Uematsu", "Uematsu"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy VII Remake"
+answer = ["Masashi Hamauzu", "Hamauzu", "Mitsuto Suzuki", "Suzuki"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy VII Rebirth"
+answer = ["Masashi Hamauzu", "Hamauzu", "Mitsuto Suzuki", "Suzuki"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy VIII"
+answer = ["Nobuo Uematsu", "Uematsu"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy IX"
+answer = ["Nobuo Uematsu", "Uematsu"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy X"
+answer = ["Nobuo Uematsu", "Uematsu", "Masashi Hamauzu", "Hamauzu", "Junya Nakano", "Nakano"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy XII"
+answer = ["Hitoshi Sakimoto", "Sakimoto"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy XIII"
+answer = ["Masashi Hamauzu", "Hamauzu"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy XIII-2"
+answer = ["Masashi Hamauzu", "Hamauzu", "Naoshi Mizuta", "Mizuta", "Mitsuto Suzuki", "Suzuki"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Lightning Returns: Final Fantasy XIII"
+answer = ["Masashi Hamauzu", "Hamauzu", "Naoshi Mizuta", "Mizuta", "Mitsuto Suzuki", "Suzuki"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy XV"
+answer = ["Yoko Shimomura", "Shimomura"]
+
+[[questions]]
+question = "Who composed the soundtrack to the game Final Fantasy XVI"
+answer = ["Masayoshi Soken", "Soken"]

@@ -1,0 +1,249 @@
+id = "8"
+name = "Overwatch"
+difficulty = "medium"
+topic = "games"
+hidden = false
+
+[[questions]]
+question = "Which Overwatch hero is a Korean esports champion who ejects from her exploding mech?"
+answer = ["D.Va", "DVa"]
+
+[[questions]]
+question = "Which Overwatch villain leads Talon and fights with a devastating seismic punch?"
+answer = ["Doomfist"]
+
+[[questions]]
+question = "Which Overwatch tank from the Scottish Highlands uses a spiked Vanadium Claw?"
+answer = ["Hazard"]
+
+[[questions]]
+question = "Which Australian wasteland ruler in Overwatch commands with a magnetic axe and a serrated knife?"
+answer = ["Junker Queen"]
+
+[[questions]]
+question = "Which Overwatch tank has two chainguns named 'Gunny' and 'Cha-Cha'?"
+answer = ["Mauga"]
+
+[[questions]]
+question = "Which Overwatch hero was built in Numbani to be the city's protector?"
+answer = ["Orisa"]
+
+[[questions]]
+question = "Which Overwatch hero is the leader of Null Sector and former Shambali monk?"
+answer = ["Ramattra"]
+
+[[questions]]
+question = "Which German crusader in Overwatch is the oldest active field agent?"
+answer = ["Reinhardt"]
+
+[[questions]]
+question = "Which New Zealand enforcer in Overwatch collects scraps and hooks enemies into one-shot range?"
+answer = ["Roadhog"]
+
+[[questions]]
+question = "Which Dutch astrophysicist in Overwatch went mad after a failed black hole experiment?"
+answer = ["Sigma"]
+
+[[questions]]
+question = "Which Overwatch scientist was raised on the moon and loves peanut butter?"
+answer = ["Winston"]
+
+[[questions]]
+question = "Which Overwatch hero escaped the moon colony in a modified mech ball?"
+answer = ["Wrecking Ball", "Hammond"]
+
+[[questions]]
+question = "Which Russian weightlifter in Overwatch defends her village with a particle cannon?"
+answer = ["Zarya"]
+
+[[questions]]
+question = "Which Overwatch outlaw leads the Deadlock Gang with her butler omnic?"
+answer = ["Ashe"]
+
+[[questions]]
+question = "Which nature-loving war machine in Overwatch has a bird companion named Ganymede?"
+answer = ["Bastion"]
+
+[[questions]]
+question = "Which reformed Deadlock Gang member in Overwatch now works as a gunslinger?"
+answer = ["Cassidy", "Cole Cassidy", "McCree"]
+
+[[questions]]
+question = "Which adaptive robot in Overwatch was Dr. Mina Liao's final creation before her death?"
+answer = ["Echo"]
+
+[[questions]]
+question = "Which cyborg ninja in Overwatch was nearly killed by his own brother?"
+answer = ["Genji"]
+
+[[questions]]
+question = "Which archer in Overwatch nearly killed his younger brother and wanders seeking redemption?"
+answer = ["Hanzo"]
+
+[[questions]]
+question = "Which Australian demolitionist in Overwatch found a mysterious treasure in the Outback?"
+answer = ["Junkrat"]
+
+[[questions]]
+question = "Which climatologist in Overwatch was cryogenically frozen for years in Antarctica?"
+answer = ["Mei"]
+
+[[questions]]
+question = "Which Egyptian security chief in Overwatch honors her mother's legacy?"
+answer = ["Pharah"]
+
+[[questions]]
+question = "Which Overwatch villain can turn into wraith form and teleport?"
+answer = ["Reaper"]
+
+[[questions]]
+question = "Which Canadian hero in Overwatch leads with tactical precision and a powerful railgun?"
+answer = ["Sojourn"]
+
+[[questions]]
+question = "Which Overwatch hero was presumed dead in the Swiss headquarters explosion but survived?"
+answer = ["Jack Morrison", "Morrison", "Soldier: 76", "Soldier 76"]
+
+[[questions]]
+question = "Which Mexican hacker in Overwatch manipulates information as her ultimate weapon?"
+answer = ["Sombra"]
+
+[[questions]]
+question = "Which Indian architect in Overwatch believes order and structure will save humanity?"
+answer = ["Symmetra"]
+
+[[questions]]
+question = "Which Swedish engineer in Overwatch is responsible for creating much of the organization's technology?"
+answer = ["Torbjörn", "Torbjorn"]
+
+[[questions]]
+question = "Which British pilot in Overwatch became unstuck in time after a teleportation accident?"
+answer = ["Tracer"]
+
+[[questions]]
+question = "Which non-binary archaeologist in Overwatch excavates ancient sites with drilling technology?"
+answer = ["Venture"]
+
+[[questions]]
+question = "Which ballet dancer in Overwatch was brainwashed by Talon to become an assassin?"
+answer = ["Widowmaker"]
+
+[[questions]]
+question = "Which Egyptian sniper in Overwatch lost her eye to Widowmaker and was presumed dead?"
+answer = ["Ana"]
+
+[[questions]]
+question = "Which former Talon operative in Overwatch now uses combat medic skills for good?"
+answer = ["Baptiste"]
+
+[[questions]]
+question = "Which squire and engineer in Overwatch is the youngest daughter of Torbjörn?"
+answer = ["Brigitte"]
+
+[[questions]]
+question = "Which Peruvian warrior in Overwatch accidentally destroyed her entire Inti Warrior tribe?"
+answer = ["Illari"]
+
+[[questions]]
+question = "Which Martian medic in Overwatch traveled from the red planet to join the organization?"
+answer = ["Juno"]
+
+[[questions]]
+question = "Which Kanezaka ninja in Overwatch trained alongside Hanzo and Genji as children?"
+answer = ["Kiriko"]
+
+[[questions]]
+question = "Which Thai scientist in Overwatch went rogue with his controversial biolight research?"
+answer = ["Lifeweaver"]
+
+[[questions]]
+question = "Which Brazilian DJ in Overwatch leads a movement of social change through music?"
+answer = ["Lúcio", "Lucio"]
+
+[[questions]]
+question = "Which Swiss doctor in Overwatch pioneered the technology that saved Genji's life?"
+answer = ["Mercy"]
+
+[[questions]]
+question = "Which Irish geneticist in Overwatch conducts unethical experiments for Talon?"
+answer = ["Moira"]
+
+[[questions]]
+question = "Which omnic monk in Overwatch taught Genji to find peace with his cyborg body?"
+answer = ["Zenyatta"]
+
+[[questions]]
+question = "Which terrorist organization in Overwatch is led by Doomfist and employs Reaper and Widowmaker?"
+answer = ["Talon"]
+
+[[questions]]
+question = "Which Overwatch hero was the strike commander and original leader of the organization?"
+answer = ["Jack Morrison", "Morrison", "Soldier: 76", "Soldier 76"]
+
+[[questions]]
+question = "What is the name of the omnic terrorist group led by Ramattra in Overwatch?"
+answer = ["Null Sector"]
+
+[[questions]]
+question = "Which omnic leader founded the Shambali monastery in Overwatch lore?"
+answer = ["Mondatta", "Tekhartha Mondatta"]
+
+[[questions]]
+question = "Which Overwatch gang does Ashe lead in the American Southwest?"
+answer = ["Deadlock Gang", "Deadlock"]
+
+[[questions]]
+question = "What is the name of Ashe's omnic butler in Overwatch?"
+answer = ["B.O.B.", "BOB", "B.O.B"]
+
+[[questions]]
+question = "What is the name of Bastion's bird companion in Overwatch?"
+answer = ["Ganymede"]
+
+[[questions]]
+question = "Which Overwatch hero is known as the 'Hero of Numbani'?"
+answer = ["Orisa"]
+
+[[questions]]
+question = "Which Overwatch hero was formerly known as Jesse McCree before being renamed?"
+answer = ["Cassidy", "Cole Cassidy"]
+
+[[questions]]
+question = "Which Overwatch hero is Pharah's mother and a founding member of the organization?"
+answer = ["Ana", "Ana Amari"]
+
+[[questions]]
+question = "Which Overwatch hero is Brigitte's godfather and mentor?"
+answer = ["Reinhardt"]
+
+[[questions]]
+question = "Which Overwatch hero was Mercy's first successful cyborg patient?"
+answer = ["Genji"]
+
+[[questions]]
+question = "What is the name of D.Va's mech in Overwatch?"
+answer = ["Tokki"]
+
+[[questions]]
+question = "Which Overwatch hero was Genji and Hanzo's childhood friend in Kanezaka?"
+answer = ["Kiriko"]
+
+[[questions]]
+question = "Which omnic monk in Overwatch was assassinated by Widowmaker?"
+answer = ["Mondatta", "Tekhartha Mondatta"]
+
+[[questions]]
+question = "Which Overwatch hero leads the Junkers in the Australian Outback?"
+answer = ["Junker Queen", "Junkerqueen"]
+
+[[questions]]
+question = "What is Roadhog's real name in Overwatch?"
+answer = ["Mako", "Mako Rutledge"]
+
+[[questions]]
+question = "What is Junkrat's real name in Overwatch?"
+answer = ["Jamison", "Jamison Fawkes"]
+
+[[questions]]
+question = "Which Overwatch founding member served as Jack Morrison's second-in-command?"
+answer = ["Ana", "Ana Amari"]
