@@ -114,9 +114,96 @@ function getStartOfMonth() {
   return Math.floor(firstDay.getTime() / 1000);
 }
 
+function getEarliestEntry() {
+  const result = db
+    .prepare("SELECT MIN(answered_at) as earliest FROM score_events")
+    .get();
+  return result?.earliest || null;
+}
+
+function getTopScoresRolling(timeframe, limit = 10) {
+  if (timeframe === "total") {
+    return db
+      .prepare(
+        "SELECT nick, all_time as score FROM user_stats ORDER BY all_time DESC LIMIT ?",
+      )
+      .all(limit);
+  }
+
+  const now = Math.floor(Date.now() / 1000);
+  const earliest = getEarliestEntry();
+  let startTime;
+
+  if (timeframe === "month") {
+    startTime = now - 2592000; // 30 days
+  } else if (timeframe === "week") {
+    startTime = now - 604800; // 7 days
+  } else if (timeframe === "day") {
+    startTime = now - 86400; // 24 hours
+  } else {
+    return [];
+  }
+
+  if (earliest !== null) {
+    startTime = Math.max(startTime, earliest);
+  }
+
+  return db
+    .prepare(
+      `SELECT nick, COUNT(*) as score FROM score_events
+       WHERE answered_at >= ?
+       GROUP BY nick ORDER BY score DESC LIMIT ?`,
+    )
+    .all(startTime, limit);
+}
+
+function getPlayerScoreRolling(nick) {
+  const now = Math.floor(Date.now() / 1000);
+  const earliest = getEarliestEntry();
+
+  const total =
+    db.prepare("SELECT all_time FROM user_stats WHERE nick = ?").get(nick)
+      ?.all_time || 0;
+
+  let monthStart = now - 2592000;
+  let weekStart = now - 604800;
+  let dayStart = now - 86400;
+
+  if (earliest !== null) {
+    monthStart = Math.max(monthStart, earliest);
+    weekStart = Math.max(weekStart, earliest);
+    dayStart = Math.max(dayStart, earliest);
+  }
+
+  const month =
+    db
+      .prepare(
+        "SELECT COUNT(*) as count FROM score_events WHERE nick = ? AND answered_at >= ?",
+      )
+      .get(nick, monthStart)?.count || 0;
+
+  const week =
+    db
+      .prepare(
+        "SELECT COUNT(*) as count FROM score_events WHERE nick = ? AND answered_at >= ?",
+      )
+      .get(nick, weekStart)?.count || 0;
+
+  const day =
+    db
+      .prepare(
+        "SELECT COUNT(*) as count FROM score_events WHERE nick = ? AND answered_at >= ?",
+      )
+      .get(nick, dayStart)?.count || 0;
+
+  return { total, month, week, day };
+}
+
 module.exports = {
   initDatabase,
   recordScore,
   getPlayerScore,
   getTopScores,
+  getTopScoresRolling,
+  getPlayerScoreRolling,
 };

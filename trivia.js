@@ -5,7 +5,11 @@ const {
   getBankInfo,
   setBankHidden,
 } = require("./questions");
-const { recordScore } = require("./scores");
+const {
+  recordScore,
+  getTopScoresRolling,
+  getPlayerScoreRolling,
+} = require("./scores");
 const { bold } = require("./format");
 const fs = require("fs");
 const toml = require("@iarna/toml");
@@ -126,14 +130,13 @@ function handleStatus(event) {
 }
 
 function handleHelp(event) {
-  event.reply("!start to start the trivia");
-  event.reply("!stop to stop the trivia");
+  event.reply("!scores <total|month|week|day> to get the top scorers");
+  event.reply("!score <username> to get scores for that user");
   event.reply("!skip to skip a question");
-  event.reply("!reload to reload questions");
-  event.reply("!status to print the current status");
   event.reply("!list to list all question banks");
   event.reply("!load <id> to load a question bank");
   event.reply("!unload <id> to unload a question bank");
+  event.reply("!start, !stop, !reload, !status");
   event.reply("⠀");
 }
 
@@ -275,6 +278,55 @@ function handleUnload(event) {
   }
 }
 
+function handleScores(event) {
+  const parts = event.message.split(" ");
+  const timeframe = parts[1];
+
+  const validTimeframes = ["total", "month", "week", "day"];
+  if (!timeframe || !validTimeframes.includes(timeframe)) {
+    event.reply("Usage: !scores <total|month|week|day>");
+    return;
+  }
+
+  const limit = config.trivia.scores_top_count || 5;
+  const scores = getTopScoresRolling(timeframe, limit);
+
+  if (scores.length === 0) {
+    event.reply(`No scores recorded for ${timeframe}.`);
+    return;
+  }
+
+  const timeframeLabels = {
+    total: "all time",
+    month: "past 30 days",
+    week: "past 7 days",
+    day: "past 24 hours",
+  };
+
+  event.reply(bold(`Top ${scores.length} (${timeframeLabels[timeframe]}):`));
+  scores.forEach((entry, index) => {
+    event.reply(`  ${index + 1}. ${entry.nick}: ${entry.score}`);
+  });
+}
+
+function handleScore(event) {
+  const parts = event.message.split(" ");
+  const username = parts[1];
+
+  if (!username) {
+    event.reply("Usage: !score <username>");
+    return;
+  }
+
+  const scores = getPlayerScoreRolling(username);
+
+  event.reply(bold(`Scores for ${username}:`));
+  event.reply(`  All time: ${scores.total}`);
+  event.reply(`  Past 30 days: ${scores.month}`);
+  event.reply(`  Past 7 days: ${scores.week}`);
+  event.reply(`  Past 24 hours: ${scores.day}`);
+}
+
 module.exports = {
   loadConfig,
   getConfig,
@@ -288,4 +340,6 @@ module.exports = {
   handleList,
   handleLoad,
   handleUnload,
+  handleScores,
+  handleScore,
 };

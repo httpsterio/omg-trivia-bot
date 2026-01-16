@@ -100,6 +100,16 @@ bot.on("message", (event) => {
     return;
   }
 
+  if (event.message.startsWith("!scores")) {
+    trivia.handleScores(event);
+    return;
+  }
+
+  if (event.message.startsWith("!score ")) {
+    trivia.handleScore(event);
+    return;
+  }
+
   // Ignore other commands
   if (event.message.startsWith("!")) {
     return;
