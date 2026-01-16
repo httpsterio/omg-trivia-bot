@@ -4,9 +4,15 @@ const toml = require("@iarna/toml");
 let allQuestions = [];
 let questionPool = [];
 let currentIndex = 0;
+let loadedBanks = [];
+let unloadedBanks = [];
+let bankFiles = {}; // maps bank id to filename
 
 function loadQuestions() {
   allQuestions = [];
+  loadedBanks = [];
+  unloadedBanks = [];
+  bankFiles = {};
 
   try {
     const files = fs
@@ -17,10 +23,16 @@ function loadQuestions() {
       const content = fs.readFileSync(`./questions/${file}`, "utf8");
       const data = toml.parse(content);
 
-      // Skip hidden question banks
+      // Store the filename for this bank
+      bankFiles[data.id] = file;
+
+      // Track loaded/unloaded banks
       if (data.hidden === true) {
+        unloadedBanks.push({ id: data.id, name: data.name });
         return;
       }
+
+      loadedBanks.push({ id: data.id, name: data.name });
 
       // Add metadata to each question
       if (data.questions) {
@@ -79,11 +91,30 @@ function checkAnswer(userAnswer, correctAnswers) {
 }
 
 function getBankInfo() {
-  // TODO: implement
+  return { loadedBanks, unloadedBanks };
 }
 
-function setBankHidden() {
-  // TODO: implement
+function setBankHidden(bankId, hidden) {
+  const filename = bankFiles[bankId];
+  if (!filename) {
+    return { success: false, error: "Bank not found" };
+  }
+
+  try {
+    const filepath = `./questions/${filename}`;
+    const content = fs.readFileSync(filepath, "utf8");
+    const data = toml.parse(content);
+
+    data.hidden = hidden;
+
+    fs.writeFileSync(filepath, toml.stringify(data));
+    loadQuestions();
+
+    return { success: true };
+  } catch (error) {
+    console.error("Error updating bank:", error);
+    return { success: false, error: error.message };
+  }
 }
 
 module.exports = {

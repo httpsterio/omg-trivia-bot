@@ -35,7 +35,9 @@ bot.on("registered", () => {
   console.log();
   const startupTime = ((Date.now() - startTime) / 1000).toFixed(2);
   console.log(`Startup completed in ${startupTime}s`);
-  console.log("Admin commands: !start, !stop, !reload, !status");
+  console.log(
+    "Admin commands: !start, !stop, !skip, !reload, !status, !list, !load, !unload",
+  );
   console.log("Press Ctrl+C to stop");
   console.log(" ");
 
@@ -49,11 +51,6 @@ bot.on("message", (event) => {
   console.log(`[${event.target}] <${event.nick}> ${event.message}`);
 
   // Route commands to trivia handlers
-  // if (event.message === "!karma") {
-  //   trivia.handleKarmamode(event);
-  //   return;
-  // }
-
   if (event.message === "!start") {
     trivia.handleStart(event);
     return;
@@ -81,6 +78,21 @@ bot.on("message", (event) => {
 
   if (event.message === "!help") {
     trivia.handleHelp(event);
+    return;
+  }
+
+  if (event.message === "!list") {
+    trivia.handleList(event);
+    return;
+  }
+
+  if (event.message.startsWith("!load ")) {
+    trivia.handleLoad(event);
+    return;
+  }
+
+  if (event.message.startsWith("!unload ")) {
+    trivia.handleUnload(event);
     return;
   }
 

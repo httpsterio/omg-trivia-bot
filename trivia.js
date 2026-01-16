@@ -129,8 +129,10 @@ function handleHelp(event) {
   event.reply("!stop to stop the trivia");
   event.reply("!skip to skip a question");
   event.reply("!reload to reload questions");
-  event.reply("!stats to print high scores");
   event.reply("!status to print the current status");
+  event.reply("!list to list all question banks");
+  event.reply("!load <id> to load a question bank");
+  event.reply("!unload <id> to unload a question bank");
   event.reply("⠀");
 }
 
@@ -201,6 +203,76 @@ function handleAnswer(event) {
   }
 }
 
+function handleList(event) {
+  const { loadedBanks, unloadedBanks } = getBankInfo();
+
+  event.reply(bold("Loaded banks:"));
+  if (loadedBanks.length === 0) {
+    event.reply("  (none)");
+  } else {
+    loadedBanks.forEach((bank) => {
+      event.reply(`  [${bank.id}] ${bank.name}`);
+    });
+  }
+
+  event.reply(bold("Unloaded banks:"));
+  if (unloadedBanks.length === 0) {
+    event.reply("  (none)");
+  } else {
+    unloadedBanks.forEach((bank) => {
+      event.reply(`  [${bank.id}] ${bank.name}`);
+    });
+  }
+}
+
+function handleLoad(event) {
+  if (!isAdmin(event.nick)) {
+    event.reply("Sorry, only admins can load banks.");
+    return;
+  }
+
+  const parts = event.message.split(" ");
+  if (parts.length < 2) {
+    event.reply("Usage: !load <bank-id>");
+    return;
+  }
+
+  const bankId = parts[1];
+  const result = setBankHidden(bankId, false);
+
+  if (result.success) {
+    event.reply(
+      `Loaded bank ${bankId}. Total questions: ${getQuestionCount()}`,
+    );
+  } else {
+    event.reply(`Failed to load bank: ${result.error}`);
+  }
+}
+
+function handleUnload(event) {
+  if (!isAdmin(event.nick)) {
+    event.reply("Sorry, only admins can unload banks.");
+    return;
+  }
+
+  const parts = event.message.split(" ");
+  if (parts.length < 2) {
+    event.reply("Usage: !unload <bank-id>");
+    return;
+  }
+
+  const bankId = parts[1];
+  const result = setBankHidden(bankId, true);
+
+  if (result.success) {
+    event.reply(
+      `Unloaded bank ${bankId}. Total questions: ${getQuestionCount()}`,
+    );
+  } else {
+    event.reply(`Failed to unload bank: ${result.error}`);
+  }
+}
+
 module.exports = {
   loadConfig,
   getConfig,
@@ -211,4 +283,7 @@ module.exports = {
   handleStatus,
   handleHelp,
   handleAnswer,
+  handleList,
+  handleLoad,
+  handleUnload,
 };
