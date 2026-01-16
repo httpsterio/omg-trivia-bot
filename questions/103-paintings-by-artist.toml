@@ -6,388 +6,411 @@ hidden = false
 
 [[questions]]
 question = "Who painted Mona Lisa?"
-answer = ["Leonardo da Vinci", "da Vinci"]
+answer = [ "Leonardo da Vinci", "da Vinci" ]
 
 [[questions]]
 question = "Who painted The Starry Night?"
-answer = ["Vincent van Gogh", "Van Gogh"]
+answer = [ "Vincent van Gogh", "Van Gogh" ]
 
 [[questions]]
 question = "Who painted The Last Supper?"
-answer = ["Leonardo da Vinci", "da Vinci"]
+answer = [ "Leonardo da Vinci", "da Vinci" ]
 
 [[questions]]
 question = "Who painted The Scream?"
-answer = ["Edvard Munch", "Munch"]
+answer = [ "Edvard Munch", "Munch" ]
 
 [[questions]]
 question = "Who painted Guernica?"
-answer = ["Pablo Picasso", "Picasso"]
+answer = [ "Pablo Picasso", "Picasso" ]
 
 [[questions]]
 question = "Who painted The Kiss?"
-answer = ["Gustav Klimt", "Klimt"]
+answer = [ "Gustav Klimt", "Klimt" ]
 
 [[questions]]
 question = "Who painted Girl with a Pearl Earring?"
-answer = ["Johannes Vermeer", "Vermeer"]
+answer = [ "Johannes Vermeer", "Vermeer" ]
 
 [[questions]]
 question = "Who painted The Birth of Venus?"
-answer = ["Sandro Botticelli", "Botticelli"]
+answer = [ "Sandro Botticelli", "Botticelli" ]
 
 [[questions]]
 question = "Who painted The Creation of Adam?"
-answer = ["Michelangelo"]
+answer = [ "Michelangelo" ]
 
 [[questions]]
 question = "Who painted American Gothic?"
-answer = ["Grant Wood", "Wood"]
+answer = [ "Grant Wood", "Wood" ]
 
 [[questions]]
 question = "Who painted Las Meninas?"
-answer = ["Diego Velázquez", "Diego Velazquez", "Velázquez", "Velazquez"]
+answer = [
+  "Diego Velázquez",
+  "Diego Velazquez",
+  "Velázquez",
+  "Velazquez"
+]
 
 [[questions]]
 question = "Who painted The Night Watch?"
-answer = ["Rembrandt van Rijn", "van Rijn", "Rembrandt"]
+answer = [ "Rembrandt van Rijn", "van Rijn", "Rembrandt" ]
 
 [[questions]]
 question = "Who painted The Persistence of Memory?"
-answer = ["Salvador Dalí", "Salvador Dali", "Dalí", "Dali"]
+answer = [ "Salvador Dalí", "Salvador Dali", "Dalí", "Dali" ]
 
 [[questions]]
 question = "Who painted The Great Wave off Kanagawa?"
-answer = ["Katsushika Hokusai", "Hokusai"]
+answer = [ "Katsushika Hokusai", "Hokusai" ]
 
 [[questions]]
 question = "Who painted Whistler's Mother?"
-answer = ["James McNeill Whistler", "Whistler"]
+answer = [ "James McNeill Whistler", "Whistler" ]
 
 [[questions]]
 question = "Who painted The School of Athens?"
-answer = ["Raphael"]
+answer = [ "Raphael" ]
 
 [[questions]]
 question = "Who painted Liberty Leading the People?"
-answer = ["Eugène Delacroix", "Eugene Delacroix", "Delacroix"]
+answer = [ "Eugène Delacroix", "Eugene Delacroix", "Delacroix" ]
 
 [[questions]]
 question = "Who painted The Garden of Earthly Delights?"
-answer = ["Hieronymus Bosch", "Bosch"]
+answer = [ "Hieronymus Bosch", "Bosch" ]
 
 [[questions]]
 question = "Who painted A Sunday Afternoon on the Island of La Grande Jatte?"
-answer = ["Georges Seurat", "Seurat"]
+answer = [ "Georges Seurat", "Seurat" ]
 
 [[questions]]
 question = "Who painted Nighthawks?"
-answer = ["Edward Hopper", "Hopper"]
+answer = [ "Edward Hopper", "Hopper" ]
 
 [[questions]]
 question = "Who painted The Arnolfini Portrait?"
-answer = ["Jan van Eyck", "van Eyck"]
+answer = [ "Jan van Eyck", "van Eyck" ]
 
 [[questions]]
 question = "Who painted Water Lilies?"
-answer = ["Claude Monet", "Monet"]
+answer = [ "Claude Monet", "Monet" ]
 
 [[questions]]
 question = "Who painted Impression Sunrise?"
-answer = ["Claude Monet", "Monet"]
+answer = [ "Claude Monet", "Monet" ]
 
 [[questions]]
 question = "Who painted Café Terrace at Night?"
-answer = ["Vincent van Gogh", "Van Gogh"]
+answer = [ "Vincent van Gogh", "Van Gogh" ]
 
 [[questions]]
 question = "Who painted Sunflowers?"
-answer = ["Vincent van Gogh", "Van Gogh"]
+answer = [ "Vincent van Gogh", "Van Gogh" ]
 
 [[questions]]
 question = "Who painted The Son of Man?"
-answer = ["René Magritte", "Rene Magritte", "Magritte"]
+answer = [ "René Magritte", "Rene Magritte", "Magritte" ]
 
 [[questions]]
 question = "Who painted The Dance?"
-answer = ["Henri Matisse", "Matisse"]
+answer = [ "Henri Matisse", "Matisse" ]
 
 [[questions]]
 question = "Who painted Campbell's Soup Cans?"
-answer = ["Andy Warhol", "Warhol"]
+answer = [ "Andy Warhol", "Warhol" ]
 
 [[questions]]
 question = "Who painted Number 1A?"
-answer = ["Jackson Pollock", "Pollock"]
+answer = [ "Jackson Pollock", "Pollock" ]
 
 [[questions]]
 question = "Who painted Christina's World?"
-answer = ["Andrew Wyeth", "Wyeth"]
+answer = [ "Andrew Wyeth", "Wyeth" ]
 
 [[questions]]
 question = "Who painted Arrangement in Grey and Black No. 2?"
-answer = ["James McNeill Whistler", "Whistler"]
+answer = [ "James McNeill Whistler", "Whistler" ]
 
 [[questions]]
 question = "Who painted The Third of May 1808?"
-answer = ["Francisco Goya", "Goya"]
+answer = [ "Francisco Goya", "Goya" ]
 
 [[questions]]
 question = "Who painted Saturn Devouring His Son?"
-answer = ["Francisco Goya", "Goya"]
+answer = [ "Francisco Goya", "Goya" ]
 
 [[questions]]
 question = "Who painted Olympia?"
-answer = ["Édouard Manet", "Edouard Manet", "Manet"]
+answer = [ "Édouard Manet", "Edouard Manet", "Manet" ]
 
 [[questions]]
 question = "Who painted Le Déjeuner sur l'herbe?"
-answer = ["Édouard Manet", "Edouard Manet", "Manet"]
+answer = [ "Édouard Manet", "Edouard Manet", "Manet" ]
 
 [[questions]]
 question = "Who painted Bal du moulin de la Galette?"
-answer = ["Pierre-Auguste Renoir", "Renoir"]
+answer = [ "Pierre-Auguste Renoir", "Renoir" ]
 
 [[questions]]
 question = "Who painted The Luncheon of the Boating Party?"
-answer = ["Pierre-Auguste Renoir", "Renoir"]
+answer = [ "Pierre-Auguste Renoir", "Renoir" ]
 
 [[questions]]
 question = "Who painted A Bar at the Folies-Bergère?"
-answer = ["Édouard Manet", "Edouard Manet", "Manet"]
+answer = [ "Édouard Manet", "Edouard Manet", "Manet" ]
 
 [[questions]]
 question = "Who painted The Swing?"
-answer = ["Jean-Honoré Fragonard", "Jean-Honore Fragonard", "Fragonard"]
+answer = [
+  "Jean-Honoré Fragonard",
+  "Jean-Honore Fragonard",
+  "Fragonard"
+]
 
 [[questions]]
 question = "Who painted Wanderer above the Sea of Fog?"
-answer = ["Caspar David Friedrich", "Friedrich"]
+answer = [ "Caspar David Friedrich", "Friedrich" ]
 
 [[questions]]
 question = "Who painted The Raft of the Medusa?"
-answer = ["Théodore Géricault", "Theodore Gericault", "Géricault", "Gericault"]
+answer = [
+  "Théodore Géricault",
+  "Theodore Gericault",
+  "Géricault",
+  "Gericault"
+]
 
 [[questions]]
 question = "Who painted The Fighting Temeraire?"
-answer = ["J.M.W. Turner", "Turner"]
+answer = [ "J.M.W. Turner", "Turner" ]
 
 [[questions]]
 question = "Who painted Rain Steam and Speed?"
-answer = ["J.M.W. Turner", "Turner"]
+answer = [ "J.M.W. Turner", "Turner" ]
 
 [[questions]]
 question = "Who painted The Hay Wain?"
-answer = ["John Constable", "Constable"]
+answer = [ "John Constable", "Constable" ]
 
 [[questions]]
 question = "Who painted Ophelia?"
-answer = ["John Everett Millais", "Millais"]
+answer = [ "John Everett Millais", "Millais" ]
 
 [[questions]]
 question = "Who painted The Lady of Shalott?"
-answer = ["John William Waterhouse", "Waterhouse"]
+answer = [ "John William Waterhouse", "Waterhouse" ]
 
 [[questions]]
 question = "Who painted The Sleeping Venus?"
-answer = ["Giorgione", "Giorgione"]
+answer = [ "Giorgione", "Giorgione" ]
 
 [[questions]]
 question = "Who painted Venus of Urbino?"
-answer = ["Titian"]
+answer = [ "Titian" ]
 
 [[questions]]
 question = "Who painted Bacchus and Ariadne?"
-answer = ["Titian"]
+answer = [ "Titian" ]
 
 [[questions]]
 question = "Who painted The Rokeby Venus?"
-answer = ["Diego Velázquez", "Diego Velazquez", "Velázquez", "Velazquez"]
+answer = [
+  "Diego Velázquez",
+  "Diego Velazquez",
+  "Velázquez",
+  "Velazquez"
+]
 
 [[questions]]
 question = "Who painted The Milkmaid?"
-answer = ["Johannes Vermeer", "Vermeer"]
+answer = [ "Johannes Vermeer", "Vermeer" ]
 
 [[questions]]
 question = "Who painted The Art of Painting?"
-answer = ["Johannes Vermeer", "Vermeer"]
+answer = [ "Johannes Vermeer", "Vermeer" ]
 
 [[questions]]
 question = "Who painted The Anatomy Lesson of Dr. Nicolaes Tulp?"
-answer = ["Rembrandt van Rijn", "van Rijn", "Rembrandt"]
+answer = [ "Rembrandt van Rijn", "van Rijn", "Rembrandt" ]
 
 [[questions]]
 question = "Who painted Self-Portrait with Two Circles?"
-answer = ["Rembrandt van Rijn", "van Rijn", "Rembrandt"]
+answer = [ "Rembrandt van Rijn", "van Rijn", "Rembrandt" ]
 
 [[questions]]
 question = "Who painted The Return of the Prodigal Son?"
-answer = ["Rembrandt van Rijn", "van Rijn", "Rembrant"]
+answer = [ "Rembrandt van Rijn", "van Rijn", "Rembrant" ]
 
 [[questions]]
 question = "Who painted The Jewish Bride?"
-answer = ["Rembrandt van Rijn", "van Rijn", "Rembrant"]
+answer = [ "Rembrandt van Rijn", "van Rijn", "Rembrant" ]
 
 [[questions]]
 question = "Who painted The Madonna of the Rocks?"
-answer = ["Leonardo da Vinci", "da Vinci"]
+answer = [ "Leonardo da Vinci", "da Vinci" ]
 
 [[questions]]
 question = "Who painted Lady with an Ermine?"
-answer = ["Leonardo da Vinci", "da Vinci"]
+answer = [ "Leonardo da Vinci", "da Vinci" ]
 
 [[questions]]
 question = "Who painted The Tempest?"
-answer = ["Giorgione"]
+answer = [ "Giorgione" ]
 
 [[questions]]
 question = "Who painted Primavera?"
-answer = ["Sandro Botticelli", "Botticelli"]
+answer = [ "Sandro Botticelli", "Botticelli" ]
 
 [[questions]]
 question = "Who painted The Sistine Madonna?"
-answer = ["Raphael"]
+answer = [ "Raphael" ]
 
 [[questions]]
 question = "Who painted The Wedding at Cana?"
-answer = ["Paolo Veronese", "Veronese"]
+answer = [ "Paolo Veronese", "Veronese" ]
 
 [[questions]]
 question = "Who painted The Descent from the Cross?"
-answer = ["Peter Paul Rubens", "Rubens"]
+answer = [ "Peter Paul Rubens", "Rubens" ]
 
 [[questions]]
 question = "Who painted The Allegory of Painting?"
-answer = ["Johannes Vermeer", "Vermeer"]
+answer = [ "Johannes Vermeer", "Vermeer" ]
 
 [[questions]]
 question = "Who painted The Calling of St Matthew?"
-answer = ["Caravaggio"]
+answer = [ "Caravaggio" ]
 
 [[questions]]
 question = "Who painted Judith Beheading Holofernes?"
-answer = ["Artemisia Gentileschi", "Gentileschi"]
+answer = [ "Artemisia Gentileschi", "Gentileschi" ]
 
 [[questions]]
 question = "Who painted The Peasant Wedding?"
-answer = ["Pieter Bruegel the Elder", "Bruegel"]
+answer = [ "Pieter Bruegel the Elder", "Bruegel" ]
 
 [[questions]]
 question = "Who painted Hunters in the Snow?"
-answer = ["Pieter Bruegel the Elder", "Bruegel"]
+answer = [ "Pieter Bruegel the Elder", "Bruegel" ]
 
 [[questions]]
 question = "Who painted The Tower of Babel?"
-answer = ["Pieter Bruegel the Elder", "Bruegel"]
+answer = [ "Pieter Bruegel the Elder", "Bruegel" ]
 
 [[questions]]
 question = "Who painted The Ambassadors?"
-answer = ["Hans Holbein the Younger", "Holbein", "Holbein the Younger"]
+answer = [ "Hans Holbein the Younger", "Holbein", "Holbein the Younger" ]
 
 [[questions]]
 question = "Who painted Luncheon on the Grass?"
-answer = ["Claude Monet", "Monet"]
+answer = [ "Claude Monet", "Monet" ]
 
 [[questions]]
 question = "Who painted Woman with a Parasol?"
-answer = ["Claude Monet", "Monet"]
+answer = [ "Claude Monet", "Monet" ]
 
 [[questions]]
 question = "Who painted The Japanese Bridge?"
-answer = ["Claude Monet", "Monet"]
+answer = [ "Claude Monet", "Monet" ]
 
 [[questions]]
 question = "Who painted Poppies?"
-answer = ["Claude Monet", "Monet"]
+answer = [ "Claude Monet", "Monet" ]
 
 [[questions]]
 question = "Who painted Irises?"
-answer = ["Vincent van Gogh", "Van Gogh"]
+answer = [ "Vincent van Gogh", "Van Gogh" ]
 
 [[questions]]
 question = "Who painted The Bedroom?"
-answer = ["Vincent van Gogh", "Van Gogh"]
+answer = [ "Vincent van Gogh", "Van Gogh" ]
 
 [[questions]]
 question = "Who painted The Potato Eaters?"
-answer = ["Vincent van Gogh", "Van Gogh"]
+answer = [ "Vincent van Gogh", "Van Gogh" ]
 
 [[questions]]
 question = "Who painted Wheat Field with Cypresses?"
-answer = ["Vincent van Gogh", "Van Gogh"]
+answer = [ "Vincent van Gogh", "Van Gogh" ]
 
 [[questions]]
 question = "Who painted Self-Portrait with Bandaged Ear?"
-answer = ["Vincent van Gogh", "Van Gogh"]
+answer = [ "Vincent van Gogh", "Van Gogh" ]
 
 [[questions]]
 question = "Who painted The Card Players?"
-answer = ["Paul Cézanne", "Paul Cezanne", "Cézanne", "Cezanne"]
+answer = [ "Paul Cézanne", "Paul Cezanne", "Cézanne", "Cezanne" ]
 
 [[questions]]
 question = "Who painted Mont Sainte-Victoire?"
-answer = ["Paul Cézanne", "Paul Cezanne", "Cézanne", "Cezanne"]
+answer = [ "Paul Cézanne", "Paul Cezanne", "Cézanne", "Cezanne" ]
 
 [[questions]]
 question = "Who painted The Bathers?"
-answer = ["Paul Cézanne", "Paul Cezanne", "Cézanne", "Cezanne"]
+answer = [ "Paul Cézanne", "Paul Cezanne", "Cézanne", "Cezanne" ]
 
 [[questions]]
 question = "Who painted Where Do We Come From? What Are We? Where Are We Going?"
-answer = ["Paul Gauguin", "Gauguin"]
+answer = [ "Paul Gauguin", "Gauguin" ]
 
 [[questions]]
 question = "Who painted Vision After the Sermon?"
-answer = ["Paul Gauguin", "Gauguin"]
+answer = [ "Paul Gauguin", "Gauguin" ]
 
 [[questions]]
 question = "Who painted A Sunday on La Grande Jatte?"
-answer = ["Georges Seurat", "Seurat"]
+answer = [ "Georges Seurat", "Seurat" ]
 
 [[questions]]
 question = "Who painted At the Moulin Rouge?"
-answer = ["Henri de Toulouse-Lautrec", "de Toulouse-Lautrec", "Toulouse-Lautrec"]
+answer = [
+  "Henri de Toulouse-Lautrec",
+  "de Toulouse-Lautrec",
+  "Toulouse-Lautrec"
+]
 
 [[questions]]
 question = "Who painted Les Demoiselles d'Avignon?"
-answer = ["Pablo Picasso", "Picasso"]
+answer = [ "Pablo Picasso", "Picasso" ]
 
 [[questions]]
 question = "Who painted The Old Guitarist?"
-answer = ["Pablo Picasso", "Picasso"]
+answer = [ "Pablo Picasso", "Picasso" ]
 
 [[questions]]
 question = "Who painted The Weeping Woman?"
-answer = ["Pablo Picasso", "Picasso"]
+answer = [ "Pablo Picasso", "Picasso" ]
 
 [[questions]]
 question = "Who painted Broadway Boogie Woogie?"
-answer = ["Piet Mondrian", "Mondrian"]
+answer = [ "Piet Mondrian", "Mondrian" ]
 
 [[questions]]
 question = "Who painted Composition with Red, Blue and Yellow?"
-answer = ["Piet Mondrian", "Mondrian"]
+answer = [ "Piet Mondrian", "Mondrian" ]
 
 [[questions]]
 question = "Who painted The Treachery of Images?"
-answer = ["René Magritte", "Rene Magritte", "Magritte"]
+answer = [ "René Magritte", "Rene Magritte", "Magritte" ]
 
 [[questions]]
 question = "Who painted The Lovers?"
-answer = ["René Magritte", "Rene Magritte", "Magritte"]
+answer = [ "René Magritte", "Rene Magritte", "Magritte" ]
 
 [[questions]]
 question = "Who painted No. 5 1948?"
-answer = ["Jackson Pollock", "Pollock"]
+answer = [ "Jackson Pollock", "Pollock" ]
 
 [[questions]]
 question = "Who painted One: Number 31?"
-answer = ["Jackson Pollock", "Pollock"]
+answer = [ "Jackson Pollock", "Pollock" ]
 
 [[questions]]
 question = "Who painted Orange Red Yellow?"
-answer = ["Mark Rothko", "Rothko"]
+answer = [ "Mark Rothko", "Rothko" ]
 
 [[questions]]
 question = "Who painted Marilyn Diptych?"
-answer = ["Andy Warhol", "Warhol"]
+answer = [ "Andy Warhol", "Warhol" ]

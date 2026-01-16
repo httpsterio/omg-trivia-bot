@@ -1,0 +1,149 @@
+id = "104"
+name = "Currencies"
+difficulty = "medium"
+topic = "general"
+hidden = false
+
+[[questions]]
+question = "What is the currency of Japan?"
+answer = [ "Yen", "Japanese Yen", "JPY" ]
+
+[[questions]]
+question = "What is the currency of Switzerland?"
+answer = [ "Swiss Franc", "Franc", "CHF" ]
+
+[[questions]]
+question = "What is the currency of the United Kingdom?"
+answer = [ "Pound Sterling", "British Pound", "Pound", "GBP" ]
+
+[[questions]]
+question = "What is the currency of Australia?"
+answer = [ "Australian Dollar", "Dollar", "AUD" ]
+
+[[questions]]
+question = "What is the currency of Canada?"
+answer = [ "Canadian Dollar", "Dollar", "CAD" ]
+
+[[questions]]
+question = "What is the currency of New Zealand?"
+answer = [ "New Zealand Dollar", "Dollar", "NZD" ]
+
+[[questions]]
+question = "What is the currency of China?"
+answer = [ "Yuan", "Renminbi", "Chinese Yuan", "CNY" ]
+
+[[questions]]
+question = "What is the currency of South Korea?"
+answer = [ "Won", "South Korean Won", "KRW" ]
+
+[[questions]]
+question = "What is the currency of Russia?"
+answer = [ "Ruble", "Rouble", "Russian Ruble", "RUB" ]
+
+[[questions]]
+question = "What is the currency of Brazil?"
+answer = [ "Real", "Brazilian Real", "BRL" ]
+
+[[questions]]
+question = "What is the currency of India?"
+answer = [ "Indian Rupee", "Rupee", "INR" ]
+
+[[questions]]
+question = "What is the currency of Mexico?"
+answer = [ "Mexican Peso", "Peso", "MXN" ]
+
+[[questions]]
+question = "What is the currency of Argentina?"
+answer = [ "Argentine Peso", "Peso", "ARS" ]
+
+[[questions]]
+question = "What is the currency of Chile?"
+answer = [ "Chilean Peso", "Peso", "CLP" ]
+
+[[questions]]
+question = "What is the currency of Colombia?"
+answer = [ "Colombian Peso", "Peso", "COP" ]
+
+[[questions]]
+question = "Which country uses the forint as its currency?"
+answer = [ "Hungary" ]
+
+[[questions]]
+question = "Which country uses the zloty as its currency?"
+answer = [ "Poland" ]
+
+[[questions]]
+question = "Which country uses the koruna abbreviated as CZK?"
+answer = [ "Czech Republic", "Czechia" ]
+
+[[questions]]
+question = "Which country uses the shekel as its currency?"
+answer = [ "Israel" ]
+
+[[questions]]
+question = "Which country uses the baht as its currency?"
+answer = [ "Thailand" ]
+
+[[questions]]
+question = "Which country uses the dong as its currency?"
+answer = [ "Vietnam" ]
+
+[[questions]]
+question = "Which country uses the sol as its currency?"
+answer = [ "Peru" ]
+
+[[questions]]
+question = "Which country uses the naira as its currency?"
+answer = [ "Nigeria" ]
+
+[[questions]]
+question = "Which country uses the taka as its currency?"
+answer = [ "Bangladesh" ]
+
+[[questions]]
+question = "Which countries use the leu as their currency?"
+answer = [ "Romania", "Moldova" ]
+
+[[questions]]
+question = "What is the currency of South Africa?"
+answer = [ "Rand", "South African Rand", "ZAR" ]
+
+[[questions]]
+question = "What is the currency of Turkey?"
+answer = [ "Turkish Lira", "Lira", "TRY" ]
+
+[[questions]]
+question = "What is the currency of Saudi Arabia?"
+answer = [ "Saudi Riyal", "Riyal", "SAR" ]
+
+[[questions]]
+question = "What is the currency of Israel?"
+answer = [ "New Shekel", "Israeli Shekel", "Shekel", "ILS" ]
+
+[[questions]]
+question = "What is the currency of Egypt?"
+answer = [ "Egyptian Pound", "Pound", "EGP" ]
+
+[[questions]]
+question = "What is the currency of Pakistan?"
+answer = [ "Pakistani Rupee", "Rupee", "PKR" ]
+
+[[questions]]
+question = "What is the currency of Indonesia?"
+answer = [ "Rupiah", "Indonesian Rupiah", "IDR" ]
+
+[[questions]]
+question = "What is the currency of Malaysia?"
+answer = [ "Ringgit", "Malaysian Ringgit", "MYR" ]
+
+[[questions]]
+question = "What is the currency of Singapore?"
+answer = [ "Singapore Dollar", "Dollar", "SGD" ]
+
+[[questions]]
+question = "What is the currency of Iceland?"
+answer = [ "Icelandic Krona", "Krona", "ISK" ]
+
+[[questions]]
+question = "What is the currency of Ukraine?"
+answer = [ "Hryvnia", "Ukrainian Hryvnia", "UAH" ]
