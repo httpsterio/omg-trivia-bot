@@ -85,6 +85,11 @@ bot.on("message", (event) => {
     return;
   }
 
+  if (event.message === "!helpadmin") {
+    trivia.handleHelpAdmin(event);
+    return;
+  }
+
   if (event.message === "!list") {
     trivia.handleList(event);
     return;

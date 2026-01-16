@@ -105,15 +105,21 @@ function handleSkip(event) {
 
 function handleReload(event) {
   if (!isAdmin(event.nick)) {
-    event.reply("Sorry, only admins can reload questions.");
+    event.reply("Sorry, only admins can reload.");
     return;
   }
 
-  const success = loadQuestions();
-  if (success) {
-    event.reply(`Reloaded ${getQuestionCount()} questions`);
+  const configSuccess = loadConfig();
+  const questionsSuccess = loadQuestions();
+
+  if (configSuccess && questionsSuccess) {
+    event.reply(`Reloaded config and ${getQuestionCount()} questions`);
+  } else if (questionsSuccess) {
+    event.reply(`Reloaded ${getQuestionCount()} questions (config failed)`);
+  } else if (configSuccess) {
+    event.reply("Reloaded config (questions failed)");
   } else {
-    event.reply("Failed to reload questions");
+    event.reply("Failed to reload config and questions");
   }
 }
 
@@ -134,10 +140,15 @@ function handleHelp(event) {
   event.reply("!score <username> to get scores for that user");
   event.reply("!skip to skip a question");
   event.reply("!list to list all question banks");
+  event.reply("!status to check trivia status");
+}
+
+function handleHelpAdmin(event) {
+  event.reply("!start to start the trivia");
+  event.reply("!stop to stop the trivia");
+  event.reply("!reload to reload config and questions");
   event.reply("!load <id> to load a question bank");
   event.reply("!unload <id> to unload a question bank");
-  event.reply("!start, !stop, !reload, !status");
-  event.reply("⠀");
 }
 
 function handleAnswer(event) {
@@ -336,6 +347,7 @@ module.exports = {
   handleReload,
   handleStatus,
   handleHelp,
+  handleHelpAdmin,
   handleAnswer,
   handleList,
   handleLoad,
