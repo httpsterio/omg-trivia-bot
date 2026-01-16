@@ -5,6 +5,7 @@ const {
   getBankInfo,
   setBankHidden,
 } = require("./questions");
+const { recordScore } = require("./scores");
 const { bold } = require("./format");
 const fs = require("fs");
 const toml = require("@iarna/toml");
@@ -156,6 +157,7 @@ function handleAnswer(event) {
         bold(currentQuestion.answer[0]),
     );
 
+    recordScore(event.nick);
     console.log(
       `${event.nick} answered correctly: ${currentQuestion.answer[0]}`,
     );

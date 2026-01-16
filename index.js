@@ -1,6 +1,7 @@
 const startTime = Date.now();
 const irc = require("irc-framework");
 const { loadQuestions } = require("./questions");
+const { initDatabase } = require("./scores");
 const trivia = require("./trivia");
 const bot = new irc.Client();
 
@@ -28,6 +29,9 @@ bot.on("registered", () => {
   console.log("Connected and registered!");
   console.log("SASL authentication successful");
   console.log(" ");
+
+  // Initialize score database
+  initDatabase();
 
   // Load questions
   loadQuestions();

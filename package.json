@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@iarna/toml": "^2.2.5",
+    "better-sqlite3": "^12.6.0",
     "irc-framework": "^4.13.1"
   }
 }
