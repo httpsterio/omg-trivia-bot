@@ -6,940 +6,940 @@ hidden = false
 
 [[questions]]
 question = "What is the capital of Afghanistan?"
-answer = ["Kabul"]
+answer = [ "Kabul" ]
 
 [[questions]]
 question = "What is the capital of Albania?"
-answer = ["Tirana"]
+answer = [ "Tirana" ]
 
 [[questions]]
 question = "What is the capital of Algeria?"
-answer = ["Algiers"]
+answer = [ "Algiers" ]
 
 [[questions]]
 question = "What is the capital of American Samoa?"
-answer = ["Pago Pago"]
+answer = [ "Pago Pago" ]
 
 [[questions]]
 question = "What is the capital of Andorra?"
-answer = ["Andorra La Vella"]
+answer = [ "Andorra La Vella" ]
 
 [[questions]]
 question = "What is the capital of Angola?"
-answer = ["Luanda"]
+answer = [ "Luanda" ]
 
 [[questions]]
 question = "What is the capital of Anguilla?"
-answer = ["The Valley"]
+answer = [ "The Valley" ]
 
 [[questions]]
 question = "What is the capital of Antigua and Barbuda?"
-answer = ["Saint Johns", "Saint John's"]
+answer = [ "Saint Johns", "Saint John's" ]
 
 [[questions]]
 question = "What is the capital of Argentina?"
-answer = ["Buenos Aires"]
+answer = [ "Buenos Aires" ]
 
 [[questions]]
 question = "What is the capital of Armenia?"
-answer = ["Yerevan"]
+answer = [ "Yerevan" ]
 
 [[questions]]
 question = "What is the capital of Aruba?"
-answer = ["Oranjestad"]
+answer = [ "Oranjestad" ]
 
 [[questions]]
 question = "What is the capital of Australia?"
-answer = ["Canberra"]
+answer = [ "Canberra" ]
 
 [[questions]]
 question = "What is the capital of Austria?"
-answer = ["Vienna"]
+answer = [ "Vienna" ]
 
 [[questions]]
 question = "What is the capital of Azerbaijan?"
-answer = ["Baku"]
+answer = [ "Baku" ]
 
 [[questions]]
 question = "What is the capital of Bahamas?"
-answer = ["Nassau"]
+answer = [ "Nassau" ]
 
 [[questions]]
 question = "What is the capital of Bahrain?"
-answer = ["Manama"]
+answer = [ "Manama" ]
 
 [[questions]]
 question = "What is the capital of Bangladesh?"
-answer = ["Dhaka"]
+answer = [ "Dhaka" ]
 
 [[questions]]
 question = "What is the capital of Barbados?"
-answer = ["Bridgetown"]
+answer = [ "Bridgetown" ]
 
 [[questions]]
 question = "What is the capital of Belarus?"
-answer = ["Minsk"]
+answer = [ "Minsk" ]
 
 [[questions]]
 question = "What is the capital of Belgium?"
-answer = ["Brussels"]
+answer = [ "Brussels" ]
 
 [[questions]]
 question = "What is the capital of Belize?"
-answer = ["Belmopan"]
+answer = [ "Belmopan" ]
 
 [[questions]]
 question = "What is the capital of Benin?"
-answer = ["Porto-Novo"]
+answer = [ "Porto-Novo" ]
 
 [[questions]]
 question = "What is the capital of Bermuda?"
-answer = ["Hamilton"]
+answer = [ "Hamilton" ]
 
 [[questions]]
 question = "What is the capital of Bhutan?"
-answer = ["Thimphu"]
+answer = [ "Thimphu" ]
 
 [[questions]]
 question = "What is the capital of Bolivia?"
-answer = ["Sucre", "La Paz"]
+answer = [ "Sucre", "La Paz" ]
 
 [[questions]]
 question = "What is the capital of Bosnia and Herzegovina?"
-answer = ["Sarajevo"]
+answer = [ "Sarajevo" ]
 
 [[questions]]
 question = "What is the capital of Botswana?"
-answer = ["Gaborone"]
+answer = [ "Gaborone" ]
 
 [[questions]]
 question = "What is the capital of Brazil?"
-answer = ["Brasília", "Brasilia"]
+answer = [ "Brasília", "Brasilia" ]
 
 [[questions]]
 question = "What is the capital of British Virgin Islands?"
-answer = ["Road Town"]
+answer = [ "Road Town" ]
 
 [[questions]]
 question = "What is the capital of Brunei?"
-answer = ["Bandar Seri Begawan"]
+answer = [ "Bandar Seri Begawan" ]
 
 [[questions]]
 question = "What is the capital of Bulgaria?"
-answer = ["Sofia"]
+answer = [ "Sofia" ]
 
 [[questions]]
 question = "What is the capital of Burkina Faso?"
-answer = ["Ouagadougou"]
+answer = [ "Ouagadougou" ]
 
 [[questions]]
 question = "What is the capital of Burundi?"
-answer = ["Gitega"]
+answer = [ "Gitega" ]
 
 [[questions]]
 question = "What is the capital of Cambodia?"
-answer = ["Phnom Penh"]
+answer = [ "Phnom Penh" ]
 
 [[questions]]
 question = "What is the capital of Cameroon?"
-answer = ["Yaoundé", "Yaounde"]
+answer = [ "Yaoundé", "Yaounde" ]
 
 [[questions]]
 question = "What is the capital of Canada?"
-answer = ["Ottawa"]
+answer = [ "Ottawa" ]
 
 [[questions]]
 question = "What is the capital of Cape Verde?"
-answer = ["Praia"]
+answer = [ "Praia" ]
 
 [[questions]]
 question = "What is the capital of Cayman Islands?"
-answer = ["George Town"]
+answer = [ "George Town" ]
 
 [[questions]]
 question = "What is the capital of Central African Republic?"
-answer = ["Bangui"]
+answer = [ "Bangui" ]
 
 [[questions]]
 question = "What is the capital of Chad?"
-answer = ["N'Djamena"]
+answer = [ "N'Djamena" ]
 
 [[questions]]
 question = "What is the capital of Chile?"
-answer = ["Santiago"]
+answer = [ "Santiago" ]
 
 [[questions]]
 question = "What is the capital of China?"
-answer = ["Beijing", "Peking"]
+answer = [ "Beijing", "Peking" ]
 
 [[questions]]
 question = "What is the capital of Christmas Island?"
-answer = ["Flying Fish Cove"]
+answer = [ "Flying Fish Cove" ]
 
 [[questions]]
 question = "What is the capital of Cocos (Keeling) Islands?"
-answer = ["West Island"]
+answer = [ "West Island" ]
 
 [[questions]]
 question = "What is the capital of Colombia?"
-answer = ["Bogotá", "Bogota"]
+answer = [ "Bogotá", "Bogota" ]
 
 [[questions]]
 question = "What is the capital of Comoros?"
-answer = ["Moroni"]
+answer = [ "Moroni" ]
 
 [[questions]]
 question = "What is the capital of Cook Islands?"
-answer = ["Avarua"]
+answer = [ "Avarua" ]
 
 [[questions]]
 question = "What is the capital of Costa Rica?"
-answer = ["San José", "San Jose"]
+answer = [ "San José", "San Jose" ]
 
 [[questions]]
 question = "What is the capital of Croatia?"
-answer = ["Zagreb"]
+answer = [ "Zagreb" ]
 
 [[questions]]
 question = "What is the capital of Cuba?"
-answer = ["Havana"]
+answer = [ "Havana" ]
 
 [[questions]]
 question = "What is the capital of Curaçao?"
-answer = ["Willemstad"]
+answer = [ "Willemstad" ]
 
 [[questions]]
 question = "What is the capital of Cyprus?"
-answer = ["Nicosia"]
+answer = [ "Nicosia" ]
 
 [[questions]]
 question = "What is the capital of Czech Republic?"
-answer = ["Prague"]
+answer = [ "Prague" ]
 
 [[questions]]
 question = "What is the capital of Democratic Republic of the Congo?"
-answer = ["Kinshasa"]
+answer = [ "Kinshasa" ]
 
 [[questions]]
 question = "What is the capital of Denmark?"
-answer = ["Copenhagen"]
+answer = [ "Copenhagen" ]
 
 [[questions]]
 question = "What is the capital of Djibouti?"
-answer = ["Djibouti City", "Djibouti", "Jibuti"]
+answer = [ "Djibouti City", "Djibouti", "Jibuti" ]
 
 [[questions]]
 question = "What is the capital of Dominica?"
-answer = ["Roseau"]
+answer = [ "Roseau" ]
 
 [[questions]]
 question = "What is the capital of Dominican Republic?"
-answer = ["Santo Domingo"]
+answer = [ "Santo Domingo" ]
 
 [[questions]]
 question = "What is the capital of Timor-Leste?"
-answer = ["Dili"]
+answer = [ "Dili" ]
 
 [[questions]]
 question = "What is the capital of Ecuador?"
-answer = ["Quito"]
+answer = [ "Quito" ]
 
 [[questions]]
 question = "What is the capital of Egypt?"
-answer = ["Cairo"]
+answer = [ "Cairo" ]
 
 [[questions]]
 question = "What is the capital of El Salvador?"
-answer = ["San Salvador"]
+answer = [ "San Salvador" ]
 
 [[questions]]
 question = "What is the capital of Equatorial Guinea?"
-answer = ["Malabo"]
+answer = [ "Malabo" ]
 
 [[questions]]
 question = "What is the capital of Eritrea?"
-answer = ["Asmara"]
+answer = [ "Asmara" ]
 
 [[questions]]
 question = "What is the capital of Estonia?"
-answer = ["Tallinn"]
+answer = [ "Tallinn" ]
 
 [[questions]]
 question = "What is the capital of Eswatini?"
-answer = ["Mbabane", "Lobamba"]
+answer = [ "Mbabane", "Lobamba" ]
 
 [[questions]]
 question = "What is the capital of Ethiopia?"
-answer = ["Addis Ababa"]
+answer = [ "Addis Ababa" ]
 
 [[questions]]
 question = "What is the capital of Falkland Islands?"
-answer = ["Stanley"]
+answer = [ "Stanley" ]
 
 [[questions]]
 question = "What is the capital of Faroe Islands?"
-answer = ["Tórshavn", "Torshavn"]
+answer = [ "Tórshavn", "Torshavn" ]
 
 [[questions]]
 question = "What is the capital of Fiji?"
-answer = ["Suva"]
+answer = [ "Suva" ]
 
 [[questions]]
 question = "What is the capital of Finland?"
-answer = ["Helsinki"]
+answer = [ "Helsinki" ]
 
 [[questions]]
 question = "What is the capital of France?"
-answer = ["Paris"]
+answer = [ "Paris" ]
 
 [[questions]]
 question = "What is the capital of French Guiana?"
-answer = ["Cayenne"]
+answer = [ "Cayenne" ]
 
 [[questions]]
 question = "What is the capital of French Polynesia?"
-answer = ["Papeete"]
+answer = [ "Papeete" ]
 
 [[questions]]
 question = "What is the capital of Gabon?"
-answer = ["Libreville"]
+answer = [ "Libreville" ]
 
 [[questions]]
 question = "What is the capital of Gambia?"
-answer = ["Banjul"]
+answer = [ "Banjul" ]
 
 [[questions]]
 question = "What is the capital of Georgia?"
-answer = ["Tbilisi"]
+answer = [ "Tbilisi" ]
 
 [[questions]]
 question = "What is the capital of Germany?"
-answer = ["Berlin"]
+answer = [ "Berlin" ]
 
 [[questions]]
 question = "What is the capital of Ghana?"
-answer = ["Accra"]
+answer = [ "Accra" ]
 
 [[questions]]
 question = "What is the capital of Gibraltar?"
-answer = ["Gibraltar"]
+answer = [ "Gibraltar" ]
 
 [[questions]]
 question = "What is the capital of Greece?"
-answer = ["Athens"]
+answer = [ "Athens" ]
 
 [[questions]]
 question = "What is the capital of Greenland?"
-answer = ["Nuuk"]
+answer = [ "Nuuk" ]
 
 [[questions]]
 question = "What is the capital of Grenada?"
-answer = ["St. George's", "St Georges"]
+answer = [ "St. George's", "St Georges" ]
 
 [[questions]]
 question = "What is the capital of Guam?"
-answer = ["Hagatna"]
+answer = [ "Hagatna" ]
 
 [[questions]]
 question = "What is the capital of Guatemala?"
-answer = ["Guatemala City"]
+answer = [ "Guatemala City" ]
 
 [[questions]]
 question = "What is the capital of Guernsey?"
-answer = ["Saint Peter Port"]
+answer = [ "Saint Peter Port" ]
 
 [[questions]]
 question = "What is the capital of Guinea?"
-answer = ["Conakry"]
+answer = [ "Conakry" ]
 
 [[questions]]
 question = "What is the capital of Guinea-Bissau?"
-answer = ["Bissau"]
+answer = [ "Bissau" ]
 
 [[questions]]
 question = "What is the capital of Guyana?"
-answer = ["Georgetown"]
+answer = [ "Georgetown" ]
 
 [[questions]]
 question = "What is the capital of Haiti?"
-answer = ["Port-au-Prince"]
+answer = [ "Port-au-Prince" ]
 
 [[questions]]
 question = "What is the capital of Honduras?"
-answer = ["Tegucigalpa"]
+answer = [ "Tegucigalpa" ]
 
 [[questions]]
 question = "What is the capital of Hong Kong?"
-answer = ["Hong Kong City", "Hong Kong"]
+answer = [ "Hong Kong City", "Hong Kong" ]
 
 [[questions]]
 question = "What is the capital of Hungary?"
-answer = ["Budapest"]
+answer = [ "Budapest" ]
 
 [[questions]]
 question = "What is the capital of Iceland?"
-answer = ["Reykjavík", "Reykjavik"]
+answer = [ "Reykjavík", "Reykjavik" ]
 
 [[questions]]
 question = "What is the capital of India?"
-answer = ["New Delhi"]
+answer = [ "New Delhi" ]
 
 [[questions]]
 question = "What is the capital of Indonesia?"
-answer = ["Jakarta"]
+answer = [ "Jakarta" ]
 
 [[questions]]
 question = "What is the capital of Iran?"
-answer = ["Tehran"]
+answer = [ "Tehran" ]
 
 [[questions]]
 question = "What is the capital of Iraq?"
-answer = ["Baghdad"]
+answer = [ "Baghdad" ]
 
 [[questions]]
 question = "What is the capital of Ireland?"
-answer = ["Dublin"]
+answer = [ "Dublin" ]
 
 [[questions]]
 question = "What is the capital of Isle of Man?"
-answer = ["Douglas"]
+answer = [ "Douglas" ]
 
 [[questions]]
 question = "What is the capital of Israel?"
-answer = ["Jerusalem"]
+answer = [ "Jerusalem" ]
 
 [[questions]]
 question = "What is the capital of Italy?"
-answer = ["Rome"]
+answer = [ "Rome" ]
 
 [[questions]]
 question = "What is the capital of Ivory Coast?"
-answer = ["Yamoussoukro"]
+answer = [ "Yamoussoukro" ]
 
 [[questions]]
 question = "What is the capital of Jamaica?"
-answer = ["Kingston"]
+answer = [ "Kingston" ]
 
 [[questions]]
 question = "What is the capital of Japan?"
-answer = ["Tokyo"]
+answer = [ "Tokyo" ]
 
 [[questions]]
 question = "What is the capital of Jersey?"
-answer = ["Saint Helier"]
+answer = [ "Saint Helier" ]
 
 [[questions]]
 question = "What is the capital of Jordan?"
-answer = ["Amman"]
+answer = [ "Amman" ]
 
 [[questions]]
 question = "What is the capital of Kazakhstan?"
-answer = ["Astana"]
+answer = [ "Astana" ]
 
 [[questions]]
 question = "What is the capital of Kenya?"
-answer = ["Nairobi"]
+answer = [ "Nairobi" ]
 
 [[questions]]
 question = "What is the capital of Kiribati?"
-answer = ["Tarawa"]
+answer = [ "Tarawa" ]
 
 [[questions]]
 question = "What is the capital of Kosovo?"
-answer = ["Pristina"]
+answer = [ "Pristina" ]
 
 [[questions]]
 question = "What is the capital of Kuwait?"
-answer = ["Kuwait City"]
+answer = [ "Kuwait City" ]
 
 [[questions]]
 question = "What is the capital of Kyrgyzstan?"
-answer = ["Bishkek"]
+answer = [ "Bishkek" ]
 
 [[questions]]
 question = "What is the capital of Laos?"
-answer = ["Vientiane"]
+answer = [ "Vientiane" ]
 
 [[questions]]
 question = "What is the capital of Latvia?"
-answer = ["Riga"]
+answer = [ "Riga" ]
 
 [[questions]]
 question = "What is the capital of Lebanon?"
-answer = ["Beirut"]
+answer = [ "Beirut" ]
 
 [[questions]]
 question = "What is the capital of Lesotho?"
-answer = ["Maseru"]
+answer = [ "Maseru" ]
 
 [[questions]]
 question = "What is the capital of Liberia?"
-answer = ["Monrovia"]
+answer = [ "Monrovia" ]
 
 [[questions]]
 question = "What is the capital of Libya?"
-answer = ["Tripoli"]
+answer = [ "Tripoli" ]
 
 [[questions]]
 question = "What is the capital of Liechtenstein?"
-answer = ["Vaduz"]
+answer = [ "Vaduz" ]
 
 [[questions]]
 question = "What is the capital of Lithuania?"
-answer = ["Vilnius"]
+answer = [ "Vilnius" ]
 
 [[questions]]
 question = "What is the capital of Luxembourg?"
-answer = ["Luxembourg"]
+answer = [ "Luxembourg" ]
 
 [[questions]]
 question = "What is the capital of Madagascar?"
-answer = ["Antananarivo"]
+answer = [ "Antananarivo" ]
 
 [[questions]]
 question = "What is the capital of Malawi?"
-answer = ["Lilongwe"]
+answer = [ "Lilongwe" ]
 
 [[questions]]
 question = "What is the capital of Malaysia?"
-answer = ["Kuala Lumpur"]
+answer = [ "Kuala Lumpur" ]
 
 [[questions]]
 question = "What is the capital of Maldives?"
-answer = ["Malé", "Male"]
+answer = [ "Malé", "Male" ]
 
 [[questions]]
 question = "What is the capital of Mali?"
-answer = ["Bamako"]
+answer = [ "Bamako" ]
 
 [[questions]]
 question = "What is the capital of Malta?"
-answer = ["Valletta"]
+answer = [ "Valletta" ]
 
 [[questions]]
 question = "What is the capital of Marshall Islands?"
-answer = ["Majuro"]
+answer = [ "Majuro" ]
 
 [[questions]]
 question = "What is the capital of Mauritania?"
-answer = ["Nouakchott"]
+answer = [ "Nouakchott" ]
 
 [[questions]]
 question = "What is the capital of Mauritius?"
-answer = ["Port Louis"]
+answer = [ "Port Louis" ]
 
 [[questions]]
 question = "What is the capital of Mexico?"
-answer = ["Mexico City"]
+answer = [ "Mexico City" ]
 
 [[questions]]
 question = "What is the capital of Micronesia?"
-answer = ["Palikir"]
+answer = [ "Palikir" ]
 
 [[questions]]
 question = "What is the capital of Moldova?"
-answer = ["Chisinau"]
+answer = [ "Chisinau" ]
 
 [[questions]]
 question = "What is the capital of Monaco?"
-answer = ["Monaco"]
+answer = [ "Monaco" ]
 
 [[questions]]
 question = "What is the capital of Mongolia?"
-answer = ["Ulan Bator", "Ulaanbaatar"]
+answer = [ "Ulan Bator", "Ulaanbaatar" ]
 
 [[questions]]
 question = "What is the capital of Montenegro?"
-answer = ["Podgorica"]
+answer = [ "Podgorica" ]
 
 [[questions]]
 question = "What is the capital of Montserrat?"
-answer = ["Brades", "Plymouth"]
+answer = [ "Brades", "Plymouth" ]
 
 [[questions]]
 question = "What is the capital of Morocco?"
-answer = ["Rabat"]
+answer = [ "Rabat" ]
 
 [[questions]]
 question = "What is the capital of Mozambique?"
-answer = ["Maputo"]
+answer = [ "Maputo" ]
 
 [[questions]]
 question = "What is the capital of Myanmar?"
-answer = ["Naypyidaw"]
+answer = [ "Naypyidaw" ]
 
 [[questions]]
 question = "What is the capital of Namibia?"
-answer = ["Windhoek"]
+answer = [ "Windhoek" ]
 
 [[questions]]
 question = "What is the capital of Nauru?"
-answer = ["Yaren"]
+answer = [ "Yaren" ]
 
 [[questions]]
 question = "What is the capital of Nepal?"
-answer = ["Kathmandu"]
+answer = [ "Kathmandu" ]
 
 [[questions]]
 question = "What is the capital of Netherlands?"
-answer = ["Amsterdam"]
+answer = [ "Amsterdam" ]
 
 [[questions]]
 question = "What is the capital of New Caledonia?"
-answer = ["Nouméa", "Noumea"]
+answer = [ "Nouméa", "Noumea" ]
 
 [[questions]]
 question = "What is the capital of New Zealand?"
-answer = ["Wellington"]
+answer = [ "Wellington" ]
 
 [[questions]]
 question = "What is the capital of Nicaragua?"
-answer = ["Managua"]
+answer = [ "Managua" ]
 
 [[questions]]
 question = "What is the capital of Niger?"
-answer = ["Niamey"]
+answer = [ "Niamey" ]
 
 [[questions]]
 question = "What is the capital of Nigeria?"
-answer = ["Abuja"]
+answer = [ "Abuja" ]
 
 [[questions]]
 question = "What is the capital of Niue?"
-answer = ["Alofi"]
+answer = [ "Alofi" ]
 
 [[questions]]
 question = "What is the capital of Norfolk Island?"
-answer = ["Kingston"]
+answer = [ "Kingston" ]
 
 [[questions]]
 question = "What is the capital of North Korea?"
-answer = ["Pyongyang"]
+answer = [ "Pyongyang" ]
 
 [[questions]]
 question = "What is the capital of North Macedonia?"
-answer = ["Skopje"]
+answer = [ "Skopje" ]
 
 [[questions]]
 question = "What is the capital of Northern Mariana Islands?"
-answer = ["Saipan"]
+answer = [ "Saipan" ]
 
 [[questions]]
 question = "What is the capital of Norway?"
-answer = ["Oslo"]
+answer = [ "Oslo" ]
 
 [[questions]]
 question = "What is the capital of Oman?"
-answer = ["Muscat"]
+answer = [ "Muscat" ]
 
 [[questions]]
 question = "What is the capital of Pakistan?"
-answer = ["Islamabad"]
+answer = [ "Islamabad" ]
 
 [[questions]]
 question = "What is the capital of Palau?"
-answer = ["Ngerulmud"]
+answer = [ "Ngerulmud" ]
 
 [[questions]]
 question = "What is the capital of Palestine?"
-answer = ["Ramallah", "Gaza"]
+answer = [ "Ramallah", "Gaza" ]
 
 [[questions]]
 question = "What is the capital of Panama?"
-answer = ["Panama City"]
+answer = [ "Panama City" ]
 
 [[questions]]
 question = "What is the capital of Papua New Guinea?"
-answer = ["Port Moresby"]
+answer = [ "Port Moresby" ]
 
 [[questions]]
 question = "What is the capital of Paraguay?"
-answer = ["Asunción", "Asuncion"]
+answer = [ "Asunción", "Asuncion" ]
 
 [[questions]]
 question = "What is the capital of Peru?"
-answer = ["Lima"]
+answer = [ "Lima" ]
 
 [[questions]]
 question = "What is the capital of Philippines?"
-answer = ["Manila"]
+answer = [ "Manila" ]
 
 [[questions]]
 question = "What is the capital of Pitcairn Islands?"
-answer = ["Adamstown"]
+answer = [ "Adamstown" ]
 
 [[questions]]
 question = "What is the capital of Poland?"
-answer = ["Warsaw"]
+answer = [ "Warsaw" ]
 
 [[questions]]
 question = "What is the capital of Portugal?"
-answer = ["Lisbon"]
+answer = [ "Lisbon" ]
 
 [[questions]]
 question = "What is the capital of Puerto Rico?"
-answer = ["San Juan"]
+answer = [ "San Juan" ]
 
 [[questions]]
 question = "What is the capital of Qatar?"
-answer = ["Doha"]
+answer = [ "Doha" ]
 
 [[questions]]
 question = "What is the capital of Republic of the Congo?"
-answer = ["Brazzaville"]
+answer = [ "Brazzaville" ]
 
 [[questions]]
 question = "What is the capital of Romania?"
-answer = ["Bucharest"]
+answer = [ "Bucharest" ]
 
 [[questions]]
 question = "What is the capital of Russia?"
-answer = ["Moscow"]
+answer = [ "Moscow" ]
 
 [[questions]]
 question = "What is the capital of Rwanda?"
-answer = ["Kigali"]
+answer = [ "Kigali" ]
 
 [[questions]]
 question = "What is the capital of Saint Barthelemy?"
-answer = ["Gustavia"]
+answer = [ "Gustavia" ]
 
 [[questions]]
 question = "What is the capital of Saint Helena, Ascension, and Tristan da Cunha?"
-answer = ["Jamestown"]
+answer = [ "Jamestown" ]
 
 [[questions]]
 question = "What is the capital of Saint Kitts and Nevis?"
-answer = ["Basseterre"]
+answer = [ "Basseterre" ]
 
 [[questions]]
 question = "What is the capital of Saint Lucia?"
-answer = ["Castries"]
+answer = [ "Castries" ]
 
 [[questions]]
 question = "What is the capital of Saint Martin?"
-answer = ["Philipsburg"]
+answer = [ "Philipsburg" ]
 
 [[questions]]
 question = "What is the capital of Saint Pierre and Miquelon?"
-answer = ["Saint-Pierre"]
+answer = [ "Saint-Pierre" ]
 
 [[questions]]
 question = "What is the capital of Saint Vincent and the Grenadines?"
-answer = ["Kingstown"]
+answer = [ "Kingstown" ]
 
 [[questions]]
 question = "What is the capital of Samoa?"
-answer = ["Apia"]
+answer = [ "Apia" ]
 
 [[questions]]
 question = "What is the capital of San Marino?"
-answer = ["San Marino"]
+answer = [ "San Marino" ]
 
 [[questions]]
 question = "What is the capital of São Tomé and Príncipe?"
-answer = ["São Tomé", "Sao Tome"]
+answer = [ "São Tomé", "Sao Tome" ]
 
 [[questions]]
 question = "What is the capital of Saudi Arabia?"
-answer = ["Riyadh"]
+answer = [ "Riyadh" ]
 
 [[questions]]
 question = "What is the capital of Senegal?"
-answer = ["Dakar"]
+answer = [ "Dakar" ]
 
 [[questions]]
 question = "What is the capital of Serbia?"
-answer = ["Belgrade"]
+answer = [ "Belgrade" ]
 
 [[questions]]
 question = "What is the capital of Seychelles?"
-answer = ["Victoria"]
+answer = [ "Victoria" ]
 
 [[questions]]
 question = "What is the capital of Sierra Leone?"
-answer = ["Freetown"]
+answer = [ "Freetown" ]
 
 [[questions]]
 question = "What is the capital of Singapore?"
-answer = ["Singapore"]
+answer = [ "Singapore" ]
 
 [[questions]]
 question = "What is the capital of Sint Maarten?"
-answer = ["Philipsburg"]
+answer = [ "Philipsburg" ]
 
 [[questions]]
 question = "What is the capital of Slovakia?"
-answer = ["Bratislava"]
+answer = [ "Bratislava" ]
 
 [[questions]]
 question = "What is the capital of Slovenia?"
-answer = ["Ljubljana"]
+answer = [ "Ljubljana" ]
 
 [[questions]]
 question = "What is the capital of Solomon Islands?"
-answer = ["Honiara"]
+answer = [ "Honiara" ]
 
 [[questions]]
 question = "What is the capital of Somalia?"
-answer = ["Mogadishu"]
+answer = [ "Mogadishu" ]
 
 [[questions]]
 question = "What is the capital of South Africa?"
-answer = ["Cape Town", "Pretoria", "Bloemfontein"]
+answer = [ "Cape Town", "Pretoria", "Bloemfontein" ]
 
 [[questions]]
 question = "What is the capital of South Korea?"
-answer = ["Seoul"]
+answer = [ "Seoul" ]
 
 [[questions]]
 question = "What is the capital of South Sudan?"
-answer = ["Juba"]
+answer = [ "Juba" ]
 
 [[questions]]
 question = "What is the capital of Spain?"
-answer = ["Madrid"]
+answer = [ "Madrid" ]
 
 [[questions]]
 question = "What is the capital of Sri Lanka?"
-answer = ["Sri Jayawardenapura Kotte", "Colombo"]
+answer = [ "Sri Jayawardenapura Kotte", "Colombo" ]
 
 [[questions]]
 question = "What is the capital of Sudan?"
-answer = ["Khartoum"]
+answer = [ "Khartoum" ]
 
 [[questions]]
 question = "What is the capital of Suriname?"
-answer = ["Paramaribo"]
+answer = [ "Paramaribo" ]
 
 [[questions]]
 question = "What is the capital of Sweden?"
-answer = ["Stockholm"]
+answer = [ "Stockholm" ]
 
 [[questions]]
 question = "What is the capital of Switzerland?"
-answer = ["Bern"]
+answer = [ "Bern" ]
 
 [[questions]]
 question = "What is the capital of Syria?"
-answer = ["Damascus"]
+answer = [ "Damascus" ]
 
 [[questions]]
 question = "What is the capital of Taiwan?"
-answer = ["Taipei"]
+answer = [ "Taipei" ]
 
 [[questions]]
 question = "What is the capital of Tajikistan?"
-answer = ["Dushanbe"]
+answer = [ "Dushanbe" ]
 
 [[questions]]
 question = "What is the capital of Tanzania?"
-answer = ["Dodoma"]
+answer = [ "Dodoma" ]
 
 [[questions]]
 question = "What is the capital of Thailand?"
-answer = ["Bangkok"]
+answer = [ "Bangkok" ]
 
 [[questions]]
 question = "What is the capital of Togo?"
-answer = ["Lomé", "Lome"]
+answer = [ "Lomé", "Lome" ]
 
 [[questions]]
 question = "What is the capital of Tokelau?"
-answer = ["Nukunonu", "Atafu"]
+answer = [ "Nukunonu", "Atafu" ]
 
 [[questions]]
 question = "What is the capital of Tonga?"
-answer = ["Nuku'alofa", "Nukualofa"]
+answer = [ "Nuku'alofa", "Nukualofa" ]
 
 [[questions]]
 question = "What is the capital of Trinidad and Tobago?"
-answer = ["Port of Spain"]
+answer = [ "Port of Spain" ]
 
 [[questions]]
 question = "What is the capital of Tunisia?"
-answer = ["Tunis"]
+answer = [ "Tunis" ]
 
 [[questions]]
 question = "What is the capital of Turkey?"
-answer = ["Ankara"]
+answer = [ "Ankara" ]
 
 [[questions]]
 question = "What is the capital of Turkmenistan?"
-answer = ["Ashgabat"]
+answer = [ "Ashgabat" ]
 
 [[questions]]
 question = "What is the capital of Turks and Caicos Islands?"
-answer = ["Cockburn Town"]
+answer = [ "Cockburn Town" ]
 
 [[questions]]
 question = "What is the capital of Tuvalu?"
-answer = ["Funafuti"]
+answer = [ "Funafuti" ]
 
 [[questions]]
 question = "What is the capital of Uganda?"
-answer = ["Kampala"]
+answer = [ "Kampala" ]
 
 [[questions]]
 question = "What is the capital of Ukraine?"
-answer = ["Kyiv", "Kiev"]
+answer = [ "Kyiv", "Kiev" ]
 
 [[questions]]
 question = "What is the capital of United Arab Emirates?"
-answer = ["Abu Dhabi"]
+answer = [ "Abu Dhabi" ]
 
 [[questions]]
 question = "What is the capital of United Kingdom?"
-answer = ["London"]
+answer = [ "London" ]
 
 [[questions]]
 question = "What is the capital of United States?"
-answer = ["Washington D.C.", "Washington DC"]
+answer = [ "Washington D.C.", "Washington DC" ]
 
 [[questions]]
 question = "What is the capital of United States Virgin Islands?"
-answer = ["Charlotte Amalie"]
+answer = [ "Charlotte Amalie" ]
 
 [[questions]]
 question = "What is the capital of Uruguay?"
-answer = ["Montevideo"]
+answer = [ "Montevideo" ]
 
 [[questions]]
 question = "What is the capital of Uzbekistan?"
-answer = ["Tashkent"]
+answer = [ "Tashkent" ]
 
 [[questions]]
 question = "What is the capital of Vanuatu?"
-answer = ["Port Vila"]
+answer = [ "Port Vila" ]
 
 [[questions]]
 question = "What is the capital of Vatican City?"
-answer = ["Vatican City"]
+answer = [ "Vatican City" ]
 
 [[questions]]
 question = "What is the capital of Venezuela?"
-answer = ["Caracas"]
+answer = [ "Caracas" ]
 
 [[questions]]
 question = "What is the capital of Vietnam?"
-answer = ["Hanoi"]
+answer = [ "Hanoi" ]
 
 [[questions]]
 question = "What is the capital of Wallis and Futuna?"
-answer = ["Mata-Utu"]
+answer = [ "Mata-Utu" ]
 
 [[questions]]
 question = "What is the capital of Western Sahara?"
-answer = ["El Aaiun"]
+answer = [ "El Aaiun" ]
 
 [[questions]]
 question = "What is the capital of Yemen?"
-answer = ["Sana'a", "Sanaa"]
+answer = [ "Sana'a", "Sanaa" ]
 
 [[questions]]
 question = "What is the capital of Zambia?"
-answer = ["Lusaka"]
+answer = [ "Lusaka" ]
 
 [[questions]]
 question = "What is the capital of Zimbabwe?"
-answer = ["Harare"]
+answer = [ "Harare" ]

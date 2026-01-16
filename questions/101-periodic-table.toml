@@ -6,944 +6,944 @@ hidden = false
 
 [[questions]]
 question = "What is the chemical symbol for Hydrogen?"
-answer = ["H"]
+answer = [ "H" ]
 
 [[questions]]
 question = "What is the chemical symbol for Helium?"
-answer = ["He"]
+answer = [ "He" ]
 
 [[questions]]
 question = "What is the chemical symbol for Lithium?"
-answer = ["Li"]
+answer = [ "Li" ]
 
 [[questions]]
 question = "What is the chemical symbol for Beryllium?"
-answer = ["Be"]
+answer = [ "Be" ]
 
 [[questions]]
 question = "What is the chemical symbol for Boron?"
-answer = ["B"]
+answer = [ "B" ]
 
 [[questions]]
 question = "What is the chemical symbol for Carbon?"
-answer = ["C"]
+answer = [ "C" ]
 
 [[questions]]
 question = "What is the chemical symbol for Nitrogen?"
-answer = ["N"]
+answer = [ "N" ]
 
 [[questions]]
 question = "What is the chemical symbol for Oxygen?"
-answer = ["O"]
+answer = [ "O" ]
 
 [[questions]]
 question = "What is the chemical symbol for Fluorine?"
-answer = ["F"]
+answer = [ "F" ]
 
 [[questions]]
 question = "What is the chemical symbol for Neon?"
-answer = ["Ne"]
+answer = [ "Ne" ]
 
 [[questions]]
 question = "What is the chemical symbol for Sodium?"
-answer = ["Na"]
+answer = [ "Na" ]
 
 [[questions]]
 question = "What is the chemical symbol for Magnesium?"
-answer = ["Mg"]
+answer = [ "Mg" ]
 
 [[questions]]
 question = "What is the chemical symbol for Aluminum?"
-answer = ["Al"]
+answer = [ "Al" ]
 
 [[questions]]
 question = "What is the chemical symbol for Silicon?"
-answer = ["Si"]
+answer = [ "Si" ]
 
 [[questions]]
 question = "What is the chemical symbol for Phosphorus?"
-answer = ["P"]
+answer = [ "P" ]
 
 [[questions]]
 question = "What is the chemical symbol for Sulfur?"
-answer = ["S"]
+answer = [ "S" ]
 
 [[questions]]
 question = "What is the chemical symbol for Chlorine?"
-answer = ["Cl"]
+answer = [ "Cl" ]
 
 [[questions]]
 question = "What is the chemical symbol for Argon?"
-answer = ["Ar"]
+answer = [ "Ar" ]
 
 [[questions]]
 question = "What is the chemical symbol for Potassium?"
-answer = ["K"]
+answer = [ "K" ]
 
 [[questions]]
 question = "What is the chemical symbol for Calcium?"
-answer = ["Ca"]
+answer = [ "Ca" ]
 
 [[questions]]
 question = "What is the chemical symbol for Scandium?"
-answer = ["Sc"]
+answer = [ "Sc" ]
 
 [[questions]]
 question = "What is the chemical symbol for Titanium?"
-answer = ["Ti"]
+answer = [ "Ti" ]
 
 [[questions]]
 question = "What is the chemical symbol for Vanadium?"
-answer = ["V"]
+answer = [ "V" ]
 
 [[questions]]
 question = "What is the chemical symbol for Chromium?"
-answer = ["Cr"]
+answer = [ "Cr" ]
 
 [[questions]]
 question = "What is the chemical symbol for Manganese?"
-answer = ["Mn"]
+answer = [ "Mn" ]
 
 [[questions]]
 question = "What is the chemical symbol for Iron?"
-answer = ["Fe"]
+answer = [ "Fe" ]
 
 [[questions]]
 question = "What is the chemical symbol for Cobalt?"
-answer = ["Co"]
+answer = [ "Co" ]
 
 [[questions]]
 question = "What is the chemical symbol for Nickel?"
-answer = ["Ni"]
+answer = [ "Ni" ]
 
 [[questions]]
 question = "What is the chemical symbol for Copper?"
-answer = ["Cu"]
+answer = [ "Cu" ]
 
 [[questions]]
 question = "What is the chemical symbol for Zinc?"
-answer = ["Zn"]
+answer = [ "Zn" ]
 
 [[questions]]
 question = "What is the chemical symbol for Gallium?"
-answer = ["Ga"]
+answer = [ "Ga" ]
 
 [[questions]]
 question = "What is the chemical symbol for Germanium?"
-answer = ["Ge"]
+answer = [ "Ge" ]
 
 [[questions]]
 question = "What is the chemical symbol for Arsenic?"
-answer = ["As"]
+answer = [ "As" ]
 
 [[questions]]
 question = "What is the chemical symbol for Selenium?"
-answer = ["Se"]
+answer = [ "Se" ]
 
 [[questions]]
 question = "What is the chemical symbol for Bromine?"
-answer = ["Br"]
+answer = [ "Br" ]
 
 [[questions]]
 question = "What is the chemical symbol for Krypton?"
-answer = ["Kr"]
+answer = [ "Kr" ]
 
 [[questions]]
 question = "What is the chemical symbol for Rubidium?"
-answer = ["Rb"]
+answer = [ "Rb" ]
 
 [[questions]]
 question = "What is the chemical symbol for Strontium?"
-answer = ["Sr"]
+answer = [ "Sr" ]
 
 [[questions]]
 question = "What is the chemical symbol for Yttrium?"
-answer = ["Y"]
+answer = [ "Y" ]
 
 [[questions]]
 question = "What is the chemical symbol for Zirconium?"
-answer = ["Zr"]
+answer = [ "Zr" ]
 
 [[questions]]
 question = "What is the chemical symbol for Niobium?"
-answer = ["Nb"]
+answer = [ "Nb" ]
 
 [[questions]]
 question = "What is the chemical symbol for Molybdenum?"
-answer = ["Mo"]
+answer = [ "Mo" ]
 
 [[questions]]
 question = "What is the chemical symbol for Technetium?"
-answer = ["Tc"]
+answer = [ "Tc" ]
 
 [[questions]]
 question = "What is the chemical symbol for Ruthenium?"
-answer = ["Ru"]
+answer = [ "Ru" ]
 
 [[questions]]
 question = "What is the chemical symbol for Rhodium?"
-answer = ["Rh"]
+answer = [ "Rh" ]
 
 [[questions]]
 question = "What is the chemical symbol for Palladium?"
-answer = ["Pd"]
+answer = [ "Pd" ]
 
 [[questions]]
 question = "What is the chemical symbol for Silver?"
-answer = ["Ag"]
+answer = [ "Ag" ]
 
 [[questions]]
 question = "What is the chemical symbol for Cadmium?"
-answer = ["Cd"]
+answer = [ "Cd" ]
 
 [[questions]]
 question = "What is the chemical symbol for Indium?"
-answer = ["In"]
+answer = [ "In" ]
 
 [[questions]]
 question = "What is the chemical symbol for Tin?"
-answer = ["Sn"]
+answer = [ "Sn" ]
 
 [[questions]]
 question = "What is the chemical symbol for Antimony?"
-answer = ["Sb"]
+answer = [ "Sb" ]
 
 [[questions]]
 question = "What is the chemical symbol for Tellurium?"
-answer = ["Te"]
+answer = [ "Te" ]
 
 [[questions]]
 question = "What is the chemical symbol for Iodine?"
-answer = ["I"]
+answer = [ "I" ]
 
 [[questions]]
 question = "What is the chemical symbol for Xenon?"
-answer = ["Xe"]
+answer = [ "Xe" ]
 
 [[questions]]
 question = "What is the chemical symbol for Cesium?"
-answer = ["Cs"]
+answer = [ "Cs" ]
 
 [[questions]]
 question = "What is the chemical symbol for Barium?"
-answer = ["Ba"]
+answer = [ "Ba" ]
 
 [[questions]]
 question = "What is the chemical symbol for Lanthanum?"
-answer = ["La"]
+answer = [ "La" ]
 
 [[questions]]
 question = "What is the chemical symbol for Cerium?"
-answer = ["Ce"]
+answer = [ "Ce" ]
 
 [[questions]]
 question = "What is the chemical symbol for Praseodymium?"
-answer = ["Pr"]
+answer = [ "Pr" ]
 
 [[questions]]
 question = "What is the chemical symbol for Neodymium?"
-answer = ["Nd"]
+answer = [ "Nd" ]
 
 [[questions]]
 question = "What is the chemical symbol for Promethium?"
-answer = ["Pm"]
+answer = [ "Pm" ]
 
 [[questions]]
 question = "What is the chemical symbol for Samarium?"
-answer = ["Sm"]
+answer = [ "Sm" ]
 
 [[questions]]
 question = "What is the chemical symbol for Europium?"
-answer = ["Eu"]
+answer = [ "Eu" ]
 
 [[questions]]
 question = "What is the chemical symbol for Gadolinium?"
-answer = ["Gd"]
+answer = [ "Gd" ]
 
 [[questions]]
 question = "What is the chemical symbol for Terbium?"
-answer = ["Tb"]
+answer = [ "Tb" ]
 
 [[questions]]
 question = "What is the chemical symbol for Dysprosium?"
-answer = ["Dy"]
+answer = [ "Dy" ]
 
 [[questions]]
 question = "What is the chemical symbol for Holmium?"
-answer = ["Ho"]
+answer = [ "Ho" ]
 
 [[questions]]
 question = "What is the chemical symbol for Erbium?"
-answer = ["Er"]
+answer = [ "Er" ]
 
 [[questions]]
 question = "What is the chemical symbol for Thulium?"
-answer = ["Tm"]
+answer = [ "Tm" ]
 
 [[questions]]
 question = "What is the chemical symbol for Ytterbium?"
-answer = ["Yb"]
+answer = [ "Yb" ]
 
 [[questions]]
 question = "What is the chemical symbol for Lutetium?"
-answer = ["Lu"]
+answer = [ "Lu" ]
 
 [[questions]]
 question = "What is the chemical symbol for Hafnium?"
-answer = ["Hf"]
+answer = [ "Hf" ]
 
 [[questions]]
 question = "What is the chemical symbol for Tantalum?"
-answer = ["Ta"]
+answer = [ "Ta" ]
 
 [[questions]]
 question = "What is the chemical symbol for Tungsten?"
-answer = ["W"]
+answer = [ "W" ]
 
 [[questions]]
 question = "What is the chemical symbol for Rhenium?"
-answer = ["Re"]
+answer = [ "Re" ]
 
 [[questions]]
 question = "What is the chemical symbol for Osmium?"
-answer = ["Os"]
+answer = [ "Os" ]
 
 [[questions]]
 question = "What is the chemical symbol for Iridium?"
-answer = ["Ir"]
+answer = [ "Ir" ]
 
 [[questions]]
 question = "What is the chemical symbol for Platinum?"
-answer = ["Pt"]
+answer = [ "Pt" ]
 
 [[questions]]
 question = "What is the chemical symbol for Gold?"
-answer = ["Au"]
+answer = [ "Au" ]
 
 [[questions]]
 question = "What is the chemical symbol for Mercury?"
-answer = ["Hg"]
+answer = [ "Hg" ]
 
 [[questions]]
 question = "What is the chemical symbol for Thallium?"
-answer = ["Tl"]
+answer = [ "Tl" ]
 
 [[questions]]
 question = "What is the chemical symbol for Lead?"
-answer = ["Pb"]
+answer = [ "Pb" ]
 
 [[questions]]
 question = "What is the chemical symbol for Bismuth?"
-answer = ["Bi"]
+answer = [ "Bi" ]
 
 [[questions]]
 question = "What is the chemical symbol for Polonium?"
-answer = ["Po"]
+answer = [ "Po" ]
 
 [[questions]]
 question = "What is the chemical symbol for Astatine?"
-answer = ["At"]
+answer = [ "At" ]
 
 [[questions]]
 question = "What is the chemical symbol for Radon?"
-answer = ["Rn"]
+answer = [ "Rn" ]
 
 [[questions]]
 question = "What is the chemical symbol for Francium?"
-answer = ["Fr"]
+answer = [ "Fr" ]
 
 [[questions]]
 question = "What is the chemical symbol for Radium?"
-answer = ["Ra"]
+answer = [ "Ra" ]
 
 [[questions]]
 question = "What is the chemical symbol for Actinium?"
-answer = ["Ac"]
+answer = [ "Ac" ]
 
 [[questions]]
 question = "What is the chemical symbol for Thorium?"
-answer = ["Th"]
+answer = [ "Th" ]
 
 [[questions]]
 question = "What is the chemical symbol for Protactinium?"
-answer = ["Pa"]
+answer = [ "Pa" ]
 
 [[questions]]
 question = "What is the chemical symbol for Uranium?"
-answer = ["U"]
+answer = [ "U" ]
 
 [[questions]]
 question = "What is the chemical symbol for Neptunium?"
-answer = ["Np"]
+answer = [ "Np" ]
 
 [[questions]]
 question = "What is the chemical symbol for Plutonium?"
-answer = ["Pu"]
+answer = [ "Pu" ]
 
 [[questions]]
 question = "What is the chemical symbol for Americium?"
-answer = ["Am"]
+answer = [ "Am" ]
 
 [[questions]]
 question = "What is the chemical symbol for Curium?"
-answer = ["Cm"]
+answer = [ "Cm" ]
 
 [[questions]]
 question = "What is the chemical symbol for Berkelium?"
-answer = ["Bk"]
+answer = [ "Bk" ]
 
 [[questions]]
 question = "What is the chemical symbol for Californium?"
-answer = ["Cf"]
+answer = [ "Cf" ]
 
 [[questions]]
 question = "What is the chemical symbol for Einsteinium?"
-answer = ["Es"]
+answer = [ "Es" ]
 
 [[questions]]
 question = "What is the chemical symbol for Fermium?"
-answer = ["Fm"]
+answer = [ "Fm" ]
 
 [[questions]]
 question = "What is the chemical symbol for Mendelevium?"
-answer = ["Md"]
+answer = [ "Md" ]
 
 [[questions]]
 question = "What is the chemical symbol for Nobelium?"
-answer = ["No"]
+answer = [ "No" ]
 
 [[questions]]
 question = "What is the chemical symbol for Lawrencium?"
-answer = ["Lr"]
+answer = [ "Lr" ]
 
 [[questions]]
 question = "What is the chemical symbol for Rutherfordium?"
-answer = ["Rf"]
+answer = [ "Rf" ]
 
 [[questions]]
 question = "What is the chemical symbol for Dubnium?"
-answer = ["Db"]
+answer = [ "Db" ]
 
 [[questions]]
 question = "What is the chemical symbol for Seaborgium?"
-answer = ["Sg"]
+answer = [ "Sg" ]
 
 [[questions]]
 question = "What is the chemical symbol for Bohrium?"
-answer = ["Bh"]
+answer = [ "Bh" ]
 
 [[questions]]
 question = "What is the chemical symbol for Hassium?"
-answer = ["Hs"]
+answer = [ "Hs" ]
 
 [[questions]]
 question = "What is the chemical symbol for Meitnerium?"
-answer = ["Mt"]
+answer = [ "Mt" ]
 
 [[questions]]
 question = "What is the chemical symbol for Darmstadtium?"
-answer = ["Ds"]
+answer = [ "Ds" ]
 
 [[questions]]
 question = "What is the chemical symbol for Roentgenium?"
-answer = ["Rg"]
+answer = [ "Rg" ]
 
 [[questions]]
 question = "What is the chemical symbol for Copernicium?"
-answer = ["Cn"]
+answer = [ "Cn" ]
 
 [[questions]]
 question = "What is the chemical symbol for Nihonium?"
-answer = ["Nh"]
+answer = [ "Nh" ]
 
 [[questions]]
 question = "What is the chemical symbol for Flerovium?"
-answer = ["Fl"]
+answer = [ "Fl" ]
 
 [[questions]]
 question = "What is the chemical symbol for Moscovium?"
-answer = ["Mc"]
+answer = [ "Mc" ]
 
 [[questions]]
 question = "What is the chemical symbol for Livermorium?"
-answer = ["Lv"]
+answer = [ "Lv" ]
 
 [[questions]]
 question = "What is the chemical symbol for Tennessine?"
-answer = ["Ts"]
+answer = [ "Ts" ]
 
 [[questions]]
 question = "What is the chemical symbol for Oganesson?"
-answer = ["Og"]
+answer = [ "Og" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol H?"
-answer = ["Hydrogen"]
+answer = [ "Hydrogen" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol He?"
-answer = ["Helium"]
+answer = [ "Helium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Li?"
-answer = ["Lithium"]
+answer = [ "Lithium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Be?"
-answer = ["Beryllium"]
+answer = [ "Beryllium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol B?"
-answer = ["Boron"]
+answer = [ "Boron" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol C?"
-answer = ["Carbon"]
+answer = [ "Carbon" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol N?"
-answer = ["Nitrogen"]
+answer = [ "Nitrogen" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol O?"
-answer = ["Oxygen"]
+answer = [ "Oxygen" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol F?"
-answer = ["Fluorine"]
+answer = [ "Fluorine" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ne?"
-answer = ["Neon"]
+answer = [ "Neon" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Na?"
-answer = ["Sodium", "Natrium"]
+answer = [ "Sodium", "Natrium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Mg?"
-answer = ["Magnesium"]
+answer = [ "Magnesium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Al?"
-answer = ["Aluminum", "Aluminium"]
+answer = [ "Aluminum", "Aluminium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Si?"
-answer = ["Silicon"]
+answer = [ "Silicon" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol P?"
-answer = ["Phosphorus"]
+answer = [ "Phosphorus" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol S?"
-answer = ["Sulfur", "Sulphur"]
+answer = [ "Sulfur", "Sulphur" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Cl?"
-answer = ["Chlorine"]
+answer = [ "Chlorine" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ar?"
-answer = ["Argon"]
+answer = [ "Argon" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol K?"
-answer = ["Potassium", "Kalium"]
+answer = [ "Potassium", "Kalium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ca?"
-answer = ["Calcium"]
+answer = [ "Calcium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Sc?"
-answer = ["Scandium"]
+answer = [ "Scandium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ti?"
-answer = ["Titanium"]
+answer = [ "Titanium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol V?"
-answer = ["Vanadium"]
+answer = [ "Vanadium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Cr?"
-answer = ["Chromium"]
+answer = [ "Chromium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Mn?"
-answer = ["Manganese"]
+answer = [ "Manganese" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Fe?"
-answer = ["Iron", "Ferrum"]
+answer = [ "Iron", "Ferrum" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Co?"
-answer = ["Cobalt"]
+answer = [ "Cobalt" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ni?"
-answer = ["Nickel"]
+answer = [ "Nickel" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Cu?"
-answer = ["Copper", "Cuprum"]
+answer = [ "Copper", "Cuprum" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Zn?"
-answer = ["Zinc"]
+answer = [ "Zinc" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ga?"
-answer = ["Gallium"]
+answer = [ "Gallium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ge?"
-answer = ["Germanium"]
+answer = [ "Germanium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol As?"
-answer = ["Arsenic"]
+answer = [ "Arsenic" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Se?"
-answer = ["Selenium"]
+answer = [ "Selenium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Br?"
-answer = ["Bromine"]
+answer = [ "Bromine" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Kr?"
-answer = ["Krypton"]
+answer = [ "Krypton" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Rb?"
-answer = ["Rubidium"]
+answer = [ "Rubidium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Sr?"
-answer = ["Strontium"]
+answer = [ "Strontium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Y?"
-answer = ["Yttrium"]
+answer = [ "Yttrium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Zr?"
-answer = ["Zirconium"]
+answer = [ "Zirconium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Nb?"
-answer = ["Niobium", "Columbium"]
+answer = [ "Niobium", "Columbium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Mo?"
-answer = ["Molybdenum"]
+answer = [ "Molybdenum" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Tc?"
-answer = ["Technetium"]
+answer = [ "Technetium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ru?"
-answer = ["Ruthenium"]
+answer = [ "Ruthenium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Rh?"
-answer = ["Rhodium"]
+answer = [ "Rhodium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Pd?"
-answer = ["Palladium"]
+answer = [ "Palladium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ag?"
-answer = ["Silver", "Argentum"]
+answer = [ "Silver", "Argentum" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Cd?"
-answer = ["Cadmium"]
+answer = [ "Cadmium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol In?"
-answer = ["Indium"]
+answer = [ "Indium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Sn?"
-answer = ["Tin", "Stannum"]
+answer = [ "Tin", "Stannum" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Sb?"
-answer = ["Antimony", "Stibium"]
+answer = [ "Antimony", "Stibium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Te?"
-answer = ["Tellurium"]
+answer = [ "Tellurium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol I?"
-answer = ["Iodine"]
+answer = [ "Iodine" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Xe?"
-answer = ["Xenon"]
+answer = [ "Xenon" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Cs?"
-answer = ["Cesium", "Caesium"]
+answer = [ "Cesium", "Caesium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ba?"
-answer = ["Barium"]
+answer = [ "Barium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol La?"
-answer = ["Lanthanum"]
+answer = [ "Lanthanum" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ce?"
-answer = ["Cerium"]
+answer = [ "Cerium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Pr?"
-answer = ["Praseodymium"]
+answer = [ "Praseodymium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Nd?"
-answer = ["Neodymium"]
+answer = [ "Neodymium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Pm?"
-answer = ["Promethium"]
+answer = [ "Promethium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Sm?"
-answer = ["Samarium"]
+answer = [ "Samarium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Eu?"
-answer = ["Europium"]
+answer = [ "Europium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Gd?"
-answer = ["Gadolinium"]
+answer = [ "Gadolinium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Tb?"
-answer = ["Terbium"]
+answer = [ "Terbium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Dy?"
-answer = ["Dysprosium"]
+answer = [ "Dysprosium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ho?"
-answer = ["Holmium"]
+answer = [ "Holmium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Er?"
-answer = ["Erbium"]
+answer = [ "Erbium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Tm?"
-answer = ["Thulium"]
+answer = [ "Thulium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Yb?"
-answer = ["Ytterbium"]
+answer = [ "Ytterbium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Lu?"
-answer = ["Lutetium", "Lutecium"]
+answer = [ "Lutetium", "Lutecium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Hf?"
-answer = ["Hafnium"]
+answer = [ "Hafnium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ta?"
-answer = ["Tantalum"]
+answer = [ "Tantalum" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol W?"
-answer = ["Tungsten", "Wolfram"]
+answer = [ "Tungsten", "Wolfram" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Re?"
-answer = ["Rhenium"]
+answer = [ "Rhenium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Os?"
-answer = ["Osmium"]
+answer = [ "Osmium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ir?"
-answer = ["Iridium"]
+answer = [ "Iridium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Pt?"
-answer = ["Platinum"]
+answer = [ "Platinum" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Au?"
-answer = ["Gold", "Aurum"]
+answer = [ "Gold", "Aurum" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Hg?"
-answer = ["Mercury", "Quicksilver", "Hydrargyrum"]
+answer = [ "Mercury", "Quicksilver", "Hydrargyrum" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Tl?"
-answer = ["Thallium"]
+answer = [ "Thallium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Pb?"
-answer = ["Lead", "Plumbum"]
+answer = [ "Lead", "Plumbum" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Bi?"
-answer = ["Bismuth"]
+answer = [ "Bismuth" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Po?"
-answer = ["Polonium"]
+answer = [ "Polonium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol At?"
-answer = ["Astatine"]
+answer = [ "Astatine" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Rn?"
-answer = ["Radon"]
+answer = [ "Radon" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Fr?"
-answer = ["Francium"]
+answer = [ "Francium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ra?"
-answer = ["Radium"]
+answer = [ "Radium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ac?"
-answer = ["Actinium"]
+answer = [ "Actinium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Th?"
-answer = ["Thorium"]
+answer = [ "Thorium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Pa?"
-answer = ["Protactinium"]
+answer = [ "Protactinium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol U?"
-answer = ["Uranium"]
+answer = [ "Uranium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Np?"
-answer = ["Neptunium"]
+answer = [ "Neptunium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Pu?"
-answer = ["Plutonium"]
+answer = [ "Plutonium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Am?"
-answer = ["Americium"]
+answer = [ "Americium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Cm?"
-answer = ["Curium"]
+answer = [ "Curium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Bk?"
-answer = ["Berkelium"]
+answer = [ "Berkelium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Cf?"
-answer = ["Californium"]
+answer = [ "Californium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Es?"
-answer = ["Einsteinium"]
+answer = [ "Einsteinium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Fm?"
-answer = ["Fermium"]
+answer = [ "Fermium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Md?"
-answer = ["Mendelevium"]
+answer = [ "Mendelevium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol No?"
-answer = ["Nobelium"]
+answer = [ "Nobelium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Lr?"
-answer = ["Lawrencium"]
+answer = [ "Lawrencium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Rf?"
-answer = ["Rutherfordium"]
+answer = [ "Rutherfordium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Db?"
-answer = ["Dubnium"]
+answer = [ "Dubnium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Sg?"
-answer = ["Seaborgium"]
+answer = [ "Seaborgium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Bh?"
-answer = ["Bohrium"]
+answer = [ "Bohrium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Hs?"
-answer = ["Hassium"]
+answer = [ "Hassium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Mt?"
-answer = ["Meitnerium"]
+answer = [ "Meitnerium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ds?"
-answer = ["Darmstadtium"]
+answer = [ "Darmstadtium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Rg?"
-answer = ["Roentgenium"]
+answer = [ "Roentgenium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Cn?"
-answer = ["Copernicium"]
+answer = [ "Copernicium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Nh?"
-answer = ["Nihonium"]
+answer = [ "Nihonium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Fl?"
-answer = ["Flerovium"]
+answer = [ "Flerovium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Mc?"
-answer = ["Moscovium"]
+answer = [ "Moscovium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Lv?"
-answer = ["Livermorium"]
+answer = [ "Livermorium" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Ts?"
-answer = ["Tennessine"]
+answer = [ "Tennessine" ]
 
 [[questions]]
 question = "Which element on the periodic table has the symbol Og?"
-answer = ["Oganesson"]
+answer = [ "Oganesson" ]

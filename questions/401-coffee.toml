@@ -6,184 +6,184 @@ hidden = false
 
 [[questions]]
 question = "Which African country produces Yirgacheffe coffee?"
-answer = ["Ethiopia"]
+answer = [ "Ethiopia" ]
 
 [[questions]]
 question = "Which African country is famous for Sidamo coffee beans?"
-answer = ["Ethiopia"]
+answer = [ "Ethiopia" ]
 
 [[questions]]
 question = "Harrar coffee is grown in which East African country?"
-answer = ["Ethiopia"]
+answer = [ "Ethiopia" ]
 
 [[questions]]
 question = "Which Middle Eastern country is the birthplace of Mocha coffee?"
-answer = ["Yemen"]
+answer = [ "Yemen" ]
 
 [[questions]]
 question = "Kopi Luwak, made from civet-digested beans, originates from which Southeast Asian country?"
-answer = ["Indonesia"]
+answer = [ "Indonesia" ]
 
 [[questions]]
 question = "Kona coffee is grown on volcanic slopes in which U.S. state?"
-answer = ["Hawaii"]
+answer = [ "Hawaii" ]
 
 [[questions]]
 question = "Santos, one of the world's largest coffee exports, comes from which South American country?"
-answer = ["Brazil"]
+answer = [ "Brazil" ]
 
 [[questions]]
 question = "Monsooned Malabar coffee, aged during monsoon season, comes from which Asian country?"
-answer = ["India"]
+answer = [ "India" ]
 
 [[questions]]
 question = "Antigua coffee, grown in volcanic soil, is produced in which Central American country?"
-answer = ["Guatemala"]
+answer = [ "Guatemala" ]
 
 [[questions]]
 question = "Tarrazu coffee, known for its high altitude growth, originates from which Central American country?"
-answer = ["Costa Rica"]
+answer = [ "Costa Rica" ]
 
 [[questions]]
 question = "Geisha (Gesha) coffee, one of the world's most expensive varieties, was discovered in which African country?"
-answer = ["Ethiopia"]
+answer = [ "Ethiopia" ]
 
 [[questions]]
 question = "Coffee grown on the slopes of Mount Kilimanjaro comes from which East African country?"
-answer = ["Tanzania"]
+answer = [ "Tanzania" ]
 
 [[questions]]
 question = "Chiapas coffee, grown near the southern border, comes from which North American country?"
-answer = ["Mexico"]
+answer = [ "Mexico" ]
 
 [[questions]]
 question = "Toraja coffee, named after an ethnic group, originates from which island nation?"
-answer = ["Indonesia"]
+answer = [ "Indonesia" ]
 
 [[questions]]
 question = "Gayo coffee, grown in the Aceh region, is produced in which Southeast Asian country?"
-answer = ["Indonesia"]
+answer = [ "Indonesia" ]
 
 [[questions]]
 question = "Huehuetenango coffee, one of the highest-altitude coffees, comes from which Central American country?"
-answer = ["Guatemala"]
+answer = [ "Guatemala" ]
 
 [[questions]]
 question = "What is the most widely grown species of coffee in the world?"
-answer = ["Arabica", "Coffea arabica"]
+answer = [ "Arabica", "Coffea arabica" ]
 
 [[questions]]
 question = "Which coffee species is known for being more bitter and containing more caffeine than Arabica?"
-answer = ["Robusta", "Coffea canephora"]
+answer = [ "Robusta", "Coffea canephora" ]
 
 [[questions]]
 question = "What is the name of the coffee brewing method that uses pressurized steam to force water through grounds?"
-answer = ["Espresso"]
+answer = [ "Espresso" ]
 
 [[questions]]
 question = "What is the Italian coffee drink with espresso, steamed milk, and a thick layer of milk foam in equal parts?"
-answer = ["Cappuccino"]
+answer = [ "Cappuccino" ]
 
 [[questions]]
 question = "What is the Italian word for an espresso 'marked' or 'stained' with a small dollop of foamed milk?"
-answer = ["Macchiato"]
+answer = [ "Macchiato" ]
 
 [[questions]]
 question = "What is the coffee drink made by diluting espresso with hot water?"
-answer = ["Americano"]
+answer = [ "Americano" ]
 
 [[questions]]
 question = "What is the name of the coffee brewing device that uses a plunger and metal mesh filter?"
-answer = ["French Press", "Press Pot", "Cafetiere"]
+answer = [ "French Press", "Press Pot", "Cafetiere" ]
 
 [[questions]]
 question = "What brewing method uses a cone-shaped filter and manually poured hot water?"
-answer = ["Pour Over", "V60", "Chemex"]
+answer = [ "Pour Over", "V60", "Chemex" ]
 
 [[questions]]
 question = "What is the Vietnamese iced coffee drink made with sweetened condensed milk called?"
-answer = ["Ca Phe Sua Da", "Vietnamese Coffee"]
+answer = [ "Ca Phe Sua Da", "Vietnamese Coffee" ]
 
 [[questions]]
 question = "What brewing method uses finely ground coffee boiled in a cezve or ibrik pot?"
-answer = ["Turkish Coffee"]
+answer = [ "Turkish Coffee" ]
 
 [[questions]]
 question = "What is the Italian dessert of vanilla ice cream topped with a shot of hot espresso?"
-answer = ["Affogato"]
+answer = [ "Affogato" ]
 
 [[questions]]
 question = "What is the traditional Irish drink made with coffee, whiskey, sugar, and cream?"
-answer = ["Irish Coffee"]
+answer = [ "Irish Coffee" ]
 
 [[questions]]
 question = "What roast level is darkest and often has an oily surface on the beans?"
-answer = ["Dark Roast", "French Roast", "Italian Roast"]
+answer = [ "Dark Roast", "French Roast", "Italian Roast" ]
 
 [[questions]]
 question = "What brewing method uses a vacuum chamber and siphon effect to brew coffee?"
-answer = ["Siphon", "Vacuum Pot", "Syphon"]
+answer = [ "Siphon", "Vacuum Pot", "Syphon" ]
 
 [[questions]]
 question = "What is the coffee brewing method where grounds steep in cold water for 12-24 hours?"
-answer = ["Cold Brew"]
+answer = [ "Cold Brew" ]
 
 [[questions]]
 question = "What coffee processing method dries the whole cherry with the bean still inside?"
-answer = ["Natural Process", "Dry Process", "Natural"]
+answer = [ "Natural Process", "Dry Process", "Natural" ]
 
 [[questions]]
 question = "What is the coffee drink made with espresso and a larger amount of steamed milk with minimal foam?"
-answer = ["Latte", "Caffe Latte"]
+answer = [ "Latte", "Caffe Latte" ]
 
 [[questions]]
 question = "What is the flat white coffee drink that originated in Australia or New Zealand?"
-answer = ["Flat White"]
+answer = [ "Flat White" ]
 
 [[questions]]
 question = "What is the Spanish coffee drink made with espresso and scalded condensed milk?"
-answer = ["Cortado", "Cafe Cortado"]
+answer = [ "Cortado", "Cafe Cortado" ]
 
 [[questions]]
 question = "What coffee brewing device, invented by Alan Adler, was created by a company that originally made frisbees?"
-answer = ["Aeropress"]
+answer = [ "Aeropress" ]
 
 [[questions]]
 question = "Which pour-over coffee maker is in the permanent collection of the Museum of Modern Art?"
-answer = ["Chemex"]
+answer = [ "Chemex" ]
 
 [[questions]]
 question = "Which hourglass-shaped coffee brewer can be seen in Monica's apartment on the TV show Friends?"
-answer = ["Chemex"]
+answer = [ "Chemex" ]
 
 [[questions]]
 question = "What is the cone-shaped Japanese pour-over dripper with spiral ridges called?"
-answer = ["V60", "Hario V60"]
+answer = [ "V60", "Hario V60" ]
 
 [[questions]]
 question = "What manual coffee brewing device uses air pressure to push water through grounds in about 30 seconds?"
-answer = ["Aeropress"]
+answer = [ "Aeropress" ]
 
 [[questions]]
 question = "Which glass pour-over coffee maker was invented by Peter Schlumbohm in 1941?"
-answer = ["Chemex"]
+answer = [ "Chemex" ]
 
 [[questions]]
 question = "What brewing device is named for its 60-degree angle cone shape?"
-answer = ["V60", "Hario V60"]
+answer = [ "V60", "Hario V60" ]
 
 [[questions]]
 question = "Which coffee brewing company, known for the Aeropress, is also famous for making the Aerobie flying ring?"
-answer = ["Aerobie"]
+answer = [ "Aerobie" ]
 
 [[questions]]
 question = "What is the Italian stovetop espresso maker that brews coffee using steam pressure called?"
-answer = ["Moka Pot", "Moka Express", "Bialetti"]
+answer = [ "Moka Pot", "Moka Express", "Bialetti" ]
 
 [[questions]]
 question = "Which manual coffee grinder company shares its name with a Japanese porcelain manufacturer?"
-answer = ["Hario"]
+answer = [ "Hario" ]
 
 [[questions]]
 question = "Which coffee brewing device was invented by a retired Stanford engineering professor?"
-answer = ["Aeropress"]
+answer = [ "Aeropress" ]

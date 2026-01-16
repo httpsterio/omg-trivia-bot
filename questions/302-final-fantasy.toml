@@ -6,200 +6,221 @@ hidden = false
 
 [[questions]]
 question = "Who is the main protagonist in Final Fantasy VII?"
-answer = ["Cloud Strife", "Cloud"]
+answer = [ "Cloud Strife", "Cloud" ]
 
 [[questions]]
 question = "Who is the main antagonist in Final Fantasy VII?"
-answer = ["Sephiroth", "Jenova"]
+answer = [ "Sephiroth", "Jenova" ]
 
 [[questions]]
 question = "Who is the main protagonist in Final Fantasy VIII?"
-answer = ["Squall Leonhart", "Squall"]
+answer = [ "Squall Leonhart", "Squall" ]
 
 [[questions]]
 question = "Who is the main antagonist in Final Fantasy VIII?"
-answer = ["Ultimecia"]
+answer = [ "Ultimecia" ]
 
 [[questions]]
 question = "Who is the main protagonist in Final Fantasy IX?"
-answer = ["Zidane Tribal", "Zidane"]
+answer = [ "Zidane Tribal", "Zidane" ]
 
 [[questions]]
 question = "Who is the main antagonist in Final Fantasy IX?"
-answer = ["Kuja"]
+answer = [ "Kuja" ]
 
 [[questions]]
 question = "Who is the main protagonist in Final Fantasy X?"
-answer = ["Tidus"]
+answer = [ "Tidus" ]
 
 [[questions]]
 question = "Who is the main antagonist in Final Fantasy X?"
-answer = ["Yu Yevon", "Sin"]
+answer = [ "Yu Yevon", "Sin" ]
 
 [[questions]]
 question = "Who is the main protagonist in Final Fantasy XII?"
-answer = ["Vaan"]
+answer = [ "Vaan" ]
 
 [[questions]]
 question = "Who is the main antagonist in Final Fantasy XII?"
-answer = ["Vayne Carudas Solidor", "Vayne Solidor", "Vayne"]
+answer = [ "Vayne Carudas Solidor", "Vayne Solidor", "Vayne" ]
 
 [[questions]]
 question = "Who is the main protagonist in Final Fantasy XIII?"
-answer = ["Lightning"]
+answer = [ "Lightning" ]
 
 [[questions]]
 question = "Who is the main antagonist in Final Fantasy XIII?"
-answer = ["Barthandelus", "Orphan", "Galenth Dysley", "Dysley"]
+answer = [ "Barthandelus", "Orphan", "Galenth Dysley", "Dysley" ]
 
 [[questions]]
 question = "Who is the main protagonist in Final Fantasy XV?"
-answer = ["Noctis"]
+answer = [ "Noctis" ]
 
 [[questions]]
 question = "Who is the main antagonist in Final Fantasy XV?"
-answer = ["Ardyn Izunia", "Ardyn"]
+answer = [ "Ardyn Izunia", "Ardyn" ]
 
 [[questions]]
 question = "Who is the main protagonist in Final Fantasy XVI?"
-answer = ["Clive Rosfield", "Clive"]
+answer = [ "Clive Rosfield", "Clive" ]
 
 [[questions]]
 question = "Who is the main antagonist in Final Fantasy XVI?"
-answer = ["Ultima"]
+answer = [ "Ultima" ]
 
 [[questions]]
 question = "What is the fictional sport in Final Fantasy X called?"
-answer = ["Blitzball"]
+answer = [ "Blitzball" ]
 
 [[questions]]
 question = "What is the city where Final Fantasy VII begins?"
-answer = ["Midgar"]
+answer = [ "Midgar" ]
 
 [[questions]]
 question = "What is Cloud Strife's iconic sword called?"
-answer = ["Buster Sword"]
+answer = [ "Buster Sword" ]
 
 [[questions]]
 question = "What creature is used as a mount across the Final Fantasy game series?"
-answer = ["Chocobo", "Chocobos"]
+answer = [ "Chocobo", "Chocobos" ]
 
 [[questions]]
 question = "What bird is commonly ridden in Final Fantasy?"
-answer = ["Chocobo"]
+answer = [ "Chocobo" ]
 
 [[questions]]
 question = "What color is the standard Chocobo in Final Fantasy?"
-answer = ["Yellow"]
+answer = [ "Yellow" ]
 
 [[questions]]
 question = "What card game is featured in Final Fantasy VIII?"
-answer = ["Triple Triad"]
+answer = [ "Triple Triad" ]
 
 [[questions]]
 question = "What is the card game in Final Fantasy IX called?"
-answer = ["Tetra Master"]
+answer = [ "Tetra Master" ]
 
 [[questions]]
 question = "What item revives fallen characters in the Final Fantasy series?"
-answer = ["Phoenix Down"]
+answer = [ "Phoenix Down" ]
 
 [[questions]]
 question = "What is the name of the planet in Final Fantasy VII?"
-answer = ["Gaia"]
+answer = [ "Gaia" ]
 
 [[questions]]
 question = "What energy source does Shinra use in Final Fantasy VII?"
-answer = ["Mako"]
+answer = [ "Mako" ]
 
 [[questions]]
 question = "What is Squall's weapon type in Final Fantasy VIII?"
-answer = ["Gunblade"]
+answer = [ "Gunblade" ]
 
 [[questions]]
 question = "What academy do SeeD members attend in Final Fantasy VIII?"
-answer = ["Balamb Garden", "Balamb"]
+answer = [ "Balamb Garden", "Balamb" ]
 
 [[questions]]
 question = "What is the name of Zidane's home theater troupe in Final Fantasy IX?"
-answer = ["Tantalus"]
+answer = [ "Tantalus" ]
 
 [[questions]]
 question = "What world does Final Fantasy IX take place in?"
-answer = ["Gaia"]
+answer = [ "Gaia" ]
 
 [[questions]]
 question = "What religion is central to Final Fantasy X?"
-answer = ["Yevon"]
+answer = [ "Yevon" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy I"
-answer = ["Nobuo Uematsu", "Uematsu"]
+answer = [ "Nobuo Uematsu", "Uematsu" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy II"
-answer = ["Nobuo Uematsu", "Uematsu"]
+answer = [ "Nobuo Uematsu", "Uematsu" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy III"
-answer = ["Nobuo Uematsu", "Uematsu"]
+answer = [ "Nobuo Uematsu", "Uematsu" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy IV"
-answer = ["Nobuo Uematsu", "Uematsu"]
+answer = [ "Nobuo Uematsu", "Uematsu" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy V"
-answer = ["Nobuo Uematsu", "Uematsu"]
+answer = [ "Nobuo Uematsu", "Uematsu" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy VI"
-answer = ["Nobuo Uematsu", "Uematsu"]
+answer = [ "Nobuo Uematsu", "Uematsu" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy VII"
-answer = ["Nobuo Uematsu", "Uematsu"]
+answer = [ "Nobuo Uematsu", "Uematsu" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy VII Remake"
-answer = ["Masashi Hamauzu", "Hamauzu", "Mitsuto Suzuki", "Suzuki"]
+answer = [ "Masashi Hamauzu", "Hamauzu", "Mitsuto Suzuki", "Suzuki" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy VII Rebirth"
-answer = ["Masashi Hamauzu", "Hamauzu", "Mitsuto Suzuki", "Suzuki"]
+answer = [ "Masashi Hamauzu", "Hamauzu", "Mitsuto Suzuki", "Suzuki" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy VIII"
-answer = ["Nobuo Uematsu", "Uematsu"]
+answer = [ "Nobuo Uematsu", "Uematsu" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy IX"
-answer = ["Nobuo Uematsu", "Uematsu"]
+answer = [ "Nobuo Uematsu", "Uematsu" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy X"
-answer = ["Nobuo Uematsu", "Uematsu", "Masashi Hamauzu", "Hamauzu", "Junya Nakano", "Nakano"]
+answer = [
+  "Nobuo Uematsu",
+  "Uematsu",
+  "Masashi Hamauzu",
+  "Hamauzu",
+  "Junya Nakano",
+  "Nakano"
+]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy XII"
-answer = ["Hitoshi Sakimoto", "Sakimoto"]
+answer = [ "Hitoshi Sakimoto", "Sakimoto" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy XIII"
-answer = ["Masashi Hamauzu", "Hamauzu"]
+answer = [ "Masashi Hamauzu", "Hamauzu" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy XIII-2"
-answer = ["Masashi Hamauzu", "Hamauzu", "Naoshi Mizuta", "Mizuta", "Mitsuto Suzuki", "Suzuki"]
+answer = [
+  "Masashi Hamauzu",
+  "Hamauzu",
+  "Naoshi Mizuta",
+  "Mizuta",
+  "Mitsuto Suzuki",
+  "Suzuki"
+]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Lightning Returns: Final Fantasy XIII"
-answer = ["Masashi Hamauzu", "Hamauzu", "Naoshi Mizuta", "Mizuta", "Mitsuto Suzuki", "Suzuki"]
+answer = [
+  "Masashi Hamauzu",
+  "Hamauzu",
+  "Naoshi Mizuta",
+  "Mizuta",
+  "Mitsuto Suzuki",
+  "Suzuki"
+]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy XV"
-answer = ["Yoko Shimomura", "Shimomura"]
+answer = [ "Yoko Shimomura", "Shimomura" ]
 
 [[questions]]
 question = "Who composed the soundtrack to the game Final Fantasy XVI"
-answer = ["Masayoshi Soken", "Soken"]
+answer = [ "Masayoshi Soken", "Soken" ]
