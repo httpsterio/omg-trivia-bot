@@ -1,5 +1,5 @@
-const fs = require('fs');
-const toml = require('@iarna/toml');
+const fs = require("fs");
+const toml = require("@iarna/toml");
 
 let allQuestions = [];
 let questionPool = [];
@@ -9,10 +9,12 @@ function loadQuestions() {
   allQuestions = [];
 
   try {
-    const files = fs.readdirSync('./questions').filter(f => f.endsWith('.toml'));
+    const files = fs
+      .readdirSync("./questions")
+      .filter((f) => f.endsWith(".toml"));
 
-    files.forEach(file => {
-      const content = fs.readFileSync(`./questions/${file}`, 'utf8');
+    files.forEach((file) => {
+      const content = fs.readFileSync(`./questions/${file}`, "utf8");
       const data = toml.parse(content);
 
       // Skip hidden question banks
@@ -22,12 +24,12 @@ function loadQuestions() {
 
       // Add metadata to each question
       if (data.questions) {
-        data.questions.forEach(q => {
+        data.questions.forEach((q) => {
           allQuestions.push({
             ...q,
             bank: data.name,
             difficulty: data.difficulty,
-            topic: data.topic
+            topic: data.topic,
           });
         });
       }
@@ -37,10 +39,12 @@ function loadQuestions() {
     questionPool = shuffleArray([...allQuestions]);
     currentIndex = 0;
 
-    console.log(`Loaded ${allQuestions.length} questions from ${files.length} files`);
+    console.log(
+      `Loaded ${allQuestions.length} questions from ${files.length} files`,
+    );
     return true;
   } catch (error) {
-    console.error('Error loading questions:', error);
+    console.error("Error loading questions:", error);
     return false;
   }
 }
@@ -59,11 +63,11 @@ function getNextQuestion() {
     return null;
   }
 
-  // Reshuffle if we've gone through all questions
-  if (currentIndex >= questionPool.length) {
+  // Reshuffle if pool is empty or we've gone through all questions
+  if (questionPool.length === 0 || currentIndex >= questionPool.length) {
     questionPool = shuffleArray([...allQuestions]);
     currentIndex = 0;
-    console.log('✓ Reshuffled question pool');
+    console.log("Reshuffled question pool");
   }
 
   return questionPool[currentIndex++];
@@ -71,12 +75,22 @@ function getNextQuestion() {
 
 function checkAnswer(userAnswer, correctAnswers) {
   const normalized = userAnswer.toLowerCase().trim();
-  return correctAnswers.some(ans => ans.toLowerCase().trim() === normalized);
+  return correctAnswers.some((ans) => ans.toLowerCase().trim() === normalized);
+}
+
+function getBankInfo() {
+  // TODO: implement
+}
+
+function setBankHidden() {
+  // TODO: implement
 }
 
 module.exports = {
   loadQuestions,
   getNextQuestion,
   checkAnswer,
-  getQuestionCount: () => allQuestions.length
+  getQuestionCount: () => allQuestions.length,
+  getBankInfo,
+  setBankHidden,
 };
