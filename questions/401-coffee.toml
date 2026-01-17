@@ -137,7 +137,7 @@ question = "What is the coffee drink made with espresso and a larger amount of s
 answer = [ "Latte", "Caffe Latte" ]
 
 [[questions]]
-question = "What is the flat white coffee drink that originated in Australia or New Zealand?"
+question = "What is the latte-like espresso and milk based coffee drink that originated in Australia or New Zealand?"
 answer = [ "Flat White" ]
 
 [[questions]]
