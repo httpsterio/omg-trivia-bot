@@ -3,6 +3,7 @@ const {
   getNextQuestion,
   getQuestionCount,
   getBankInfo,
+  getBrokenBanks,
   setBankHidden,
 } = require("./questions");
 const {
@@ -221,6 +222,7 @@ function handleAnswer(event) {
 
 function handleList(event) {
   const { loadedBanks, unloadedBanks } = getBankInfo();
+  const brokenBanks = getBrokenBanks();
 
   event.reply(bold("Loaded banks:"));
   if (loadedBanks.length === 0) {
@@ -237,6 +239,13 @@ function handleList(event) {
   } else {
     unloadedBanks.forEach((bank) => {
       event.reply(`  [${bank.id}] ${bank.name}`);
+    });
+  }
+
+  if (brokenBanks.length > 0) {
+    event.reply(bold("Broken banks:"));
+    brokenBanks.forEach((bank) => {
+      event.reply(`  ${bank.file} (broken)`);
     });
   }
 }

@@ -1,25 +1,35 @@
 const fs = require("fs");
 const toml = require("@iarna/toml");
+const { verifyAllBanks } = require("./verify-bank");
 
 let allQuestions = [];
 let questionPool = [];
 let currentIndex = 0;
 let loadedBanks = [];
 let unloadedBanks = [];
+let brokenBanks = [];
 let bankFiles = {}; // maps bank id to filename
 
 function loadQuestions() {
   allQuestions = [];
   loadedBanks = [];
   unloadedBanks = [];
+  brokenBanks = [];
   bankFiles = {};
 
   try {
-    const files = fs
-      .readdirSync("./questions")
-      .filter((f) => f.endsWith(".toml"));
+    // Verify all banks first
+    const verification = verifyAllBanks("./questions");
 
-    files.forEach((file) => {
+    // Log and track broken banks
+    verification.broken.forEach(({ file, errors }) => {
+      console.warn(`Skipping broken bank ${file}:`);
+      errors.forEach((err) => console.warn(`  - ${err}`));
+      brokenBanks.push({ file, errors });
+    });
+
+    // Only load valid banks
+    verification.valid.forEach((file) => {
       const content = fs.readFileSync(`./questions/${file}`, "utf8");
       const data = toml.parse(content);
 
@@ -52,7 +62,7 @@ function loadQuestions() {
     currentIndex = 0;
 
     console.log(
-      `Loaded ${allQuestions.length} questions from ${files.length} files`,
+      `Loaded ${allQuestions.length} questions from ${verification.valid.length} files (${verification.broken.length} broken)`,
     );
     return true;
   } catch (error) {
@@ -94,6 +104,10 @@ function getBankInfo() {
   return { loadedBanks, unloadedBanks };
 }
 
+function getBrokenBanks() {
+  return brokenBanks;
+}
+
 function setBankHidden(bankId, hidden) {
   const filename = bankFiles[bankId];
   if (!filename) {
@@ -123,5 +137,6 @@ module.exports = {
   checkAnswer,
   getQuestionCount: () => allQuestions.length,
   getBankInfo,
+  getBrokenBanks,
   setBankHidden,
 };
