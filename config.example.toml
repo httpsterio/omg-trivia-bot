@@ -9,8 +9,14 @@ password = "your-password"
 gecos = "Trivia Bot"
 
 [admins]
+# which users can run admin commands. only list users here who are
+# authenticated on the server as any user could just use /nick to
+# change usernames and their commands would be accepted as an admin command
 nicks = ["admin1", "admin2"]
 
 [trivia]
+# how many wrong answers are allowed before skipping to the next question
 max_wrong_attempts = 10
+
+# the channel the bot will connect to and run the trivia on
 channel = "#your-channel"
