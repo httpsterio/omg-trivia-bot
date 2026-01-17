@@ -4,7 +4,8 @@
   "description": "IRC bot with SASL authentication",
   "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "verify": "node verify-bank.js"
   },
   "dependencies": {
     "@iarna/toml": "^2.2.5",
