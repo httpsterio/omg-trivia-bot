@@ -2,7 +2,7 @@ id = "102"
 name = "Capitals by country"
 difficulty = "medium"
 topic = "geography"
-hidden = false
+hidden = true
 
 [[questions]]
 question = "What is the capital of Afghanistan?"

@@ -2,7 +2,7 @@ id = "302"
 name = "Final Fantasy"
 difficulty = "medium"
 topic = "games"
-hidden = false
+hidden = true
 
 [[questions]]
 question = "Who is the main protagonist in Final Fantasy VII?"
