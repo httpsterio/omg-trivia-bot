@@ -11,7 +11,7 @@ const {
   getTopScoresRolling,
   getPlayerScoreRolling,
 } = require("./scores");
-const { bold } = require("./format");
+const { bold, underline } = require("./format");
 const fs = require("fs");
 const toml = require("@iarna/toml");
 
@@ -19,6 +19,8 @@ let config = {};
 let isRunning = false;
 let currentQuestion = null;
 let wrongAttempts = 0;
+let easyMode = false;
+let revealedIndices = new Set();
 
 function loadConfig() {
   try {
@@ -34,6 +36,38 @@ function loadConfig() {
 
 function isAdmin(nick) {
   return config.admins?.nicks?.includes(nick) || false;
+}
+
+function getRevealOrder(answer) {
+  const nonSpaceIndices = [];
+  for (let i = 0; i < answer.length; i++) {
+    if (answer[i] !== " ") nonSpaceIndices.push(i);
+  }
+
+  const order = [];
+  let left = 0,
+    right = nonSpaceIndices.length - 1;
+  while (left <= right) {
+    order.push(nonSpaceIndices[left]);
+    if (left !== right) order.push(nonSpaceIndices[right]);
+    left++;
+    right--;
+  }
+  return order;
+}
+
+function buildEasyModeHint(answer, revealed) {
+  let hint = "";
+  for (let i = 0; i < answer.length; i++) {
+    if (answer[i] === " ") {
+      hint += " ";
+    } else if (revealed.has(i)) {
+      hint += answer[i];
+    } else {
+      hint += "_";
+    }
+  }
+  return hint;
 }
 
 function getConfig() {
@@ -58,6 +92,8 @@ function handleStart(event) {
 
   isRunning = true;
   wrongAttempts = 0;
+  easyMode = false;
+  revealedIndices = new Set();
   currentQuestion = getNextQuestion();
 
   if (!currentQuestion) {
@@ -85,6 +121,8 @@ function handleStop(event) {
   isRunning = false;
   currentQuestion = null;
   wrongAttempts = 0;
+  easyMode = false;
+  revealedIndices = new Set();
   event.reply("Trivia stopped!");
 }
 
@@ -99,8 +137,9 @@ function handleSkip(event) {
   );
   currentQuestion = getNextQuestion();
   wrongAttempts = 0;
+  revealedIndices = new Set();
 
-  event.reply("⠀");
+  event.reply("\u2800");
   event.reply(bold("Question: ") + currentQuestion.question);
 }
 
@@ -137,11 +176,14 @@ function handleStatus(event) {
 }
 
 function handleHelp(event) {
+  event.reply("Use /me to chat");
   event.reply("!scores <total|month|week|day> to get the top scorers");
   event.reply("!score <username> to get scores for that user");
+  event.reply("!hint to show parts of the answer");
   event.reply("!skip to skip a question");
   event.reply("!list to list all question banks");
   event.reply("!status to check trivia status");
+  event.reply("!helpadmin to show admin commands");
 }
 
 function handleHelpAdmin(event) {
@@ -150,6 +192,68 @@ function handleHelpAdmin(event) {
   event.reply("!reload to reload config and questions");
   event.reply("!load <id> to load a question bank");
   event.reply("!unload <id> to unload a question bank");
+  event.reply("!easymode to toggle easy mode (auto-hints)");
+}
+
+// !hint reveals parts of the answer. If  answer length is >3, show first and last. else show the first letter.
+function handleHint(event) {
+  if (!isRunning || !currentQuestion) {
+    event.reply("Trivia is not running.");
+    return;
+  }
+
+  if (easyMode) {
+    event.reply("Hints are automatic in easy mode!");
+    return;
+  }
+
+  const answer = currentQuestion.answer[0];
+  let hint = "";
+
+  for (let i = 0; i < answer.length; i++) {
+    const char = answer[i];
+    if (char === " ") {
+      hint += " ";
+    } else if (i === 0) {
+      hint += char;
+    } else if (i === answer.length - 1 && answer.length > 3) {
+      hint += char;
+    } else {
+      hint += "_";
+    }
+  }
+
+  event.reply(bold("Hint: ") + hint);
+}
+
+function handleEasyMode(event) {
+  if (!isAdmin(event.nick)) {
+    event.reply("Sorry, only admins can toggle easy mode.");
+    return;
+  }
+
+  if (!isRunning) {
+    event.reply("Trivia is not running.");
+    return;
+  }
+
+  easyMode = !easyMode;
+
+  // Reset and get new question
+  revealedIndices = new Set();
+  wrongAttempts = 0;
+  currentQuestion = getNextQuestion();
+
+  if (easyMode) {
+    event.reply(
+      bold("Easy mode ON!") + " Letters will be revealed after wrong answers.",
+    );
+  } else {
+    event.reply(bold("Easy mode OFF!") + " Back to normal trivia.");
+  }
+
+  event.reply("\u2800");
+  event.reply(bold("Question: ") + currentQuestion.question);
 }
 
 function handleAnswer(event) {
@@ -180,8 +284,9 @@ function handleAnswer(event) {
     // Get next question
     currentQuestion = getNextQuestion();
     wrongAttempts = 0;
+    revealedIndices = new Set();
 
-    event.reply("⠀");
+    event.reply("\u2800");
     event.reply(bold("Question: ") + currentQuestion.question);
   } else {
     // Wrong answer
@@ -194,27 +299,58 @@ function handleAnswer(event) {
           " The answer was: " +
           currentQuestion.answer[0],
       );
-      console.log(`✗ Question skipped after ${wrongAttempts} wrong attempts`);
+      console.log(`Question skipped after ${wrongAttempts} wrong attempts`);
 
       // Get next question
       currentQuestion = getNextQuestion();
       wrongAttempts = 0;
+      revealedIndices = new Set();
 
-      event.reply("⠀");
+      event.reply("\u2800");
       event.reply(bold("Question: ") + currentQuestion.question);
     } else {
       // Wrong but not skipped yet
       const remaining = config.trivia.max_wrong_attempts - wrongAttempts;
-      event.reply(
-        bold("Wrong!") +
-          " The answer isn't " +
-          bold(event.message) +
-          ". " +
-          remaining +
-          " attempts remaining.",
-      );
+
+      if (easyMode) {
+        // Calculate how many letters to reveal based on progress
+        const answer = currentQuestion.answer[0];
+        const revealOrder = getRevealOrder(answer);
+        const totalLetters = revealOrder.length;
+        const maxAttempts = config.trivia.max_wrong_attempts;
+        const progress = wrongAttempts / (maxAttempts - 1);
+        const maxRevealable = totalLetters - 1;
+        const lettersToShow = Math.min(
+          Math.ceil(Math.pow(progress, 0.7) * totalLetters),
+          maxRevealable,
+        );
+
+        // Update revealed indices
+        for (let i = 0; i < lettersToShow && i < revealOrder.length; i++) {
+          revealedIndices.add(revealOrder[i]);
+        }
+
+        const hint = buildEasyModeHint(answer, revealedIndices);
+        event.reply(
+          bold("Wrong!") +
+            " " +
+            remaining +
+            " attempts remaining. [" +
+            hint +
+            "]",
+        );
+      } else {
+        event.reply(
+          bold("Wrong!") +
+            " The answer isn't " +
+            bold(event.message) +
+            ". " +
+            remaining +
+            " attempts remaining.",
+        );
+      }
       console.log(
-        `✗ Wrong answer (${wrongAttempts}/${config.trivia.max_wrong_attempts})`,
+        `Wrong answer (${wrongAttempts}/${config.trivia.max_wrong_attempts})`,
       );
     }
   }
@@ -357,6 +493,8 @@ module.exports = {
   handleStatus,
   handleHelp,
   handleHelpAdmin,
+  handleHint,
+  handleEasyMode,
   handleAnswer,
   handleList,
   handleLoad,

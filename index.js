@@ -90,6 +90,16 @@ bot.on("message", (event) => {
     return;
   }
 
+  if (event.message === "!hint") {
+    trivia.handleHint(event);
+    return;
+  }
+
+  if (event.message === "!easymode") {
+    trivia.handleEasyMode(event);
+    return;
+  }
+
   if (event.message === "!list") {
     trivia.handleList(event);
     return;
@@ -117,6 +127,16 @@ bot.on("message", (event) => {
 
   // Ignore other commands
   if (event.message.startsWith("!")) {
+    return;
+  }
+
+  // Ignore /me action messages
+  if (event.type === "action") {
+    return;
+  }
+
+  // Ignore messages from our own bot
+  if (event.nick === config.irc.nick) {
     return;
   }
 
