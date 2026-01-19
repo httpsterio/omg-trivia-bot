@@ -12,6 +12,7 @@ const config = trivia.getConfig();
 console.log("Config loaded");
 console.log("Connecting to:", config.irc.host + ":" + config.irc.port);
 
+// Get connection info from config.toml and connect
 bot.connect({
   host: config.irc.host,
   port: config.irc.port,
@@ -37,10 +38,12 @@ bot.on("registered", () => {
   loadQuestions();
 
   console.log();
+
+  // log how long it took to start the bot
   const startupTime = ((Date.now() - startTime) / 1000).toFixed(2);
   console.log(`Startup completed in ${startupTime}s`);
   console.log(
-    "Admin commands: !start, !stop, !skip, !reload, !status, !list, !load, !unload",
+    "Admin commands: !start, !stop, !reload, !load, !unload, !easymode",
   );
   console.log("Press Ctrl+C to stop");
   console.log(" ");

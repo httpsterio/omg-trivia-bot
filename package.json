@@ -1,8 +1,8 @@
 {
-  "name": "irc-sasl-bot",
-  "version": "1.0.0",
+  "name": "omg-irc-bot",
+  "version": "0.1.0",
   "description": "IRC bot with SASL authentication",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "verify": "node verify-bank.js"
