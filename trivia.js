@@ -92,7 +92,7 @@ function handleStart(event) {
 
   isRunning = true;
   wrongAttempts = 0;
-  easyMode = false;
+  easyMode = !!config.trivia?.easymode;
   revealedIndices = new Set();
   currentQuestion = getNextQuestion();
 
@@ -103,6 +103,9 @@ function handleStart(event) {
   }
 
   event.reply("Starting trivia!");
+  if (easyMode) {
+    event.reply(bold("Easy mode ON!") + " Letters will be revealed after wrong answers.");
+  }
   event.reply("⠀");
   event.reply(bold("Question: ") + currentQuestion.question);
 }

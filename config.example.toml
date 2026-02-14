@@ -20,3 +20,9 @@ max_wrong_attempts = 10
 
 # the channel the bot will connect to and run the trivia on
 channel = "#your-channel"
+
+# automatically start trivia when the bot connects
+autostart = false
+
+# start with easy mode enabled (letters revealed after wrong answers)
+easymode = false

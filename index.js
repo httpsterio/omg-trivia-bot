@@ -150,6 +150,14 @@ bot.on("message", (event) => {
 bot.on("join", (event) => {
   if (event.nick === bot.user.nick) {
     console.log(`Joined channel: ${event.channel}`);
+
+    if (config.trivia?.autostart) {
+      const mockEvent = {
+        nick: config.admins.nicks[0],
+        reply: (msg) => bot.say(event.channel, msg),
+      };
+      trivia.handleStart(mockEvent);
+    }
   }
 });
 
