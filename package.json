@@ -1,15 +1,26 @@
 {
   "name": "omg-irc-bot",
-  "version": "0.1.0",
+  "author": "Sami Mäkelä <sami@httpster.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://source.tube/sami/omg-trivia-bot"
+  },
+  "version": "0.1.1",
   "description": "IRC bot with SASL authentication",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "node index.js",
-    "verify": "node verify-bank.js"
+    "verify": "node verify-bank.js",
+    "dev": "node --watch index.js"
   },
   "dependencies": {
     "@iarna/toml": "^2.2.5",
     "better-sqlite3": "^12.6.0",
     "irc-framework": "^4.13.1"
+  },
+  "engines": {
+    "node": ">=24.13.0"
   }
 }
