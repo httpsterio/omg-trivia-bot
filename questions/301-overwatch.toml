@@ -209,7 +209,11 @@ question = "Which Overwatch hero was formerly known as Jesse McCree before being
 answer = [ "Cassidy", "Cole Cassidy" ]
 
 [[questions]]
-question = "Which Overwatch hero is Pharah's mother and a founding member of the organization?"
+question = "Which Overwatch cowboy hero is voiced by Matt Mercer?"
+answer = [ "Cassidy", "Cole Cassidy" ]
+
+[[questions]]
+question = "Which Overwatch hero is Pharah's mother and a founding member of the Overwatch organization?"
 answer = [ "Ana", "Ana Amari" ]
 
 [[questions]]
@@ -247,3 +251,38 @@ answer = [ "Jamison", "Jamison Fawkes" ]
 [[questions]]
 question = "Which Overwatch founding member served as Jack Morrison's second-in-command?"
 answer = [ "Ana", "Ana Amari" ]
+
+[[questions]]
+question = "Which Overwatch hero is a Danish bounty hunter and former Search & Rescue operative who uses a crossbow?"
+answer = ["Freja"]
+
+[[questions]]
+question = "Which Overwatch support is from Wuxing University's Water College and saved his sister Anran during a Null Sector attack?"
+answer = ["Wuyang"]
+
+[[questions]]
+question = "Which Overwatch tank is an Italian gladiator and daughter of Antonio Giordani seeking revenge against Talon?"
+answer = ["Vendetta"]
+
+[[questions]]
+question = "Which Overwatch DPS is the older sister of Wuyang and harnesses the power of fire?"
+answer = ["Anran"]
+
+[[questions]]
+question = "Which Overwatch tank is the granddaughter of Vishkar Corporation's founder and partnered with Vendetta?"
+answer = ["Domina"]
+
+[[questions]]
+question = "Which Turkish Overwatch DPS hero is a former strike team member whose mind is controlled by an unknown force?"
+answer = ["Emre"]
+
+[[questions]]
+question = "Which Overwatch support is a Hashimoto clan ninja who throws a healing kasa hat and uses a kusarigama?"
+answer = ["Mizuki"]
+
+[[questions]]
+question = "Which Overwatch support is the third animal hero in the game with permanent flight ability?"
+answer = ["Jetpack Cat", "Fika"]
+
+
+

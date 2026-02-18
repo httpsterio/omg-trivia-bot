@@ -1,0 +1,133 @@
+id = "501"
+name = "Movies"
+difficulty = "medium"
+topic = "culture"
+hidden = false
+
+[[questions]]
+question = "Which movie director directed the film 'Jaws'?"
+answer = [ "Steven Spielberg", "Spielberg" ]
+
+[[questions]]
+question = "Which movie director directed the film 'E.T. the Extra-Terrestrial'?"
+answer = [ "Steven Spielberg", "Spielberg" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Jurassic Park'?"
+answer = [ "Steven Spielberg", "Spielberg" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Schindler's List'?"
+answer = [ "Steven Spielberg", "Spielberg" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Raiders of the Lost Ark'?"
+answer = [ "Steven Spielberg", "Spielberg" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Saving Private Ryan'?"
+answer = [ "Steven Spielberg", "Spielberg" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Indiana Jones and the Last Crusade'?"
+answer = [ "Steven Spielberg", "Spielberg" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Close Encounters of the Third Kind'?"
+answer = [ "Steven Spielberg", "Spielberg" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Taxi Driver'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Goodfellas'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Raging Bull'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'The Departed'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Casino'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'The Wolf of Wall Street'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Gangs of New York'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'The Irishman'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Taxi Driver'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Goodfellas'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Raging Bull'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'The Departed'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Casino'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'The Wolf of Wall Street'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Gangs of New York'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'The Irishman'?"
+answer = [ "Martin Scorsese", "Scorsese" ]
+
+[[questions]]
+question = "Which movie director directed the film 'The Dark Knight'?"
+answer = [ "Christopher Nolan", "Nolan" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Inception'?"
+answer = [ "Christopher Nolan", "Nolan" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Interstellar'?"
+answer = [ "Christopher Nolan", "Nolan" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Memento'?"
+answer = [ "Christopher Nolan", "Nolan" ]
+
+[[questions]]
+question = "Which movie director directed the film 'The Prestige'?"
+answer = [ "Christopher Nolan", "Nolan" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Dunkirk'?"
+answer = [ "Christopher Nolan", "Nolan" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Batman Begins'?"
+answer = [ "Christopher Nolan", "Nolan" ]
+
+[[questions]]
+question = "Which movie director directed the film 'Oppenheimer'?"
+answer = [ "Christopher Nolan", "Nolan" ]
