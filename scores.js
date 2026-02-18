@@ -1,9 +1,11 @@
+// Score persistence using SQLite. Tracks per-player scores with rolling time windows.
 const Database = require("better-sqlite3");
 const fs = require("fs");
 const path = require("path");
 
 let db = null;
 
+// Create tables and indices if they don't exist.
 function initDatabase() {
   const dataDir = "./data";
   if (!fs.existsSync(dataDir)) {
@@ -31,6 +33,7 @@ function initDatabase() {
   console.log("Score database initialized");
 }
 
+// Record a correct answer for a player (event log + all-time counter).
 function recordScore(nick) {
   const now = Math.floor(Date.now() / 1000);
 
@@ -121,6 +124,7 @@ function getEarliestEntry() {
   return result?.earliest || null;
 }
 
+// Get top scorers for a rolling time window (total, month, week, day).
 function getTopScoresRolling(timeframe, limit = 10) {
   if (timeframe === "total") {
     return db
@@ -157,6 +161,7 @@ function getTopScoresRolling(timeframe, limit = 10) {
     .all(startTime, limit);
 }
 
+// Get a single player's scores across all rolling time windows.
 function getPlayerScoreRolling(nick) {
   const now = Math.floor(Date.now() / 1000);
   const earliest = getEarliestEntry();

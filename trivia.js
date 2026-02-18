@@ -15,13 +15,17 @@ const { bold, underline } = require("./format");
 const fs = require("fs");
 const toml = require("@iarna/toml");
 
+// Trivia game state and command handlers for all !commands.
+
 let config = {};
 let isRunning = false;
 let currentQuestion = null;
 let wrongAttempts = 0;
 let easyMode = false;
 let revealedIndices = new Set();
+let lastCorrectTimestamp = 0;
 
+// Load config.toml into memory, returns success boolean.
 function loadConfig() {
   try {
     const content = fs.readFileSync("./config.toml", "utf8");
@@ -34,10 +38,12 @@ function loadConfig() {
   }
 }
 
+// Check if a nick is in the admin list.
 function isAdmin(nick) {
   return config.admins?.nicks?.includes(nick) || false;
 }
 
+// Build an outside-in reveal order for easy mode hints (first, last, second, second-last, ...).
 function getRevealOrder(answer) {
   const nonSpaceIndices = [];
   for (let i = 0; i < answer.length; i++) {
@@ -56,6 +62,7 @@ function getRevealOrder(answer) {
   return order;
 }
 
+// Render an easy mode hint string with revealed letters and underscores.
 function buildEasyModeHint(answer, revealed) {
   let hint = "";
   for (let i = 0; i < answer.length; i++) {
@@ -94,6 +101,7 @@ function handleStart(event) {
   wrongAttempts = 0;
   easyMode = !!config.trivia?.easymode;
   revealedIndices = new Set();
+  lastCorrectTimestamp = 0;
   currentQuestion = getNextQuestion();
 
   if (!currentQuestion) {
@@ -126,6 +134,7 @@ function handleStop(event) {
   wrongAttempts = 0;
   easyMode = false;
   revealedIndices = new Set();
+  lastCorrectTimestamp = 0;
   event.reply("Trivia stopped!");
 }
 
@@ -186,10 +195,10 @@ function handleHelp(event) {
   event.reply("!skip to skip a question");
   event.reply("!list to list all question banks");
   event.reply("!status to check trivia status");
-  event.reply("!helpadmin to show admin commands");
+  event.reply("!adminhelp to show admin commands");
 }
 
-function handleHelpAdmin(event) {
+function handleAdminHelp(event) {
   event.reply("!start to start the trivia");
   event.reply("!stop to stop the trivia");
   event.reply("!reload to reload config and questions");
@@ -259,6 +268,7 @@ function handleEasyMode(event) {
   event.reply(bold("Question: ") + currentQuestion.question);
 }
 
+// Evaluate a potential answer. Handles grace period, easy mode hints, and auto-skip.
 function handleAnswer(event) {
   if (!isRunning || !currentQuestion) {
     return;
@@ -280,6 +290,7 @@ function handleAnswer(event) {
     );
 
     recordScore(event.nick);
+    lastCorrectTimestamp = Date.now();
     console.log(
       `${event.nick} answered correctly: ${currentQuestion.answer[0]}`,
     );
@@ -292,6 +303,12 @@ function handleAnswer(event) {
     event.reply("\u2800");
     event.reply(bold("Question: ") + currentQuestion.question);
   } else {
+    // Grace period: silently ignore wrong answers shortly after a correct one
+    const gracePeriod = (config.trivia?.grace_period || 0) * 1000;
+    if (gracePeriod > 0 && Date.now() - lastCorrectTimestamp < gracePeriod) {
+      return;
+    }
+
     // Wrong answer
     wrongAttempts++;
 
@@ -495,7 +512,7 @@ module.exports = {
   handleReload,
   handleStatus,
   handleHelp,
-  handleHelpAdmin,
+  handleAdminHelp,
   handleHint,
   handleEasyMode,
   handleAnswer,

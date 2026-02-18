@@ -1,3 +1,4 @@
+// Question bank loader. Reads TOML question files, validates, shuffles into a pool.
 const fs = require("fs");
 const toml = require("@iarna/toml");
 const { verifyAllBanks } = require("./verify-bank");
@@ -10,6 +11,7 @@ let unloadedBanks = [];
 let brokenBanks = [];
 let bankFiles = {}; // maps bank id to filename
 
+// Load all valid question banks from ./questions, skipping broken/hidden ones.
 function loadQuestions() {
   allQuestions = [];
   loadedBanks = [];
@@ -80,6 +82,7 @@ function shuffleArray(array) {
   return shuffled;
 }
 
+// Return the next question, reshuffling when the pool is exhausted.
 function getNextQuestion() {
   if (allQuestions.length === 0) {
     return null;
@@ -108,6 +111,7 @@ function getBrokenBanks() {
   return brokenBanks;
 }
 
+// Toggle a bank's hidden flag in its TOML file and reload all questions.
 function setBankHidden(bankId, hidden) {
   const filename = bankFiles[bankId];
   if (!filename) {

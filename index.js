@@ -1,3 +1,5 @@
+// IRC trivia bot 
+
 const startTime = Date.now();
 const irc = require("irc-framework");
 const { loadQuestions } = require("./questions");
@@ -5,14 +7,12 @@ const { initDatabase } = require("./scores");
 const trivia = require("./trivia");
 const bot = new irc.Client();
 
-// Load config first
 console.log("Loading config...");
 trivia.loadConfig();
 const config = trivia.getConfig();
 console.log("Config loaded");
 console.log("Connecting to:", config.irc.host + ":" + config.irc.port);
 
-// Get connection info from config.toml and connect
 bot.connect({
   host: config.irc.host,
   port: config.irc.port,
@@ -31,10 +31,8 @@ bot.on("registered", () => {
   console.log("SASL authentication successful");
   console.log(" ");
 
-  // Initialize score database
   initDatabase();
 
-  // Load questions
   loadQuestions();
 
   console.log();
@@ -48,7 +46,6 @@ bot.on("registered", () => {
   console.log("Press Ctrl+C to stop");
   console.log(" ");
 
-  // Join trivia channel from config
   if (config.trivia?.channel) {
     bot.join(config.trivia.channel);
   }
@@ -57,78 +54,32 @@ bot.on("registered", () => {
 bot.on("message", (event) => {
   console.log(`[${event.target}] <${event.nick}> ${event.message}`);
 
-  // Route commands to trivia handlers
-  if (event.message === "!start") {
-    trivia.handleStart(event);
-    return;
+  // Table-driven command routing (ordering matters for overlapping prefixes)
+  const commands = [
+    ["!start", trivia.handleStart],
+    ["!stop", trivia.handleStop],
+    ["!skip", trivia.handleSkip],
+    ["!reload", trivia.handleReload],
+    ["!status", trivia.handleStatus],
+    ["!adminhelp", trivia.handleAdminHelp],
+    ["!help", trivia.handleHelp],
+    ["!hint", trivia.handleHint],
+    ["!easymode", trivia.handleEasyMode],
+    ["!list", trivia.handleList],
+    ["!load ", trivia.handleLoad],
+    ["!unload ", trivia.handleUnload],
+    ["!scores", trivia.handleScores],
+    ["!score ", trivia.handleScore],
+  ];
+
+  for (const [prefix, handler] of commands) {
+    if (event.message.startsWith(prefix)) {
+      handler(event);
+      return;
+    }
   }
 
-  if (event.message === "!stop") {
-    trivia.handleStop(event);
-    return;
-  }
-
-  if (event.message === "!skip") {
-    trivia.handleSkip(event);
-    return;
-  }
-
-  if (event.message === "!reload") {
-    trivia.handleReload(event);
-    return;
-  }
-
-  if (event.message === "!status") {
-    trivia.handleStatus(event);
-    return;
-  }
-
-  if (event.message === "!help") {
-    trivia.handleHelp(event);
-    return;
-  }
-
-  if (event.message === "!helpadmin") {
-    trivia.handleHelpAdmin(event);
-    return;
-  }
-
-  if (event.message === "!hint") {
-    trivia.handleHint(event);
-    return;
-  }
-
-  if (event.message === "!easymode") {
-    trivia.handleEasyMode(event);
-    return;
-  }
-
-  if (event.message === "!list") {
-    trivia.handleList(event);
-    return;
-  }
-
-  if (event.message.startsWith("!load ")) {
-    trivia.handleLoad(event);
-    return;
-  }
-
-  if (event.message.startsWith("!unload ")) {
-    trivia.handleUnload(event);
-    return;
-  }
-
-  if (event.message.startsWith("!scores")) {
-    trivia.handleScores(event);
-    return;
-  }
-
-  if (event.message.startsWith("!score ")) {
-    trivia.handleScore(event);
-    return;
-  }
-
-  // Ignore other commands
+  // Ignore unknown commands
   if (event.message.startsWith("!")) {
     return;
   }
