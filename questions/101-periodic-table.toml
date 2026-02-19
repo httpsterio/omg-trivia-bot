@@ -2,7 +2,7 @@ id = "101"
 name = "Periodic Table"
 difficulty = "hard"
 topic = "chemistry"
-hidden = false
+hidden = true
 
 [[questions]]
 question = "What is the chemical symbol for Hydrogen?"

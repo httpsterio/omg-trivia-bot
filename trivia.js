@@ -207,7 +207,7 @@ function handleAdminHelp(event) {
   event.reply("!easymode to toggle easy mode (auto-hints)");
 }
 
-// !hint reveals parts of the answer. If  answer length is >3, show first and last. else show the first letter.
+// !hint reveals parts of the answer. If answer length is >3, show first and last. else show the first letter.
 function handleHint(event) {
   if (!isRunning || !currentQuestion) {
     event.reply("Trivia is not running.");

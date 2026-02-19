@@ -4,130 +4,499 @@ difficulty = "medium"
 topic = "culture"
 hidden = false
 
+# Spielberg
+## Jaws
 [[questions]]
 question = "Which movie director directed the film 'Jaws'?"
 answer = [ "Steven Spielberg", "Spielberg" ]
 
 [[questions]]
+question = "Which 1975 Steven Spielberg film features a mechanical shark nicknamed 'Bruce'?"
+answer = ["Jaws"]
+
+[[questions]]
+question = "Which film was the first movie ever to make $100 million at the box office?"
+answer = ["Jaws"]
+
+[[questions]]
+question = "Which 1975 film is considered the first summer blockbuster?"
+answer = ["Jaws"]
+
+[[questions]]
+question = "In which film does Roy Scheider say the famous line 'You're gonna need a bigger boat'?"
+answer = ["Jaws"]
+
+[[questions]]
+question = "Which Steven Spielberg film features a famous two-note musical theme by John Williams?"
+answer = ["Jaws"]
+
+[[questions]]
+question = "In which film does the titular beast not make its first full appearance until 81 minutes into the movie?"
+answer = ["Jaws"]
+
+## ET
+[[questions]]
 question = "Which movie director directed the film 'E.T. the Extra-Terrestrial'?"
 answer = [ "Steven Spielberg", "Spielberg" ]
 
+[[questions]]
+question = "Which 1982 Spielberg film features an alien who eats Reese's Pieces candy?"
+answer = ["E.T.", "E.T. the Extra-Terrestrial"]
+
+[[questions]]
+question = "Which film surpassed Star Wars to become the highest-grossing movie of all time in 1982?"
+answer = ["E.T.", "E.T. the Extra-Terrestrial"]
+
+[[questions]]
+question = "Which Spielberg film featured a young Drew Barrymore in her breakthrough role?"
+answer = ["E.T.", "E.T. the Extra-Terrestrial"]
+
+## Jurassic Park
 [[questions]]
 question = "Which movie director directed the film 'Jurassic Park'?"
 answer = [ "Steven Spielberg", "Spielberg" ]
 
 [[questions]]
+question = "Which 1993 film is based on a Michael Crichton novel about a theme park on an island?"
+answer = ["Jurassic Park"]
+
+[[questions]]
+question = "Which Spielberg film was released in the same year as Schindler's List in 1993?"
+answer = ["Jurassic Park"]
+
+[[questions]]
+question = "Which 1993 film features the iconic logo designed by Chip Kidd that appeared on the original novel cover?"
+answer = ["Jurassic Park"]
+
+[[questions]]
+question = "Which film features Stan Winston's animatronics that weighed between 9,000-12,000 pounds?"
+answer = ["Jurassic Park"]
+
+[[questions]]
+question = "Which 1993 film features John Williams' score and was shot partially on location in Hawaii?"
+answer = ["Jurassic Park"]
+
+[[questions]]
+question = "Which Spielberg film held the box office record for 11 years until being surpassed by another Spielberg film?"
+answer = ["Jurassic Park"]
+
+## Schindler's List
+[[questions]]
 question = "Which movie director directed the film 'Schindler's List'?"
 answer = [ "Steven Spielberg", "Spielberg" ]
 
+[[questions]]
+question = "Which film did Spielberg shoot almost entirely in black and white, except for a young girl's red coat?"
+answer = ["Schindler's List", "Schindlers List"]
+
+[[questions]]
+question = "Which film won seven Academy Awards at the 66th Oscars, including Best Picture and Best Director for Spielberg?"
+answer = ["Schindler's List", "Schindlers List"]
+
+[[questions]]
+question = "Which 1993 film was shot on location in Kraków, Poland, over 72 days, using the actual sites it depicts?"
+answer = ["Schindler's List", "Schindlers List"]
+
+# Indiana Jones
 [[questions]]
 question = "Which movie director directed the film 'Raiders of the Lost Ark'?"
 answer = [ "Steven Spielberg", "Spielberg" ]
 
 [[questions]]
-question = "Which movie director directed the film 'Saving Private Ryan'?"
-answer = [ "Steven Spielberg", "Spielberg" ]
+question = "Which 1981 Spielberg film was originally conceived by George Lucas as a tribute to 1930s adventure serials?"
+answer = ["Raiders of the Lost Ark", "Indiana Jones", "Indiana Jones 1"]
+
+[[questions]]
+question = "Which film features Tom Selleck's intended role that went to Harrison Ford after a scheduling conflict with Magnum P.I.?"
+answer = ["Raiders of the Lost Ark", "Indiana Jones", "Indiana Jones 1"]
+
+[[questions]]
+question = "Which 1981 film was shot in just 73 days across Tunisia, France, England, and Hawaii, coming in under budget?"
+answer = ["Raiders of the Lost Ark", "Indiana Jones", "Indiana Jones 1"]
 
 [[questions]]
 question = "Which movie director directed the film 'Indiana Jones and the Last Crusade'?"
 answer = [ "Steven Spielberg", "Spielberg" ]
 
+# Saving Private Ryan
 [[questions]]
-question = "Which movie director directed the film 'Close Encounters of the Third Kind'?"
+question = "Which movie director directed the film 'Saving Private Ryan'?"
 answer = [ "Steven Spielberg", "Spielberg" ]
 
 [[questions]]
-question = "Which movie director directed the film 'Taxi Driver'?"
-answer = [ "Martin Scorsese", "Scorsese" ]
+question = "Which 1998 Spielberg film was shot in chronological order so the cast could experience the story's losses alongside their characters?"
+answer = ["Saving Private Ryan"]
 
 [[questions]]
-question = "Which movie director directed the film 'Goodfellas'?"
-answer = [ "Martin Scorsese", "Scorsese" ]
+question = "Which film's D-Day opening scene was so realistic that the U.S. Department of Veterans Affairs set up a toll-free hotline for veterans traumatized by watching it?"
+answer = ["Saving Private Ryan"]
 
 [[questions]]
-question = "Which movie director directed the film 'Raging Bull'?"
-answer = [ "Martin Scorsese", "Scorsese" ]
+question = "Which 1998 film had its Omaha Beach scenes filmed on Curracloe Beach in Ireland, after the director couldn't find a suitable beach in France?"
+answer = ["Saving Private Ryan"]
 
 [[questions]]
-question = "Which movie director directed the film 'The Departed'?"
-answer = [ "Martin Scorsese", "Scorsese" ]
+question = "Which Spielberg film intentionally excluded its lead actor Matt Damon from boot camp training so the rest of the cast would resent him on set?"
+answer = ["Saving Private Ryan"]
 
-[[questions]]
-question = "Which movie director directed the film 'Casino'?"
-answer = [ "Martin Scorsese", "Scorsese" ]
+# ---------------------------------------------------------------- #
 
-[[questions]]
-question = "Which movie director directed the film 'The Wolf of Wall Street'?"
-answer = [ "Martin Scorsese", "Scorsese" ]
-
-[[questions]]
-question = "Which movie director directed the film 'Gangs of New York'?"
-answer = [ "Martin Scorsese", "Scorsese" ]
-
-[[questions]]
-question = "Which movie director directed the film 'The Irishman'?"
-answer = [ "Martin Scorsese", "Scorsese" ]
-
+# Scorsese
+## Taxi Driver
 [[questions]]
 question = "Which movie director directed the film 'Taxi Driver'?"
 answer = [ "Martin Scorsese", "Scorsese" ]
 
 [[questions]]
+question = "Which 1976 Scorsese film had its iconic 'you talkin' to me?' mirror scene fully improvised by Robert De Niro on set?"
+answer = ["Taxi Driver"]
+
+[[questions]]
+question = "Which 1976 film won the Palme d'Or at Cannes but lost the Best Picture Oscar to Rocky, widely considered one of the biggest injustices in Oscar history?"
+answer = ["Taxi Driver"]
+
+[[questions]]
+question = "Which Scorsese film was shot during a New York City garbage strike in summer 1975, giving it an authentically gritty backdrop without any set dressing?"
+answer = ["Taxi Driver"]
+
+
+## Goodfellas
+[[questions]]
 question = "Which movie director directed the film 'Goodfellas'?"
 answer = [ "Martin Scorsese", "Scorsese" ]
 
+[[questions]]
+question = "Which 1990 Scorsese film is based on Nicholas Pileggi's non-fiction book 'Wiseguy', about real-life mobster-turned-FBI-informant Henry Hill?"
+answer = ["Goodfellas"]
+
+[[questions]]
+question = "Which film's iconic 'how am I funny?' scene was born from an anecdote Joe Pesci told Scorsese about something that actually happened to him in real life?"
+answer = ["Goodfellas"]
+
+[[questions]]
+question = "Which 1990 film hired actual mobsters as extras for authenticity, some of whom gave the studio fake Social Security numbers to receive their paychecks?"
+answer = ["Goodfellas"]
+
+
+## Raging Bull
 [[questions]]
 question = "Which movie director directed the film 'Raging Bull'?"
 answer = [ "Martin Scorsese", "Scorsese" ]
 
 [[questions]]
+question = "Which 1980 Scorsese film only exists because De Niro visited Scorsese in hospital and persuaded him to direct it?"
+answer = ["Raging Bull"]
+
+[[questions]]
+question = "Which film was deliberately shot in black and white to distinguish it from Rocky and several other boxing films in production at the same time?"
+answer = ["Raging Bull"]
+
+[[questions]]
+question = "Which 1980 film saw De Niro gain around 60 pounds for his role, at one point alarming Scorsese enough to temporarily shut down production?"
+answer = ["Raging Bull"]
+
+[[questions]]
+question = "Which Scorsese film used Hershey's chocolate syrup as blood during its fight scenes so it would show up on black and white film?"
+answer = ["Raging Bull"]
+
+
+## The Departed
+[[questions]]
 question = "Which movie director directed the film 'The Departed'?"
 answer = [ "Martin Scorsese", "Scorsese" ]
 
 [[questions]]
-question = "Which movie director directed the film 'Casino'?"
-answer = [ "Martin Scorsese", "Scorsese" ]
+question = "Which 2006 Scorsese film is a remake of the Hong Kong thriller 'Infernal Affairs', which Scorsese chose not to watch until after he finished directing his version?"
+answer = ["The Departed"]
 
+[[questions]]
+question = "Which film finally won Scorsese his first Best Director Oscar, after five previous nominations including for Raging Bull and Goodfellas?"
+answer = ["The Departed"]
+
+[[questions]]
+question = "Which 2006 film had Al Pacino as Scorsese's first choice for the lead villain role, before Jack Nicholson was cast as his second choice?"
+answer = ["The Departed"]
+
+[[questions]]
+question = "Which Scorsese film hides an X somewhere in the frame every time a character is about to die, as a tribute to the 1932 film Scarface?"
+answer = ["The Departed"]
+
+[[questions]]
+question = "Which film's director Andrew Lau, whose original version it was based on, said he preferred his own Hong Kong version but rated the Hollywood remake eight out of ten?"
+answer = ["The Departed"]
+
+
+## The Wolf of Wall Street
 [[questions]]
 question = "Which movie director directed the film 'The Wolf of Wall Street'?"
 answer = [ "Martin Scorsese", "Scorsese" ]
 
 [[questions]]
+question = "Which 2013 Scorsese film set a Guinness World Record for the most uses of the f-word in a non-documentary film?"
+answer = ["The Wolf of Wall Street"]
+
+[[questions]]
+question = "Which film saw Jonah Hill accept SAG minimum pay of $60,000, compared to DiCaprio's $10 million, just to work with Scorsese?"
+answer = ["The Wolf of Wall Street"]
+
+[[questions]]
+question = "Which 2013 film features Matthew McConaughey's chest-thumping, which was actually his own personal warm-up ritual kept in at DiCaprio's suggestion?"
+answer = ["The Wolf of Wall Street"]
+
+[[questions]]
+question = "Which Scorsese film had its actors snort crushed B vitamins as cocaine, resulting in Jonah Hill being hospitalised with bronchitis?"
+answer = ["The Wolf of Wall Street"]
+
+[[questions]]
+question = "Which 2013 film is Scorsese's highest-grossing film and the first major studio release distributed exclusively in digital format with no 35mm prints?"
+answer = ["The Wolf of Wall Street"]
+
+
+## Gangs of New York
+[[questions]]
 question = "Which movie director directed the film 'Gangs of New York'?"
 answer = [ "Martin Scorsese", "Scorsese" ]
 
 [[questions]]
-question = "Which movie director directed the film 'The Irishman'?"
-answer = [ "Martin Scorsese", "Scorsese" ]
+question = "Which 2002 Scorsese film took over 30 years to make, after Scorsese first read the source book in 1970 and bought the rights in 1979?"
+answer = ["Gangs of New York"]
 
+[[questions]]
+question = "Which film had its entire 1860s setting built from scratch at Cinecittà Studios in Rome, after the real locations no longer existed?"
+answer = ["Gangs of New York"]
+
+[[questions]]
+question = "Which 2002 film saw Daniel Day-Lewis refuse modern medicine when he fell ill during production, staying in character as a 19th-century man?"
+answer = ["Gangs of New York"]
+
+[[questions]]
+question = "Which Scorsese film marked his first collaboration with Leonardo DiCaprio, who would go on to star in four more of his films?"
+answer = ["Gangs of New York"]
+
+[[questions]]
+question = "Which 2002 film was originally planned for release in December 2001 but was delayed after the September 11 attacks, with Scorsese refusing to remove the World Trade Center from the final scene?"
+answer = ["Gangs of New York"]
+
+
+# ---------------------------------------------------------------- #
+# Nolan
+
+## The Dark Knight
 [[questions]]
 question = "Which movie director directed the film 'The Dark Knight'?"
 answer = [ "Christopher Nolan", "Nolan" ]
 
 [[questions]]
+question = "Which 2008 film was the first feature film to be filmed with high-resolution IMAX cameras?"
+answer = ["The Dark Knight", "Dark Knight"]
+
+[[questions]]
+question = "Which film's villain role earned its actor a posthumous Oscar, only the second time in history a posthumous acting award had been given?"
+answer = ["The Dark Knight", "Dark Knight"]
+
+[[questions]]
+question = "Which 2008 Nolan film used the production codename 'Rory's First Kiss', named after Nolan's son?"
+answer = ["The Dark Knight", "Dark Knight"]
+
+[[questions]]
+question = "Which film's title makes it the first live-action Batman movie not to include the word 'Batman'?"
+answer = ["The Dark Knight", "Dark Knight"]
+
+[[questions]]
+question = "Which 2008 film features a nurse's nametag reading 'Matilda' as a quiet tribute to one of its cast members' daughter?"
+answer = ["The Dark Knight", "Dark Knight"]
+
+
+## Inception
+[[questions]]
 question = "Which movie director directed the film 'Inception'?"
 answer = [ "Christopher Nolan", "Nolan" ]
 
+[[questions]]
+question = "The first letters of the six main characters' names in this 2010 Nolan film spell out the word 'DREAMS'."
+answer = ["Inception"]
+
+[[questions]]
+question = "Tom Hardy almost lost his role in this film because he didn't know how to ski."
+answer = ["Inception"]
+
+[[questions]]
+question = "The rotating hallway fight scene in this film was achieved entirely with practical effects, no CGI."
+answer = ["Inception"]
+
+[[questions]]
+question = "A French Edith Piaf song is used throughout this film to synchronize timing between dream levels."
+answer = ["Inception"]
+
+[[questions]]
+question = "Hans Zimmer's score for this film is built by slowing down a single Edith Piaf song beyond recognition."
+answer = ["Inception"]
+
+## Interstellar
 [[questions]]
 question = "Which movie director directed the film 'Interstellar'?"
 answer = [ "Christopher Nolan", "Nolan" ]
 
 [[questions]]
+question = "Which Nolan film was originally set to be directed by Steven Spielberg before he departed the project?"
+answer = ["Interstellar"]
+
+[[questions]]
+question = "For which film did Hans Zimmer composed the score for based solely on a one-page letter about what it means to be a father?"
+answer = ["Interstellar"]
+
+[[questions]]
+question = "For which film did Nolan grow 500 acres of real corn and actually turned a profit selling it?"
+answer = ["Interstellar"]
+
+[[questions]]
+question = "The robot TARS in which 2014 film was a physical puppet controlled on set by Bill Irwin, who was then digitally erased?"
+answer = ["Interstellar"]
+
+[[questions]]
+question = "Which 2014 film by Nolan was shot under the working title 'Flora's Letter' to keep production secret?"
+answer = ["Interstellar"]
+
+
+## Memento
+[[questions]]
 question = "Which movie director directed the film 'Memento'?"
 answer = [ "Christopher Nolan", "Nolan" ]
 
+[[questions]]
+question = "In which film does the protagonist use tattoos and Polaroid photos to compensate for his inability to form new memories?"
+answer = ["Memento"]
+
+[[questions]]
+question = "Which Nolan film is told almost entirely in reverse chronological order to mirror its protagonist's condition?"
+answer = ["Memento"]
+
+[[questions]]
+question = "Which 2000 film features a character who tattoos 'John G. raped and murdered my wife' on his chest?"
+answer = ["Memento"]
+
+[[questions]]
+question = "Which film's UK DVD release included a hidden feature letting viewers watch the entire story in chronological order?"
+answer = ["Memento"]
+
+
+## The Prestige
 [[questions]]
 question = "Which movie director directed the film 'The Prestige'?"
 answer = [ "Christopher Nolan", "Nolan" ]
 
 [[questions]]
+question = "David Bowie initially turned down a role in which 2006 Nolan film before changing his mind?"
+answer = ["The Prestige"]
+
+[[questions]]
+question = "In which 2006 Nolan film does Nikola Tesla build a machine capable of teleportation?"
+answer = ["The Prestige"]
+
+[[questions]]
+question = "Which Nolan film features two magicians in Victorian London, each willing to destroy the other to perfect a single illusion?"
+answer = ["The Prestige"]
+
+[[questions]]
+question = "In which film does a character drown in a locked water tank every night as part of his act, mirroring the death of his wife?"
+answer = ["The Prestige"]
+
+
+## Dunkirk
+[[questions]]
 question = "Which movie director directed the film 'Dunkirk'?"
 answer = [ "Christopher Nolan", "Nolan" ]
 
+[[questions]]
+question = "Which Nolan film was his first based entirely on real historical events?"
+answer = ["Dunkirk"]
+
+[[questions]]
+question = "Nolan deliberately cast young, unknown actors on the beach sequences of which film to reflect how young the real soldiers were?"
+answer = ["Dunkirk"]
+
+[[questions]]
+question = "Which 2017 film marked the film debut of pop star Harry Styles?"
+answer = ["Dunkirk"]
+
+[[questions]]
+question = "Hans Zimmer built the entire score of which film around the sound of a ticking pocket watch owned by Nolan?"
+answer = ["Dunkirk"]
+
+[[questions]]
+question = "About 30 survivors of the real event attended the London premiere of which film and said the explosions were louder than what they actually experienced?"
+answer = ["Dunkirk"]
+
+## Tenet
+[[questions]]
+question = "Which movie director directed the film 'Tenet'?"
+answer = [ "Christopher Nolan", "Nolan" ]
+
+[[questions]]
+question = "For a plane crash scene in which 2020 film did Nolan find it cheaper to buy a real 747 and crash it than to use models or CGI?"
+answer = ["Tenet"]
+
+[[questions]]
+question = "On which Nolan film was Michael Caine only shown his own scenes and had no idea what the overall plot was?"
+answer = ["Tenet"]
+
+[[questions]]
+question = "Hans Zimmer turned down which Nolan film to score Dune instead, leading to Ludwig Goransson taking over?"
+answer = ["Tenet"]
+
+[[questions]]
+question = "Which 2020 Nolan film was the first major Hollywood release to open in cinemas during the Covid-19 pandemic?"
+answer = ["Tenet"]
+
+[[questions]]
+question = "The title of which Nolan film is a palindrome, reading the same forwards and backwards?"
+answer = ["Tenet"]
+
+
+## Batman Begins
 [[questions]]
 question = "Which movie director directed the film 'Batman Begins'?"
 answer = [ "Christopher Nolan", "Nolan" ]
 
 [[questions]]
+question = "Cillian Murphy originally auditioned to play the lead in which film before being cast as the villain instead?"
+answer = ["Batman Begins"]
+
+[[questions]]
+question = "Which film is widely credited with inspiring the James Bond producers to reboot their franchise with a darker, more realistic tone?"
+answer = ["Batman Begins"]
+
+[[questions]]
+question = "In which film does a villain plan to poison an entire city's water supply using a stolen microwave emitter?"
+answer = ["Batman Begins"]
+
+[[questions]]
+question = "Gary Oldman was originally going to play a villain in which film before Nolan recast him as a good guy instead?"
+answer = ["Batman Begins"]
+
+## Oppenheimer
+[[questions]]
 question = "Which movie director directed the film 'Oppenheimer'?"
 answer = [ "Christopher Nolan", "Nolan" ]
+
+[[questions]]
+question = "Which film saw Nolan leave Warner Bros. after falling out over their decision to release films on HBO Max the same day as theaters?"
+answer = ["Oppenheimer"]
+
+[[questions]]
+question = "Black and white IMAX film stock did not exist before which 2023 film, requiring Kodak to invent it from scratch?"
+answer = ["Oppenheimer"]
+
+[[questions]]
+question = "Robert Pattinson gifted Nolan a book of speeches at a wrap party that directly inspired which film?"
+answer = ["Oppenheimer"]
+
+[[questions]]
+question = "Which film had its release scheduled on the same weekend as Barbie, spawning a pop culture phenomenon?"
+answer = ["Oppenheimer"]
+
+[[questions]]
+question = "Matt Damon had promised his wife he would stop acting, with one exception: if who called him with a role?"
+answer = ["Christopher Nolan", "Nolan"]
+
+# ---------------------------------------------------------------- #
