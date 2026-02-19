@@ -18,7 +18,7 @@ answer = [ "Pound Sterling", "British Pound", "Pound", "GBP" ]
 
 [[questions]]
 question = "What is the currency of Australia?"
-answer = [ "Australian Dollar", "Dollar", "AUD" ]
+answer = [ "Australian Dollar", "Dollar", "Dollarydoo", "AUD" ]
 
 [[questions]]
 question = "What is the currency of Canada?"
