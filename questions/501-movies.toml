@@ -76,9 +76,6 @@ answer = ["Jurassic Park"]
 question = "Which 1993 film features John Williams' score and was shot partially on location in Hawaii?"
 answer = ["Jurassic Park"]
 
-[[questions]]
-question = "Which Spielberg film held the box office record for 11 years until being surpassed by another Spielberg film?"
-answer = ["Jurassic Park"]
 
 ## Schindler's List
 [[questions]]
