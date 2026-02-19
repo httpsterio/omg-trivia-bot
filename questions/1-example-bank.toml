@@ -1,0 +1,13 @@
+id = "1"
+name = "Bank Name"
+difficulty = "easy"
+topic = "general"
+hidden = true
+
+[[questions]]
+question = "This is a question?"
+answer = [ "Yes", "True" ]
+
+[[questions]]
+question = "No."
+answer = [ "No", "false" ]
