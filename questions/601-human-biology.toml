@@ -1,0 +1,281 @@
+id = "601"
+name = "Human Biology"
+difficulty = "hard"
+topic = "biology"
+hidden = false
+
+[[questions]]
+question = "Which organ produces insulin?"
+answer = [ "pancreas" ]
+
+[[questions]]
+question = "What is the longest bone in the human body?"
+answer = [ "femur", "thigh bone" ]
+
+[[questions]]
+question = "How many chambers does the human heart have?"
+answer = [ "four", "4" ]
+
+[[questions]]
+question = "What is the name of the protein that carries oxygen in red blood cells?"
+answer = [ "hemoglobin", "haemoglobin" ]
+
+[[questions]]
+question = "Which organ filters blood and produces urine?"
+answer = [ "kidney", "kidneys" ]
+
+[[questions]]
+question = "What is the hardest substance in the human body?"
+answer = [ "enamel", "tooth enamel" ]
+
+[[questions]]
+question = "How many bones are in the adult human body?"
+answer = [ "206" ]
+
+[[questions]]
+question = "What is the name of the tube that connects the throat to the stomach?"
+answer = [ "esophagus", "oesophagus" ]
+
+[[questions]]
+question = "Which gland in the brain regulates sleep through melatonin production?"
+answer = [ "pineal gland", "pineal" ]
+
+[[questions]]
+question = "What is the name of the protective fluid surrounding the brain and spinal cord?"
+answer = [ "cerebrospinal fluid", "CSF" ]
+
+[[questions]]
+question = "What is the largest organ of the human body?"
+answer = [ "skin" ]
+
+[[questions]]
+question = "What is the name of the smallest bone in the human body?"
+answer = [ "stapes", "stirrup" ]
+
+[[questions]]
+question = "Which blood type is the universal donor?"
+answer = [ "O negative", "O-" ]
+
+[[questions]]
+question = "How many pairs of chromosomes do humans have?"
+answer = [ "23" ]
+
+[[questions]]
+question = "Which part of the brain controls balance and coordination?"
+answer = [ "cerebellum" ]
+
+[[questions]]
+question = "What is the largest artery in the human body?"
+answer = [ "aorta" ]
+
+[[questions]]
+question = "How many lobes does the right lung have?"
+answer = [ "three", "3" ]
+
+[[questions]]
+question = "What is the medical term for the kneecap?"
+answer = [ "patella" ]
+
+[[questions]]
+question = "Which vitamin is synthesized by the skin upon exposure to sunlight?"
+answer = [ "vitamin D" ]
+
+[[questions]]
+question = "What is the name of the coiled structure in the inner ear responsible for hearing?"
+answer = [ "cochlea" ]
+
+[[questions]]
+question = "What is the name of the membrane surrounding the heart?"
+answer = [ "pericardium" ]
+
+[[questions]]
+question = "What is the medical term for the white of the eye?"
+answer = [ "sclera" ]
+
+[[questions]]
+question = "Which hormone triggers the fight-or-flight response?"
+answer = [ "adrenaline", "epinephrine" ]
+
+[[questions]]
+question = "What is the name of the muscle that separates the chest from the abdominal cavity?"
+answer = [ "diaphragm" ]
+
+[[questions]]
+question = "How many pairs of cranial nerves does the human body have?"
+answer = [ "12", "twelve" ]
+
+[[questions]]
+question = "What is the name of the pigment responsible for skin and hair color?"
+answer = [ "melanin" ]
+
+[[questions]]
+question = "Which organ produces bile?"
+answer = [ "liver" ]
+
+[[questions]]
+question = "What is the name of the flap of tissue that stops food entering the windpipe?"
+answer = [ "epiglottis" ]
+
+[[questions]]
+question = "Which blood cells are primarily responsible for clotting?"
+answer = [ "platelets", "thrombocytes" ]
+
+[[questions]]
+question = "What is the scientific name for the collarbone?"
+answer = [ "clavicle" ]
+
+[[questions]]
+question = "Which lobe of the brain is primarily responsible for processing vision?"
+answer = [ "occipital lobe", "occipital" ]
+
+[[questions]]
+question = "What is the name of the part of a neuron that receives incoming signals?"
+answer = [ "dendrite", "dendrites" ]
+
+[[questions]]
+question = "What is the name of the membrane lining the abdominal cavity?"
+answer = [ "peritoneum" ]
+
+[[questions]]
+question = "How many teeth does an adult human have when all wisdom teeth are present?"
+answer = [ "32" ]
+
+[[questions]]
+question = "What is the scientific name for the shoulder blade?"
+answer = [ "scapula" ]
+
+[[questions]]
+question = "Which neurotransmitter is primarily associated with the brain's reward and pleasure system?"
+answer = [ "dopamine" ]
+
+[[questions]]
+question = "What is the name of the valve between the left atrium and left ventricle?"
+answer = [ "mitral valve", "bicuspid valve" ]
+
+[[questions]]
+question = "What is the scientific name for red blood cells?"
+answer = [ "erythrocytes", "erythrocyte" ]
+
+[[questions]]
+question = "Which part of the eye contains the photoreceptor cells?"
+answer = [ "retina" ]
+
+[[questions]]
+question = "What is the name of the sheath of connective tissue surrounding individual muscles?"
+answer = [ "fascia" ]
+
+[[questions]]
+question = "What is the name of the tiny air sacs in the lungs where gas exchange occurs?"
+answer = [ "alveoli", "alveolus" ]
+
+[[questions]]
+question = "What is the term for the period when the heart muscle contracts?"
+answer = [ "systole" ]
+
+[[questions]]
+question = "What is the medical term for the two bean-shaped organs that filter waste from the blood?"
+answer = [ "kidneys", "kidney" ]
+
+[[questions]]
+question = "Which organ stores bile after it is produced by the liver?"
+answer = [ "gallbladder", "gall bladder" ]
+
+[[questions]]
+question = "What type of joint is the human knee?"
+answer = [ "hinge joint", "hinge" ]
+
+[[questions]]
+question = "What is the name of the longest nerve in the human body?"
+answer = [ "sciatic nerve", "sciatic" ]
+
+[[questions]]
+question = "Which part of the brain is responsible for regulating hunger, thirst, and body temperature?"
+answer = [ "hypothalamus" ]
+
+[[questions]]
+question = "What is the name of the dense connective tissue connecting muscle to bone?"
+answer = [ "tendon" ]
+
+[[questions]]
+question = "What is the name of the connective tissue that joins bone to bone?"
+answer = [ "ligament" ]
+
+[[questions]]
+question = "What percentage of the human body is water, approximately?"
+answer = [ "60%", "60" ]
+
+[[questions]]
+question = "What is the name of the protective covering around nerve fibers that speeds signal transmission?"
+answer = [ "myelin sheath", "myelin" ]
+
+[[questions]]
+question = "Which organelle in a cell houses the majority of its genetic material?"
+answer = [ "nucleus" ]
+
+[[questions]]
+question = "What is the name of the process by which cells divide to produce identical copies?"
+answer = [ "mitosis" ]
+
+[[questions]]
+question = "What is the name of the outermost layer of skin?"
+answer = [ "epidermis" ]
+
+[[questions]]
+question = "Which mineral is the most abundant in the human body?"
+answer = [ "calcium" ]
+
+[[questions]]
+question = "What is the name of the small gland that sits atop each kidney?"
+answer = [ "adrenal gland", "adrenal glands" ]
+
+[[questions]]
+question = "What is the scientific name for white blood cells?"
+answer = [ "leukocytes", "leucocytes" ]
+
+[[questions]]
+question = "What is the term for the relaxation phase of the heartbeat cycle?"
+answer = [ "diastole" ]
+
+[[questions]]
+question = "What is the name of the region of the eye where the optic nerve connects to the retina?"
+answer = [ "optic disc", "optic disk" ]
+
+[[questions]]
+question = "In which lobe of the brain is Broca's area, responsible for speech production, located?"
+answer = [ "frontal lobe", "frontal" ]
+
+[[questions]]
+question = "What is the name of the bone that forms the lower jaw?"
+answer = [ "mandible" ]
+
+[[questions]]
+question = "What is the term for the number of times a person breathes per minute at rest?"
+answer = [ "respiratory rate", "breathing rate" ]
+
+[[questions]]
+question = "What is the name of the enzyme in saliva that begins breaking down starch?"
+answer = [ "amylase", "salivary amylase" ]
+
+[[questions]]
+question = "Which chamber of the heart pumps blood to the rest of the body?"
+answer = [ "left ventricle" ]
+
+[[questions]]
+question = "What is the name of the protein that gives skin and connective tissue their elasticity?"
+answer = [ "elastin" ]
+
+[[questions]]
+question = "What is the name of the ring of muscle that controls the exit of food from the stomach?"
+answer = [ "pyloric sphincter", "pylorus" ]
+
+[[questions]]
+question = "What is the only bone in the human body not connected to another bone?"
+answer = [ "hyoid", "hyoid bone" ]
+
+[[questions]]
+question = "What is the name of the fluid-filled sacs that cushion joints and reduce friction?"
+answer = [ "bursae", "bursa" ]
+
+[[questions]]
+question = "What is the term for the genetic material encoding an organism's complete hereditary information?"
+answer = [ "genome" ]

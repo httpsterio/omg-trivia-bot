@@ -118,7 +118,7 @@ answer = [ "Irish Coffee" ]
 
 [[questions]]
 question = "What roast level is darkest and often has an oily surface on the beans?"
-answer = [ "Dark Roast", "French Roast", "Italian Roast" ]
+answer = [ "French Roast", "Italian Roast", "French", "Italian"]
 
 [[questions]]
 question = "What brewing method uses a vacuum chamber and siphon effect to brew coffee?"
