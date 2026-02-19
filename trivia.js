@@ -16,7 +16,6 @@ const fs = require("fs");
 const toml = require("@iarna/toml");
 
 // Trivia game state and command handlers for all !commands.
-
 let config = {};
 let isRunning = false;
 let currentQuestion = null;
@@ -34,6 +33,21 @@ function loadConfig() {
     return true;
   } catch (error) {
     console.error("Trivia config loading error:", error);
+    return false;
+  }
+}
+
+function saveEasyMode(value) {
+  try {
+    const content = fs.readFileSync("./config.toml", "utf8");
+    const configData = toml.parse(content);
+    if (!configData.trivia) configData.trivia = {};
+    configData.trivia.easymode = value;
+    fs.writeFileSync("./config.toml", toml.stringify(configData));
+    config.trivia.easymode = value;
+    return true;
+  } catch (error) {
+    console.error("Failed to save easyMode:", error);
     return false;
   }
 }
@@ -132,7 +146,6 @@ function handleStop(event) {
   isRunning = false;
   currentQuestion = null;
   wrongAttempts = 0;
-  easyMode = false;
   revealedIndices = new Set();
   lastCorrectTimestamp = 0;
   event.reply("Trivia stopped!");
@@ -172,6 +185,14 @@ function handleReload(event) {
     event.reply("Reloaded config (questions failed)");
   } else {
     event.reply("Failed to reload config and questions");
+  }
+
+  if (isRunning && currentQuestion) {
+    currentQuestion = getNextQuestion();
+    wrongAttempts = 0;
+    revealedIndices = new Set();
+    event.reply("\u2800");
+    event.reply(bold("Question: ") + currentQuestion.question);
   }
 }
 
@@ -250,6 +271,7 @@ function handleEasyMode(event) {
   }
 
   easyMode = !easyMode;
+  saveEasyMode(easyMode);
 
   // Reset and get new question
   revealedIndices = new Set();
@@ -449,6 +471,17 @@ function handleUnload(event) {
     event.reply(
       `Unloaded bank ${bankId}. Total questions: ${getQuestionCount()}`,
     );
+    if (isRunning && currentQuestion) {
+      const { loadedBanks } = getBankInfo();
+      if (!loadedBanks.some((b) => b.name === currentQuestion.bank)) {
+        currentQuestion = getNextQuestion();
+        wrongAttempts = 0;
+        revealedIndices = new Set();
+        event.reply("Current question was from unloaded bank. New question:");
+        event.reply("\u2800");
+        event.reply(bold("Question: ") + currentQuestion.question);
+      }
+    }
   } else {
     event.reply(`Failed to unload bank: ${result.error}`);
   }
