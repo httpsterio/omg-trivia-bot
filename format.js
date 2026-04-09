@@ -47,7 +47,7 @@ function color(text, fg, bg = null) {
 
 // Strip all formatting
 function strip(text) {
-  return text.replace(/[\x02\x1D\x1F\x0F\x03\d{0,2}(,\d{0,2})?]/g, "");
+  return text.replace(/\x03\d{0,2}(,\d{0,2})?|\x02|\x1D|\x1F|\x0F/g, ""); // eslint-disable-line no-control-regex
 }
 
 module.exports = {

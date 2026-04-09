@@ -9,7 +9,6 @@ const path = require("path");
  */
 function verifyBank(filepath) {
   const errors = [];
-  const filename = path.basename(filepath);
 
   // Check file exists
   if (!fs.existsSync(filepath)) {

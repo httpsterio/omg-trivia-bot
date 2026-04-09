@@ -11,7 +11,7 @@ const {
   getTopScoresRolling,
   getPlayerScoreRolling,
 } = require("./scores");
-const { bold, underline } = require("./format");
+const { bold } = require("./format");
 const fs = require("fs");
 const toml = require("@iarna/toml");
 
@@ -164,6 +164,12 @@ function handleSkip(event) {
   wrongAttempts = 0;
   revealedIndices = new Set();
 
+  if (!currentQuestion) {
+    isRunning = false;
+    event.reply("No questions available! Trivia stopped.");
+    return;
+  }
+
   event.reply("\u2800");
   event.reply(bold("Question: ") + currentQuestion.question);
 }
@@ -191,6 +197,13 @@ function handleReload(event) {
     currentQuestion = getNextQuestion();
     wrongAttempts = 0;
     revealedIndices = new Set();
+
+    if (!currentQuestion) {
+      isRunning = false;
+      event.reply("No questions available after reload! Trivia stopped.");
+      return;
+    }
+
     event.reply("\u2800");
     event.reply(bold("Question: ") + currentQuestion.question);
   }
@@ -278,6 +291,12 @@ function handleEasyMode(event) {
   wrongAttempts = 0;
   currentQuestion = getNextQuestion();
 
+  if (!currentQuestion) {
+    isRunning = false;
+    event.reply("No questions available! Trivia stopped.");
+    return;
+  }
+
   if (easyMode) {
     event.reply(
       bold("Easy mode ON!") + " Letters will be revealed after wrong answers.",
@@ -322,6 +341,12 @@ function handleAnswer(event) {
     wrongAttempts = 0;
     revealedIndices = new Set();
 
+    if (!currentQuestion) {
+      isRunning = false;
+      event.reply("No more questions! Trivia finished.");
+      return;
+    }
+
     event.reply("\u2800");
     event.reply(bold("Question: ") + currentQuestion.question);
   } else {
@@ -347,6 +372,12 @@ function handleAnswer(event) {
       currentQuestion = getNextQuestion();
       wrongAttempts = 0;
       revealedIndices = new Set();
+
+      if (!currentQuestion) {
+        isRunning = false;
+        event.reply("No more questions! Trivia finished.");
+        return;
+      }
 
       event.reply("\u2800");
       event.reply(bold("Question: ") + currentQuestion.question);
@@ -477,12 +508,19 @@ function handleUnload(event) {
         currentQuestion = getNextQuestion();
         wrongAttempts = 0;
         revealedIndices = new Set();
+
+        if (!currentQuestion) {
+          isRunning = false;
+          event.reply("No questions remaining! Trivia stopped.");
+          return;
+        }
+
         event.reply("Current question was from unloaded bank. New question:");
         event.reply("\u2800");
         event.reply(bold("Question: ") + currentQuestion.question);
       }
-    }
-  } else {
+      }
+      } else {
     event.reply(`Failed to unload bank: ${result.error}`);
   }
 }

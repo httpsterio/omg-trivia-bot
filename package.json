@@ -13,7 +13,8 @@
   "scripts": {
     "start": "node index.js",
     "verify": "node verify-bank.js",
-    "dev": "node --watch index.js"
+    "dev": "node --watch index.js",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@iarna/toml": "^2.2.5",
@@ -22,5 +23,10 @@
   },
   "engines": {
     "node": ">=24.13.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.0",
+    "globals": "^17.4.0"
   }
 }

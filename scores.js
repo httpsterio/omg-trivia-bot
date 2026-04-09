@@ -49,7 +49,6 @@ function recordScore(nick) {
 }
 
 function getPlayerScore(nick) {
-  const now = Math.floor(Date.now() / 1000);
   const startOfWeek = getStartOfWeek();
   const startOfMonth = getStartOfMonth();
 
